@@ -1,0 +1,99 @@
+{
+  "experiment": "实验十 综合实验2",
+  "resourceId": 331036,
+  "sections": [
+    {
+      "content": "<p style=\"text-align: justify;\">1. <span style=\"font-family: 宋体;\">将555定时器、RC渐变、晶体管驱动、比较器电路等知识用于完整实物系统，实现从理论与仿真到硬件电路的转换。</span></p><p style=\"text-align: justify;\">2. <span style=\"font-family: 宋体;\">掌握数字万用表、示波器等基本电学测量仪器使用的方法。</span></p><p style=\"text-align: justify;\">3. <span style=\"font-family: 宋体;\">掌握分模块搭建—分模块调试—整机联调的实验方法。</span></p><p style=\"text-align: justify;\">4. <span style=\"font-family: 宋体;\">记录理论值、仿真值和实测值，分析三者之间产生偏差的主要原因。</span></p>",
+      "questions": [],
+      "text": "1. 将555定时器、RC渐变、晶体管驱动、比较器电路等知识用于完整实物系统，实现从理论与仿真到硬件电路的转换。2. 掌握数字万用表、示波器等基本电学测量仪器使用的方法。3. 掌握分模块搭建—分模块调试—整机联调的实验方法。4. 记录理论值、仿真值和实测值，分析三者之间产生偏差的主要原因。",
+      "title": "实验目的",
+      "type": 1
+    },
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "id": 149400,
+          "options": "",
+          "question": "<p>请上传实操数据记录页（记录页上应写有个人姓名及学号、并附有教师盖章）。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "请上传实操数据记录页（记录页上应写有个人姓名及学号、并附有教师盖章）。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149396,
+          "options": "",
+          "question": "<p>10.6.1 555多谐振荡器模块</p><p>（1）上传不少于3个完整周期的V<sub>OUT</sub>、V<sub>C</sub>波形图。</p><p>（2）分析表10-3 中 测得数据的仿真值与理论值、实测值与理论值之间误差产生的可能原因。</p>",
+          "question_detail": "",
+          "score": "15",
+          "text": "10.6.1 555多谐振荡器模块（1）上传不少于3个完整周期的VOUT、VC波形图。（2）分析表10-3 中 测得数据的仿真值与理论值、实测值与理论值之间误差产生的可能原因。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149397,
+          "options": "",
+          "question": "<p>10.6.2 RC渐变与LED驱动模块、</p><p>（1）上传不少于3个完整周期的V<sub>OUT</sub>、V<sub>F</sub>波形图。</p><p>（2）根据表10-4的测试数据总结R<sub>F</sub>、R<sub>LED</sub>参数变化对电路的影响。</p>",
+          "question_detail": "",
+          "score": "15",
+          "text": "10.6.2 RC渐变与LED驱动模块、（1）上传不少于3个完整周期的VOUT、VF波形图。（2）根据表10-4的测试数据总结RF、RLED参数变化对电路的影响。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149398,
+          "options": "",
+          "question": "<p>10.6.3 LM393光控模块</p><p>（1）上传不少于3个完整周期的V<sub>S</sub>，<sub>VRST</sub>波形图。</p><p>（2）根据表10-5数据，分析Vs数据实测值与理论值的差别原因。</p><p>（3）根据表10-5数据及波形，分析R<sub>S</sub>、R<sub>ref</sub>、R<sub>H</sub>取值是否有优化空间。</p>",
+          "question_detail": "",
+          "score": "20",
+          "text": "10.6.3 LM393光控模块（1）上传不少于3个完整周期的VS，VRST波形图。（2）根据表10-5数据，分析Vs数据实测值与理论值的差别原因。（3）根据表10-5数据及波形，分析RS、Rref、RH取值是否有优化空间。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149399,
+          "options": "",
+          "question": "<p>10.6.4 整机测试及优化</p><p>说明整机调试中相对电路仿真而进行的参数优化项、优化措施及优化效果。</p>",
+          "question_detail": "",
+          "score": "20",
+          "text": "10.6.4 整机测试及优化说明整机调试中相对电路仿真而进行的参数优化项、优化措施及优化效果。",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验步骤",
+      "type": 2
+    },
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "id": 149401,
+          "options": "",
+          "question": "<p style=\"text-align: justify;\">本实验采用了什么方法来实现了LED亮度的连续变化？还可以采用什么方法？</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "本实验采用了什么方法来实现了LED亮度的连续变化？还可以采用什么方法？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149402,
+          "options": "",
+          "question": "<p>本实验是如何测量电路中LED最大电流的？在实验室现有条件下还可以采用什么方法？各有什么优缺点？</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "本实验是如何测量电路中LED最大电流的？在实验室现有条件下还可以采用什么方法？各有什么优缺点？",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验思考",
+      "type": 3
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "libraryName": "lib_20261024T143310Z_电路与电子技术实验I",
+  "generatedAt": "2026-10-24T14:33:10.287Z",
+  "courseName": "电路与电子技术实验I",
+  "courseNameFinalCharacter": {
+    "character": "I",
+    "unicode": "U+0049"
+  },
+  "source": "Easy云课堂：已登录浏览器，当前可见实验系列",
+  "captureScope": "8个实验的当前可见试卷，不宣称覆盖所有用户或完整随机题库",
+  "randomization": {
+    "questionContent": "用户说明同系列题干不变；仍须核对当前课程版本",
+    "questionOrder": "每次开始答题顺序会变",
+    "optionOrder": "每次开始答题选项顺序会变",
+    "matching": "题干文字+公式+配图语义 -> 答案内容 -> 本次选项位置"
+  },
+  "totals": {
+    "experiments": 8,
+    "reportEntries": 78,
+    "preclassQuestions": 80,
+    "preclassAnswers": 80,
+    "instructionBooks": 8,
+    "documents": 11,
+    "independentlyScoreVerifiedAnswers": 30
+  },
+  "verification": [
+    {
+      "lab": 6,
+      "score": 100,
+      "process": 100,
+      "passed": true
+    },
+    {
+      "lab": 7,
+      "score": 100,
+      "process": 100,
+      "passed": true
+    },
+    {
+      "lab": 8,
+      "score": 100,
+      "process": 100,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "实验1–5的50个答案来自站点当前试卷答案字段，未由本次重新交卷验证；实验6–8另有独立推导和100分结果。",
+    "实验1和7原理说明共9幅源图引用教师电脑本地临时文件，无法下载；报告题目区未发现这些缺失引用。",
+    "源资源抓取时间不同；报告及指导书复用已验证下载，预习题和答案本次刷新。",
+    "建库过程只读取现有试卷，未重新开始、答题或提交；浏览器页面可能自动记录访问。"
+  ],
+  "experiments": [
+    {
+      "lab": 1,
+      "name": "实验一 直流电路实验",
+      "directory": "experiments/lab01",
+      "sourceIds": {
+        "taskId": 72937,
+        "reportResourceId": 330756,
+        "preclassResourceId": 330755
+      },
+      "reportQuestions": 7,
+      "preclassQuestions": 10,
+      "answerCoverage": 10,
+      "independentlyScoreVerified": false,
+      "paths": {
+        "manual": "experiments/lab01/instruction_book.pdf",
+        "reportQuestions": "experiments/lab01/report_questions.json",
+        "preclassQuestions": "experiments/lab01/prelab_questions.json",
+        "preclassAnswers": "experiments/lab01/prelab_answers.json"
+      },
+      "documents": [
+        {
+          "title": "提前下载并打印—直流电路实验（实操）数据记录页.docx",
+          "resourceId": 341528,
+          "path": "experiments/lab01/documents/341528.docx",
+          "kind": "record_sheet"
+        }
+      ],
+      "missingTheoryImages": 2
+    },
+    {
+      "lab": 2,
+      "name": "实验二 元器件参数测量和阻抗的串并联",
+      "directory": "experiments/lab02",
+      "sourceIds": {
+        "taskId": 72938,
+        "reportResourceId": 330765,
+        "preclassResourceId": 330769
+      },
+      "reportQuestions": 9,
+      "preclassQuestions": 10,
+      "answerCoverage": 10,
+      "independentlyScoreVerified": false,
+      "paths": {
+        "manual": "experiments/lab02/instruction_book.pdf",
+        "reportQuestions": "experiments/lab02/report_questions.json",
+        "preclassQuestions": "experiments/lab02/prelab_questions.json",
+        "preclassAnswers": "experiments/lab02/prelab_answers.json"
+      },
+      "documents": [
+        {
+          "title": "实验二 数据记录页",
+          "resourceId": 330768,
+          "path": "experiments/lab02/documents/330768.pdf",
+          "kind": "record_sheet"
+        },
+        {
+          "title": "实验二 PPT",
+          "resourceId": 330770,
+          "path": "experiments/lab02/documents/330770.pptx",
+          "kind": "supplement"
+        }
+      ],
+      "missingTheoryImages": 0
+    },
+    {
+      "lab": 3,
+      "name": "实验三 互感电路实验",
+      "directory": "experiments/lab03",
+      "sourceIds": {
+        "taskId": 72939,
+        "reportResourceId": 330771,
+        "preclassResourceId": 330773
+      },
+      "reportQuestions": 8,
+      "preclassQuestions": 10,
+      "answerCoverage": 10,
+      "independentlyScoreVerified": false,
+      "paths": {
+        "manual": "experiments/lab03/instruction_book.pdf",
+        "reportQuestions": "experiments/lab03/report_questions.json",
+        "preclassQuestions": "experiments/lab03/prelab_questions.json",
+        "preclassAnswers": "experiments/lab03/prelab_answers.json"
+      },
+      "documents": [
+        {
+          "title": "实验三 互感电路实验数据记录页（提前打印）",
+          "resourceId": 334921,
+          "path": "experiments/lab03/documents/334921.pdf",
+          "kind": "record_sheet"
+        },
+        {
+          "title": "实验三 PPT 互感电路实验 .pptx",
+          "resourceId": 335295,
+          "path": "experiments/lab03/documents/335295.pptx",
+          "kind": "supplement"
+        }
+      ],
+      "missingTheoryImages": 0
+    },
+    {
+      "lab": 4,
+      "name": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "directory": "experiments/lab04",
+      "sourceIds": {
+        "taskId": 72940,
+        "reportResourceId": 330777,
+        "preclassResourceId": 330779
+      },
+      "reportQuestions": 13,
+      "preclassQuestions": 10,
+      "answerCoverage": 10,
+      "independentlyScoreVerified": false,
+      "paths": {
+        "manual": "experiments/lab04/instruction_book.pdf",
+        "reportQuestions": "experiments/lab04/report_questions.json",
+        "preclassQuestions": "experiments/lab04/prelab_questions.json",
+        "preclassAnswers": "experiments/lab04/prelab_answers.json"
+      },
+      "documents": [
+        {
+          "title": "实验四 原始记录页（提前下载打印）RLC谐振电路及选频网络",
+          "resourceId": 341796,
+          "path": "experiments/lab04/documents/341796.pdf",
+          "kind": "record_sheet"
+        },
+        {
+          "title": "PPT RLC元件的阻抗特性、谐振电路及RC选频网络",
+          "resourceId": 332092,
+          "path": "experiments/lab04/documents/332092.pdf",
+          "kind": "supplement"
+        }
+      ],
+      "missingTheoryImages": 0
+    },
+    {
+      "lab": 5,
+      "name": "实验五 单管交流放大电路",
+      "directory": "experiments/lab05",
+      "sourceIds": {
+        "taskId": 72943,
+        "reportResourceId": 330808,
+        "preclassResourceId": 330805
+      },
+      "reportQuestions": 12,
+      "preclassQuestions": 10,
+      "answerCoverage": 10,
+      "independentlyScoreVerified": false,
+      "paths": {
+        "manual": "experiments/lab05/instruction_book.pdf",
+        "reportQuestions": "experiments/lab05/report_questions.json",
+        "preclassQuestions": "experiments/lab05/prelab_questions.json",
+        "preclassAnswers": "experiments/lab05/prelab_answers.json"
+      },
+      "documents": [
+        {
+          "title": "实验五-数据记录页",
+          "resourceId": 333305,
+          "path": "experiments/lab05/documents/333305.pdf",
+          "kind": "record_sheet"
+        }
+      ],
+      "missingTheoryImages": 0
+    },
+    {
+      "lab": 6,
+      "name": "实验六 集成运算放大器的应用实验",
+      "directory": "experiments/lab06",
+      "sourceIds": {
+        "taskId": 72946,
+        "reportResourceId": 330830,
+        "preclassResourceId": 330829
+      },
+      "reportQuestions": 12,
+      "preclassQuestions": 10,
+      "answerCoverage": 10,
+      "independentlyScoreVerified": true,
+      "paths": {
+        "manual": "experiments/lab06/instruction_book.pdf",
+        "reportQuestions": "experiments/lab06/report_questions.json",
+        "preclassQuestions": "experiments/lab06/prelab_questions.json",
+        "preclassAnswers": "experiments/lab06/prelab_answers.json"
+      },
+      "documents": [
+        {
+          "title": "实验六 集成运放的应用实验数据记录",
+          "resourceId": 333299,
+          "path": "experiments/lab06/documents/333299.docx",
+          "kind": "record_sheet"
+        }
+      ],
+      "missingTheoryImages": 0
+    },
+    {
+      "lab": 7,
+      "name": "实验七 有源滤波电路研究",
+      "directory": "experiments/lab07",
+      "sourceIds": {
+        "taskId": 72947,
+        "reportResourceId": 330839,
+        "preclassResourceId": 330838
+      },
+      "reportQuestions": 9,
+      "preclassQuestions": 10,
+      "answerCoverage": 10,
+      "independentlyScoreVerified": true,
+      "paths": {
+        "manual": "experiments/lab07/instruction_book.pdf",
+        "reportQuestions": "experiments/lab07/report_questions.json",
+        "preclassQuestions": "experiments/lab07/prelab_questions.json",
+        "preclassAnswers": "experiments/lab07/prelab_answers.json"
+      },
+      "documents": [
+        {
+          "title": "实验七 有源滤波电路-实验数据记录（实操）.pdf",
+          "resourceId": 346470,
+          "path": "experiments/lab07/documents/346470.pdf",
+          "kind": "record_sheet"
+        }
+      ],
+      "missingTheoryImages": 7
+    },
+    {
+      "lab": 8,
+      "name": "实验八  波形发生器实验",
+      "directory": "experiments/lab08",
+      "sourceIds": {
+        "taskId": 73005,
+        "reportResourceId": 331030,
+        "preclassResourceId": 331029
+      },
+      "reportQuestions": 8,
+      "preclassQuestions": 10,
+      "answerCoverage": 10,
+      "independentlyScoreVerified": true,
+      "paths": {
+        "manual": "experiments/lab08/instruction_book.pdf",
+        "reportQuestions": "experiments/lab08/report_questions.json",
+        "preclassQuestions": "experiments/lab08/prelab_questions.json",
+        "preclassAnswers": "experiments/lab08/prelab_answers.json"
+      },
+      "documents": [
+        {
+          "title": "实验八 波形发生器实验数据记录.pdf",
+          "resourceId": 347425,
+          "path": "experiments/lab08/documents/347425.pdf",
+          "kind": "record_sheet"
+        }
+      ],
+      "missingTheoryImages": 0
+    }
+  ]
+}

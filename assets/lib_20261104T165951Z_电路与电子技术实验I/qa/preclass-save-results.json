@@ -1,0 +1,137 @@
+{
+  "verifiedAt": "2026-11-04T17:12:09.092Z",
+  "experiment": "实验九 综合实验Ⅰ",
+  "saved": 10,
+  "total": 10,
+  "submitted": false,
+  "scoreVerified": false,
+  "questions": [
+    {
+      "number": 1,
+      "question": "图中，电阻R1是什么作用？",
+      "selectedContents": [
+        "限流"
+      ],
+      "expectedContents": [
+        "限流"
+      ],
+      "verified": true,
+      "reasoning": "LED串联电阻限制正向电流，I≈(VCC−VF)/R。"
+    },
+    {
+      "number": 2,
+      "question": "一阶 RC 电路的时间常数 τ = RC。对充电过程而言，τ 是电容电压由零上升到（　　）所需的时间。",
+      "selectedContents": [
+        "63.2% Us"
+      ],
+      "expectedContents": [
+        "63.2% Us"
+      ],
+      "verified": true,
+      "reasoning": "uC(τ)=Us(1−e^−1)≈0.632Us。"
+    },
+    {
+      "number": 3,
+      "question": "555定时器构成多谐振荡器时，电路输出矩形脉冲的周期是？",
+      "selectedContents": [
+        "0.7*(R1+2*R2)*C"
+      ],
+      "expectedContents": [
+        "0.7*(R1+2*R2)*C"
+      ],
+      "verified": true,
+      "reasoning": "TH≈0.693(R1+R2)C，TL≈0.693R2C，T≈0.693(R1+2R2)C。"
+    },
+    {
+      "number": 4,
+      "question": "555芯片4脚为低电平时，3脚输出电压为什么状态？",
+      "selectedContents": [
+        "低电平"
+      ],
+      "expectedContents": [
+        "低电平"
+      ],
+      "verified": true,
+      "reasoning": "555的RESET低有效，复位强制输出为低。"
+    },
+    {
+      "number": 5,
+      "question": "555定时器芯片内部包含哪些元件？",
+      "selectedContents": [
+        "一个基本RS触发器",
+        "三个5千欧电阻",
+        "一个放电晶体管",
+        "两个电压比较器"
+      ],
+      "expectedContents": [
+        "一个基本RS触发器",
+        "三个5千欧电阻",
+        "一个放电晶体管",
+        "两个电压比较器"
+      ],
+      "verified": true,
+      "reasoning": "指导书9.5.2.1的555内部结构逐项列出。"
+    },
+    {
+      "number": 6,
+      "question": "555定时器构成多谐振荡器时，电容C的充电电阻是？",
+      "selectedContents": [
+        "R1和R2"
+      ],
+      "expectedContents": [
+        "R1和R2"
+      ],
+      "verified": true,
+      "reasoning": "充电路径为电源经R1和R2到电容，放电仅经R2和7脚。"
+    },
+    {
+      "number": 7,
+      "question": "LED的亮度变化和什么物理量直接相关？",
+      "selectedContents": [
+        "电流"
+      ],
+      "expectedContents": [
+        "电流"
+      ],
+      "verified": true,
+      "reasoning": "LED亮度直接随正向电流变化。"
+    },
+    {
+      "number": 8,
+      "question": "555定时器构成多谐振荡器时，电路输出矩形脉冲的占空比什么参数决定？",
+      "selectedContents": [
+        "R1和R2"
+      ],
+      "expectedContents": [
+        "R1和R2"
+      ],
+      "verified": true,
+      "reasoning": "D=(R1+R2)/(R1+2R2)，C消去。"
+    },
+    {
+      "number": 9,
+      "question": "光敏电阻对光线十分敏感，其在无光照时，呈什么状态？",
+      "selectedContents": [
+        "高阻"
+      ],
+      "expectedContents": [
+        "高阻"
+      ],
+      "verified": true,
+      "reasoning": "光敏电阻越暗阻值越大；暗态可达约200kΩ。"
+    },
+    {
+      "number": 10,
+      "question": "9.5.4 的仿真中用三角波电压源替代光敏电阻分压节点 VS，其主要目的是（　　）。",
+      "selectedContents": [
+        "把“光照变化”与“比较器迟滞”分开观察，便于测出两个方向的翻转点"
+      ],
+      "expectedContents": [
+        "把“光照变化”与“比较器迟滞”分开观察，便于测出两个方向的翻转点"
+      ],
+      "verified": true,
+      "reasoning": "指导书9.5.4.2明确使用缓变三角波扫VS，分别测上升和下降翻转阈值。"
+    }
+  ],
+  "untouched": "Experiments 1–8 already completed; experiment 10 has no preclass resource"
+}

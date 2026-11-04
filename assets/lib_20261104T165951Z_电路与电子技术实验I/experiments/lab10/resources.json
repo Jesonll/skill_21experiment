@@ -1,0 +1,50 @@
+{
+  "experiment": "实验十 综合实验2",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 361751,
+          "title": "课前预习",
+          "category": 14,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 362661,
+          "title": "实验十  电路电子综合实验II 指导书.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 362662,
+          "title": "提前下载并打印—综合实验II 数据记录页.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 331036,
+          "title": "综合实验II",
+          "category": 11,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 362663,
+          "title": "实验十 光控呼吸灯综合实验II 课件.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "experiment": "实验一 直流电路实验",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 330755,
+          "title": "预习考核",
+          "category": 4,
+          "process": 100,
+          "passed": 1,
+          "score": 100
+        },
+        {
+          "id": 330757,
+          "title": "手持数字万用表",
+          "category": 6,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 330758,
+          "title": " 恒流源SL1500",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330759,
+          "title": "三路可编程线性直流稳压电源DP832A",
+          "category": 6,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 330760,
+          "title": "电路定理（实操实验视频）",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330761,
+          "title": "电路实验装置",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 335787,
+          "title": "直流电路实验实验指导书.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 336916,
+          "title": "有源一端口等效参数测量.mp4",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 341528,
+          "title": "提前下载并打印—直流电路实验（实操）数据记录页.docx",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "name": "课后",
+      "resources": [
+        {
+          "id": 330756,
+          "title": "直流电路实验",
+          "category": 11,
+          "process": 100,
+          "score": 46
+        }
+      ]
+    }
+  ]
+}

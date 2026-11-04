@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "course": "电路与电子技术实验I",
+  "verifiedAt": "2026-10-24T13:46:19.356Z",
+  "randomization": {
+    "questionContent": "用户说明题目内容不变；本次仅验证当前可见题目，不宣称适用于其他账号或课程版本。",
+    "questionOrder": "每次开始答题题序可能改变。",
+    "optionOrder": "每次开始答题选项顺序可能改变；不得复用A/B/C/D或数组下标。",
+    "key": "规范化题干文字、LaTeX和图片语义 + 答案内容；匹配当前选项后才解析位置。",
+    "unknown": "题干或选项不匹配、公式图片有变或多解时停止并重新推导。"
+  },
+  "verification": [
+    {
+      "lab": 6,
+      "score": 100,
+      "process": 100,
+      "passed": true
+    },
+    {
+      "lab": 7,
+      "score": 100,
+      "process": 100,
+      "passed": true
+    },
+    {
+      "lab": 8,
+      "score": 100,
+      "process": 100,
+      "passed": true
+    }
+  ],
+  "entries": [
+    {
+      "correctAnswer": "无穷大",
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "无穷大"
+        },
+        {
+          "images": [],
+          "text": "1"
+        },
+        {
+          "images": [],
+          "text": "0"
+        },
+        {
+          "images": [],
+          "text": "不定"
+        }
+      ],
+      "question": "理想运算放大器的开环放大倍数$A_{uo}$为？",
+      "questionHtml": "<p> 理想运算放大器的开环放大倍数<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"A_{uo}\"></span>为？</p>",
+      "reasoning": "理想运放的开环增益趋于无穷大。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "无穷大，0",
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "0，0"
+        },
+        {
+          "images": [],
+          "text": "无穷大，无穷大"
+        },
+        {
+          "images": [],
+          "text": "0，无穷大"
+        },
+        {
+          "images": [],
+          "text": "无穷大，0"
+        }
+      ],
+      "question": "理想运算放大器的输入电阻为？输出电阻为？",
+      "questionHtml": "<p>理想运算放大器的输入电阻为？输出电阻为？</p>",
+      "reasoning": "理想输入电阻无穷大、输出电阻为零。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "交流信号和直流信号",
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "仅交流信号"
+        },
+        {
+          "images": [],
+          "text": "以上都不对"
+        },
+        {
+          "images": [],
+          "text": "仅直流信号"
+        },
+        {
+          "images": [],
+          "text": "交流信号和直流信号"
+        }
+      ],
+      "question": "集成运算放大器能处理什么类型的信号？",
+      "questionHtml": "<p>集成运算放大器能处理什么类型的信号？</p>",
+      "reasoning": "运放为直接耦合，可处理直流与交流。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "u+ = u−；i+ = i− = 0（虚短、虚断）",
+      "imageFormula": {
+        "meaning": "u+ = u−；i+ = i− = 0（虚短、虚断）",
+        "sourceFilename": "17748688222IWS.png"
+      },
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [
+            "assets/1774868856NTFC.png"
+          ],
+          "text": ""
+        },
+        {
+          "images": [
+            "assets/17748688479U7Y.png"
+          ],
+          "text": ""
+        },
+        {
+          "images": [
+            "assets/1774868837FMIP.png"
+          ],
+          "text": ""
+        },
+        {
+          "images": [
+            "assets/17748688222IWS.png"
+          ],
+          "text": ""
+        }
+      ],
+      "question": "集成运放工作在线性放大区，由理想工作条件得出两个重要规律是？",
+      "questionHtml": "<p>集成运放工作在线性放大区，由理想工作条件得出两个重要规律是？</p>",
+      "reasoning": "线性负反馈下两输入端等电位且输入电流为零，并非两端电压都为零。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "积分运算电路",
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "反向比例运算电路"
+        },
+        {
+          "images": [],
+          "text": "积分运算电路"
+        },
+        {
+          "images": [],
+          "text": "同相比例运算电路"
+        },
+        {
+          "images": [],
+          "text": "微分运算电路"
+        }
+      ],
+      "question": "若要将幅度为$ \\pm U_m$的矩形波转变为三角波，则应选用？",
+      "questionHtml": "<p>若要将幅度为<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\" \\pm U_m\"></span>的矩形波转变为三角波，则应选用？</p>",
+      "reasoning": "恒定电压积分得到线性斜坡，矩形波积分为三角波。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "偏移",
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "周期"
+        },
+        {
+          "images": [],
+          "text": "同相位"
+        },
+        {
+          "images": [],
+          "text": "偏移"
+        },
+        {
+          "images": [],
+          "text": "幅值"
+        }
+      ],
+      "question": "函数信号发生器需要交流量叠加直流输出时，需调节？",
+      "questionHtml": "<p>函数信号发生器需要交流量叠加直流输出时，需调节？</p>",
+      "reasoning": "信号发生器的直流偏移设置叠加直流分量。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "虚短",
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "都不对"
+        },
+        {
+          "images": [],
+          "text": "虚短"
+        },
+        {
+          "images": [],
+          "text": "差模输入电阻无穷大"
+        },
+        {
+          "images": [],
+          "text": "虚断"
+        }
+      ],
+      "question": "分析集成运放的非线性应用电路时，不能使用的特性是？",
+      "questionHtml": "<p>分析集成运放的非线性应用电路时，不能使用的特性是？</p>",
+      "reasoning": "非线性应用不保证两输入端电位相等。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "1，2",
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "2，2"
+        },
+        {
+          "images": [],
+          "text": "1，2"
+        },
+        {
+          "images": [],
+          "text": "2，1"
+        },
+        {
+          "images": [],
+          "text": "1，1"
+        }
+      ],
+      "question": "单限电压比较器有（ ）个门限电压，滞回电压比较器有（ ）个门限电压。",
+      "questionHtml": "<p>单限电压比较器有（ ）个门限电压，滞回电压比较器有（ ）个门限电压。</p>",
+      "reasoning": "单限比较器一个阈值，滞回比较器两个阈值。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "正确",
+      "correctBoolean": true,
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [],
+      "question": "当集成运放芯片的电源为正负对称电源供电时，不可把正、负电源极性接反或将输出端短路，否则会烧坏芯片。",
+      "questionHtml": "<p>当集成运放芯片的电源为正负对称电源供电时，不可把正、负电源极性接反或将输出端短路，否则会烧坏芯片。</p>",
+      "reasoning": "电源极性接反和输出短路可能损坏运放，须避免。",
+      "type": "true_false"
+    },
+    {
+      "correctAnswer": "电压比较器",
+      "lab": 6,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "差值放大器"
+        },
+        {
+          "images": [],
+          "text": "电压比较器"
+        },
+        {
+          "images": [],
+          "text": "有源滤波器"
+        },
+        {
+          "images": [],
+          "text": "反相放大器"
+        }
+      ],
+      "question": "在由运放组成的电路中，运放工作在非线性状态的电路是？",
+      "questionHtml": "<p>在由运放组成的电路中，运放工作在非线性状态的电路是？</p>",
+      "reasoning": "比较器使用运放的饱和非线性状态。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "高，好",
+      "lab": 7,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "低，好"
+        },
+        {
+          "images": [],
+          "text": "高，好"
+        },
+        {
+          "images": [],
+          "text": "低，不变"
+        },
+        {
+          "images": [],
+          "text": "高，差"
+        }
+      ],
+      "question": "有源滤波器的阶数越（ ），滤波器的滤波性能越 （ ）。",
+      "questionHtml": "<p>有源滤波器的阶数越（ ），滤波器的滤波性能越 （ ）。</p>",
+      "reasoning": "阶数增加使阻带衰减更陡，逼近理想特性。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": [
+        "二阶有源低通滤波器通带增益为1",
+        "二阶压控电压源低通Q=1/(3-A0)",
+        "二阶低通Q=(1/2)√(C1/C2)",
+        "二阶压控电压源低通A0=1+Rf/R1"
+      ],
+      "lab": 7,
+      "matchingRule": "Match all four verified option meanings; validate option set before selecting.",
+      "options": [
+        {
+          "images": [],
+          "text": "二阶有源低通滤波器通带内的放大倍数为1"
+        },
+        {
+          "images": [
+            "assets/1774869492VB4D.png"
+          ],
+          "text": "二阶压控电压源有源低通滤波器的品质因数为"
+        },
+        {
+          "images": [
+            "assets/1774869511PE02.png"
+          ],
+          "text": "二阶有源低通滤波器的品质因数为"
+        },
+        {
+          "images": [
+            "assets/1774869480D7C1.png"
+          ],
+          "text": "二阶压控电压源有源低通滤波器通带内的放大倍数为"
+        }
+      ],
+      "question": "根据实验指导书的实验原理部分，二阶有源低通滤波器和二阶压控电压源有源低通滤波器特性描述正确的有哪些？",
+      "questionHtml": "<p>根据实验指导书的实验原理部分，二阶有源低通滤波器和二阶压控电压源有源低通滤波器特性描述正确的有哪些？</p>",
+      "reasoning": "指导书7.4给出这四个表达式，全部成立。",
+      "type": "multiple_choice"
+    },
+    {
+      "correctAnswer": "A0>3",
+      "imageFormula": {
+        "meaning": "A0>3",
+        "sourceFilename": "1774869544B0GY.png"
+      },
+      "lab": 7,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [
+            "assets/17748695375752.png"
+          ],
+          "text": ""
+        },
+        {
+          "images": [
+            "assets/1774869568I815.png"
+          ],
+          "text": ""
+        },
+        {
+          "images": [],
+          "text": "都不是"
+        },
+        {
+          "images": [
+            "assets/1774869544B0GY.png"
+          ],
+          "text": ""
+        }
+      ],
+      "question": "二阶压控电压源有源低通滤波器产生自激振荡的条件是什么？",
+      "questionHtml": "<p>二阶压控电压源有源低通滤波器产生自激振荡的条件是什么？</p>",
+      "reasoning": "按指导书7.4，A0>3时极点进入右半平面，自激振荡。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "可以提供电压增益",
+      "lab": 7,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "可以提供电压增益"
+        },
+        {
+          "images": [],
+          "text": "体积更小"
+        },
+        {
+          "images": [],
+          "text": "滤波性能更好"
+        },
+        {
+          "images": [],
+          "text": "成本更低"
+        }
+      ],
+      "question": "有源滤波器与无源滤波器相比，在电路性能指标方面，其主要优势是什么？",
+      "questionHtml": "<p>有源滤波器与无源滤波器相比，在电路性能指标方面，其主要优势是什么？</p>",
+      "reasoning": "有源器件可在滤波同时提供增益。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "滤波器允许通过的最高频率与最低频率之差",
+      "lab": 7,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "滤波器的增益大小"
+        },
+        {
+          "images": [],
+          "text": "滤波器允许通过的最高频率与最低频率之差"
+        },
+        {
+          "images": [],
+          "text": "滤波器的输入电阻大小"
+        },
+        {
+          "images": [],
+          "text": "滤波器的输出电压大小"
+        }
+      ],
+      "question": "有源滤波器的带宽指的是什么？",
+      "questionHtml": "<p>有源滤波器的带宽指的是什么？</p>",
+      "reasoning": "带宽为通带上下边界频率之差。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "允许某一频段内的信号通过，其他频段信号被阻断",
+      "lab": 7,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "允许所有频段信号通过"
+        },
+        {
+          "images": [],
+          "text": "允许某一频段内的信号通过，其他频段信号被阻断"
+        },
+        {
+          "images": [],
+          "text": "允许高频信号通过，阻断低频信号"
+        },
+        {
+          "images": [],
+          "text": "允许低频信号通过，阻断高频信号"
+        }
+      ],
+      "question": "有源带通滤波器的主要特点是什么？",
+      "questionHtml": "<p>有源带通滤波器的主要特点是什么？</p>",
+      "reasoning": "带通通过中间频段并抑制两侧频段。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "滤波器的绝缘电阻",
+      "lab": 7,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "滤波器的绝缘电阻"
+        },
+        {
+          "images": [],
+          "text": "截止频率"
+        },
+        {
+          "images": [],
+          "text": "滤波器的功耗"
+        },
+        {
+          "images": [],
+          "text": "通带增益"
+        }
+      ],
+      "question": "在设计有源滤波器时，下列哪个参数通常不被考虑？",
+      "questionHtml": "<p>在设计有源滤波器时，下列哪个参数通常不被考虑？</p>",
+      "reasoning": "该题列出的常用设计指标为截止频率、增益和功耗。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "减小电容值",
+      "lab": 7,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "减小电容值"
+        },
+        {
+          "images": [],
+          "text": "增大电容值"
+        },
+        {
+          "images": [],
+          "text": "使用更高增益的运放"
+        },
+        {
+          "images": [],
+          "text": "增大电阻值"
+        }
+      ],
+      "question": "在有源高通滤波器中，若要提高截止频率，以下哪种措施是有效的？",
+      "questionHtml": "<p>在有源高通滤波器中，若要提高截止频率，以下哪种措施是有效的？</p>",
+      "reasoning": "fc与RC乘积成反比，减小C提高截止频率。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "减小滤波器的电源电压",
+      "lab": 7,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "减小滤波器的电源电压"
+        },
+        {
+          "images": [],
+          "text": "优化电阻和电容的值"
+        },
+        {
+          "images": [],
+          "text": "使用更高增益的运算放大器"
+        },
+        {
+          "images": [],
+          "text": "增加滤波器的阶数"
+        }
+      ],
+      "question": "以下哪种方法不是用于改善有源滤波器性能的有效手段？",
+      "questionHtml": "<p>以下哪种方法不是用于改善有源滤波器性能的有效手段？</p>",
+      "reasoning": "减小电源电压不是普遍改善性能的方法，可能减小动态范围。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": [
+        "低通滤波器",
+        "高通滤波器",
+        "带通滤波器",
+        "带阻滤波器"
+      ],
+      "lab": 7,
+      "matchingRule": "Match all four verified option meanings; validate option set before selecting.",
+      "options": [
+        {
+          "images": [],
+          "text": "低通滤波器"
+        },
+        {
+          "images": [],
+          "text": "带通滤波器"
+        },
+        {
+          "images": [],
+          "text": "高通滤波器"
+        },
+        {
+          "images": [],
+          "text": "带阻滤波器"
+        }
+      ],
+      "question": "有源滤波器的主要分类有（ ）。",
+      "questionHtml": "<p>有源滤波器的主要分类有（ ）。</p>",
+      "reasoning": "按通带位置分为低通、高通、带通、带阻四类。",
+      "type": "multiple_choice"
+    },
+    {
+      "correctAnswer": "正相关",
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "负相关"
+        },
+        {
+          "images": [],
+          "text": "正相关"
+        },
+        {
+          "images": [],
+          "text": "都不是"
+        },
+        {
+          "images": [],
+          "text": "没关系"
+        }
+      ],
+      "question": "三角波发生器电路中的R1和周期的关系？",
+      "questionHtml": "<p>三角波发生器电路中的R1和周期的关系？</p>",
+      "reasoning": "T=4R4R1C/R2，其他量不变时T与R1正比。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "由同向输入的滞回比较器和积分电路组成",
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "由反向输入的滞回比较器和积分电路组成"
+        },
+        {
+          "images": [],
+          "text": "由反向输入的滞回比较器和RC电路组成"
+        },
+        {
+          "images": [],
+          "text": "由同向输入的滞回比较器和RC电路组成"
+        },
+        {
+          "images": [],
+          "text": "由同向输入的滞回比较器和积分电路组成"
+        }
+      ],
+      "question": "对三角波发生器的电路结构叙述正确的是？",
+      "questionHtml": "<p>对三角波发生器的电路结构叙述正确的是？</p>",
+      "reasoning": "指导书8.4图8-2采用同相输入滞回比较器和反相积分器。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "正反馈",
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "负反馈"
+        },
+        {
+          "images": [],
+          "text": "电流反馈"
+        },
+        {
+          "images": [],
+          "text": "电压反馈"
+        },
+        {
+          "images": [],
+          "text": "正反馈"
+        }
+      ],
+      "question": "集成运算放大器是一种高增益的放大器，只要加入适当的反馈网络，利用（ ）原理，满足振荡的条件，就可以构成正弦波、方波、三角波和锯齿波等各种振荡电路",
+      "questionHtml": "<p>集成运算放大器是一种高增益的放大器，只要加入适当的反馈网络，利用（ ）原理，满足振荡的条件，就可以构成正弦波、方波、三角波和锯齿波等各种振荡电路</p>",
+      "reasoning": "振荡器借助正反馈满足起振条件。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "双向稳压管",
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "整流二极管"
+        },
+        {
+          "images": [],
+          "text": "单向稳压管"
+        },
+        {
+          "images": [],
+          "text": "发光二极管"
+        },
+        {
+          "images": [],
+          "text": "双向稳压管"
+        }
+      ],
+      "question": "方波发生器电路里，为使输出电压限制在±UZ,应使用（） 器件。",
+      "questionHtml": "<p>方波发生器电路里，为使输出电压限制在±UZ,应使用（） 器件。</p>",
+      "reasoning": "指导书使用双向稳压管DZ实现双极性限幅。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "T=4R4R1C/R2",
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [
+        {
+          "images": [],
+          "text": "T=4R4R1C/R2"
+        },
+        {
+          "images": [],
+          "text": "T=2Π√LC"
+        },
+        {
+          "images": [],
+          "text": "T=2RfCln(1+2R2/R1)"
+        },
+        {
+          "images": [],
+          "text": "T=2ΠLC"
+        }
+      ],
+      "question": "三角波发生器电路的振荡周期为",
+      "questionHtml": "<p>三角波发生器电路的振荡周期为</p>",
+      "reasoning": "阈值幅度为(R1/R2)UZ，积分斜率为UZ/(R4C)，周期为4R4R1C/R2。",
+      "type": "single_choice"
+    },
+    {
+      "correctAnswer": "正确",
+      "correctBoolean": true,
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [],
+      "question": "集成运放的输出端一般都接KΩ级别的电阻，主要起到防止电路电流过大，烧坏电路。",
+      "questionHtml": "<p>集成运放的输出端一般都接KΩ级别的电阻，主要起到防止电路电流过大，烧坏电路。</p>",
+      "reasoning": "kΩ级负载有助于限制输出电流，避免过载。",
+      "type": "true_false"
+    },
+    {
+      "correctAnswer": "错误",
+      "correctBoolean": false,
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [],
+      "question": "负反馈放大电路不可能产生自激振荡。",
+      "questionHtml": "<p>负反馈放大电路不可能产生自激振荡。</p>",
+      "reasoning": "负反馈电路高频附加相移可使环路满足自激条件。",
+      "type": "true_false"
+    },
+    {
+      "correctAnswer": "正确",
+      "correctBoolean": true,
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [],
+      "question": "三角波和方波通过改变充放电时间常数改变占空比",
+      "questionHtml": "<p>三角波和方波通过改变充放电时间常数改变占空比</p>",
+      "reasoning": "分别调节充放电时间常数可改变上升下降时间比例及占空比；同时等比例改变二者不会改变占空比。",
+      "type": "true_false"
+    },
+    {
+      "correctAnswer": "错误",
+      "correctBoolean": false,
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [],
+      "question": "示波器中的measure测量的幅值和理论教材中提到的幅值大小一样",
+      "questionHtml": "<p>示波器中的measure测量的幅值和理论教材中提到的幅值大小一样</p>",
+      "reasoning": "示波器Amplitude常表示高低电平之差，而教材幅值通常指相对中心的峰值，不能直接等同。",
+      "type": "true_false"
+    },
+    {
+      "correctAnswer": "正确",
+      "correctBoolean": true,
+      "lab": 8,
+      "matchingRule": "Match question meaning and correct answer text/formula, then resolve current option position.",
+      "options": [],
+      "question": "在电路工作中，如果发现波形不对，或者异常声音或者异常发热，需要马上断电，检测电路。",
+      "questionHtml": "<p>在电路工作中，如果发现波形不对，或者异常声音或者异常发热，需要马上断电，检测电路。</p>",
+      "reasoning": "指导书8.5/8.6要求异常波形、声音或发热时立即断电检查。",
+      "type": "true_false"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "experiment": "实验八  波形发生器实验",
+  "resourceId": 331029,
+  "questions": [
+    {
+      "number": 1,
+      "options": [
+        {
+          "html": "<p>负相关</p>",
+          "images": [],
+          "text": "负相关"
+        },
+        {
+          "html": "<p>正相关</p>",
+          "images": [],
+          "text": "正相关"
+        },
+        {
+          "html": "<p>都不是</p>",
+          "images": [],
+          "text": "都不是"
+        },
+        {
+          "html": "<p>没关系</p>",
+          "images": [],
+          "text": "没关系"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>三角波发生器电路中的R1和周期的关系？</p>",
+        "images": [],
+        "text": "三角波发生器电路中的R1和周期的关系？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 2,
+      "options": [
+        {
+          "html": "<p>由反向输入的滞回比较器和积分电路组成</p>",
+          "images": [],
+          "text": "由反向输入的滞回比较器和积分电路组成"
+        },
+        {
+          "html": "<p>由反向输入的滞回比较器和RC电路组成</p>",
+          "images": [],
+          "text": "由反向输入的滞回比较器和RC电路组成"
+        },
+        {
+          "html": "<p> 由同向输入的滞回比较器和RC电路组成</p>",
+          "images": [],
+          "text": "由同向输入的滞回比较器和RC电路组成"
+        },
+        {
+          "html": "<p>由同向输入的滞回比较器和积分电路组成</p>",
+          "images": [],
+          "text": "由同向输入的滞回比较器和积分电路组成"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>对三角波发生器的电路结构叙述正确的是？</p>",
+        "images": [],
+        "text": "对三角波发生器的电路结构叙述正确的是？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 3,
+      "options": [
+        {
+          "html": "<p>负反馈</p>",
+          "images": [],
+          "text": "负反馈"
+        },
+        {
+          "html": "<p>电流反馈</p>",
+          "images": [],
+          "text": "电流反馈"
+        },
+        {
+          "html": "<p>电压反馈</p>",
+          "images": [],
+          "text": "电压反馈"
+        },
+        {
+          "html": "<p> 正反馈</p>",
+          "images": [],
+          "text": "正反馈"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>集成运算放大器是一种高增益的放大器，只要加入适当的反馈网络，利用（ ）原理，满足振荡的条件，就可以构成正弦波、方波、三角波和锯齿波等各种振荡电路</p>",
+        "images": [],
+        "text": "集成运算放大器是一种高增益的放大器，只要加入适当的反馈网络，利用（ ）原理，满足振荡的条件，就可以构成正弦波、方波、三角波和锯齿波等各种振荡电路"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 4,
+      "options": [
+        {
+          "html": "<p>整流二极管</p>",
+          "images": [],
+          "text": "整流二极管"
+        },
+        {
+          "html": "<p> 单向稳压管</p>",
+          "images": [],
+          "text": "单向稳压管"
+        },
+        {
+          "html": "<p>发光二极管</p>",
+          "images": [],
+          "text": "发光二极管"
+        },
+        {
+          "html": "<p>双向稳压管</p>",
+          "images": [],
+          "text": "双向稳压管"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>方波发生器电路里，为使输出电压限制在±UZ,应使用（） 器件。</p>",
+        "images": [],
+        "text": "方波发生器电路里，为使输出电压限制在±UZ,应使用（） 器件。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 5,
+      "options": [
+        {
+          "html": "<p> T=4R4R1C/R2</p>",
+          "images": [],
+          "text": "T=4R4R1C/R2"
+        },
+        {
+          "html": "<p>T=2Π√LC</p>",
+          "images": [],
+          "text": "T=2Π√LC"
+        },
+        {
+          "html": "<p> T=2RfCln(1+2R2/R1)</p>",
+          "images": [],
+          "text": "T=2RfCln(1+2R2/R1)"
+        },
+        {
+          "html": "<p> T=2ΠLC</p>",
+          "images": [],
+          "text": "T=2ΠLC"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>三角波发生器电路的振荡周期为</p>",
+        "images": [],
+        "text": "三角波发生器电路的振荡周期为"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 6,
+      "options": [],
+      "score": 1,
+      "statement": {
+        "html": "<p>集成运放的输出端一般都接KΩ级别的电阻，主要起到防止电路电流过大，烧坏电路。</p>",
+        "images": [],
+        "text": "集成运放的输出端一般都接KΩ级别的电阻，主要起到防止电路电流过大，烧坏电路。"
+      },
+      "type": "true_false"
+    },
+    {
+      "number": 7,
+      "options": [],
+      "score": 1,
+      "statement": {
+        "html": "<p>负反馈放大电路不可能产生自激振荡。</p>",
+        "images": [],
+        "text": "负反馈放大电路不可能产生自激振荡。"
+      },
+      "type": "true_false"
+    },
+    {
+      "number": 8,
+      "options": [],
+      "score": 1,
+      "statement": {
+        "html": "<p>三角波和方波通过改变充放电时间常数改变占空比</p>",
+        "images": [],
+        "text": "三角波和方波通过改变充放电时间常数改变占空比"
+      },
+      "type": "true_false"
+    },
+    {
+      "number": 9,
+      "options": [],
+      "score": 1,
+      "statement": {
+        "html": "<p>示波器中的measure测量的幅值和理论教材中提到的幅值大小一样</p>",
+        "images": [],
+        "text": "示波器中的measure测量的幅值和理论教材中提到的幅值大小一样"
+      },
+      "type": "true_false"
+    },
+    {
+      "number": 10,
+      "options": [],
+      "score": 1,
+      "statement": {
+        "html": "<p>在电路工作中，如果发现波形不对，或者异常声音或者异常发热，需要马上断电，检测电路。</p>",
+        "images": [],
+        "text": "在电路工作中，如果发现波形不对，或者异常声音或者异常发热，需要马上断电，检测电路。"
+      },
+      "type": "true_false"
+    }
+  ]
+}

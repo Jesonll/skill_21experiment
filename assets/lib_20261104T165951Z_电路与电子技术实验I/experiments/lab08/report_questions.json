@@ -1,0 +1,94 @@
+{
+  "experiment": "实验八  波形发生器实验",
+  "resourceId": 331030,
+  "sections": [
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "id": 149388,
+          "options": "",
+          "question": "<p>简述实验八的实验目的。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "简述实验八的实验目的。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149389,
+          "options": "",
+          "question": "<p>请上传盖章版数据记录页。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "请上传盖章版数据记录页。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149390,
+          "options": "",
+          "question": "<p>方波发生器：在同一坐标系下绘制<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\" R_{f}  \"></span>=10KΩ的输出电压<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"u_{o}  \"></span>和反相端<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"u_{c}  \"></span>的波形，需体现反相端电压的频率、占空比和输出电压的幅值和占空比（采用坐标纸或者网格纸，注意绘图规范）</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "方波发生器：在同一坐标系下绘制$ R_{f}  $=10KΩ的输出电压$u_{o}  $和反相端$u_{c}  $的波形，需体现反相端电压的频率、占空比和输出电压的幅值和占空比（采用坐标纸或者网格纸，注意绘图规范）",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149391,
+          "options": "",
+          "question": "<p>三角波发生器：在同一坐标系下绘制输出电压<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\" u_{o}  \"></span>和<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\" u_{o1}  \"></span>的波形，需体现<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"  u_{o1}  \"></span>的周期、幅值和输出电压<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\" u_{o}  \"></span>的周期和幅值（采用坐标纸或者网格纸，注意绘图规范）</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "三角波发生器：在同一坐标系下绘制输出电压$ u_{o}  $和$ u_{o1}  $的波形，需体现$  u_{o1}  $的周期、幅值和输出电压$ u_{o}  $的周期和幅值（采用坐标纸或者网格纸，注意绘图规范）",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149392,
+          "options": "",
+          "question": "<p>设计实验：根据题目要求，画出设计的电路图并写出电路参数的计算过程，在同一坐标系下绘制方波和三角波电压波形，需体现方波的占空比、幅值和三角波的频率和幅值（采用坐标纸或者网格纸，注意绘图规范）</p>",
+          "question_detail": "",
+          "score": "20",
+          "text": "设计实验：根据题目要求，画出设计的电路图并写出电路参数的计算过程，在同一坐标系下绘制方波和三角波电压波形，需体现方波的占空比、幅值和三角波的频率和幅值（采用坐标纸或者网格纸，注意绘图规范）",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149393,
+          "options": "",
+          "question": "<p>方波发生器电路中C的数值增大时，f和占空比d是否变化？改变<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"  R_{2}  \"></span>是否引起f和d的变化？为什么？试用理论推导，写出具体推导过程。</p>",
+          "question_detail": "",
+          "score": "15",
+          "text": "方波发生器电路中C的数值增大时，f和占空比d是否变化？改变$  R_{2}  $是否引起f和d的变化？为什么？试用理论推导，写出具体推导过程。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149394,
+          "options": "",
+          "question": "<p>在图8-2所示三角波发生电路时，为什么应先调整电阻<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R_{1}  \"></span>和<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\" R_{2}  \"></span>使输出幅度达到设计值，再调整<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\" R_{4}  \"></span>和C使震荡周期满足要求？</p>",
+          "question_detail": "",
+          "score": "15",
+          "text": "在图8-2所示三角波发生电路时，为什么应先调整电阻$R_{1}  $和$ R_{2}  $使输出幅度达到设计值，再调整$ R_{4}  $和C使震荡周期满足要求？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149395,
+          "options": "",
+          "question": "<p>为什么说矩形波发生器电路是非正弦波发生电路的基础？能利用之前所学过的基本电路通过波形变换的方法得到哪些非正弦波电压？</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "为什么说矩形波发生器电路是非正弦波发生电路的基础？能利用之前所学过的基本电路通过波形变换的方法得到哪些非正弦波电压？",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验步骤",
+      "type": 2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "experiment": "实验二 元器件参数测量和阻抗的串并联",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 330769,
+          "title": "实验二 预习测验",
+          "category": 4,
+          "process": 100,
+          "passed": 1,
+          "score": 100
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 330765,
+          "title": "实验二 实验报告",
+          "category": 11,
+          "process": 100,
+          "score": 100
+        },
+        {
+          "id": 330768,
+          "title": "实验二 数据记录页",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330764,
+          "title": "实验二 实验指导书",
+          "category": 13,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 330770,
+          "title": "实验二 PPT",
+          "category": 13,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 330767,
+          "title": "元器件参数测量与阻抗的串并联 视频1",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330766,
+          "title": "元器件参数测量和阻抗的串并联 视频2",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 330779,
+          "title": "实验四 预习测验",
+          "category": 4,
+          "process": 100,
+          "passed": 1,
+          "score": 100
+        },
+        {
+          "id": 341796,
+          "title": "实验四 原始记录页（提前下载打印）RLC谐振电路及选频网络",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 332091,
+          "title": "实验四指导书 RLC谐振电路及选频网络实验指导书",
+          "category": 13,
+          "process": 100,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 332088,
+          "title": "实验四 RLC谐振电路及选频网络实验指导书",
+          "category": 13,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 330777,
+          "title": "实验四 实验报告",
+          "category": 11,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 332092,
+          "title": "PPT RLC元件的阻抗特性、谐振电路及RC选频网络",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330780,
+          "title": "RC串并联选频网络实验",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330781,
+          "title": "RLC串并联电路的谐振实验",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330782,
+          "title": "交流毫伏表SM2030A",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330783,
+          "title": "函数信号发生器TFG6960A",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

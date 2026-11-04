@@ -1,0 +1,65 @@
+{
+  "experiment": "实验七 有源滤波电路研究",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 330838,
+          "title": "预习考核",
+          "category": 4,
+          "process": 100,
+          "passed": 1,
+          "score": 100
+        },
+        {
+          "id": 330840,
+          "title": "实验七-有源滤波电路-视频（实操）",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330843,
+          "title": "数字示波器MSO2012B",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330844,
+          "title": "台式万用表操作演示",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 346469,
+          "title": "实验七-有源滤波电路-实验指导书（实操）.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 346470,
+          "title": "实验七 有源滤波电路-实验数据记录（实操）.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 330839,
+          "title": "有源滤波器的研究实验",
+          "category": 11,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

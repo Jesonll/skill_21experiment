@@ -1,0 +1,51 @@
+{
+  "experiment": "实验九 综合实验Ⅰ",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 361111,
+          "title": "课前预习测验",
+          "category": 4,
+          "process": 0,
+          "passed": 0,
+          "score": 0
+        },
+        {
+          "id": 365078,
+          "title": "综合实验Ⅰ 实验过程数据记录页 .pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 359543,
+          "title": "综合实验Ⅰ--实验报告",
+          "category": 11,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 363790,
+          "title": "指导书-multisim使用说明.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 363933,
+          "title": "电路电子综合实验Ⅰ指导书.pdf",
+          "category": 13,
+          "process": 100,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

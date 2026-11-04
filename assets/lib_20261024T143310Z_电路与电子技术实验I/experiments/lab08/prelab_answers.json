@@ -1,0 +1,300 @@
+{
+  "experiment": "实验八  波形发生器实验",
+  "questions": [
+    {
+      "question": {
+        "html": "<p>三角波发生器电路中的R1和周期的关系？</p>",
+        "images": [],
+        "text": "三角波发生器电路中的R1和周期的关系？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>负相关</p>",
+          "images": [],
+          "text": "负相关"
+        },
+        {
+          "html": "<p>正相关</p>",
+          "images": [],
+          "text": "正相关"
+        },
+        {
+          "html": "<p>都不是</p>",
+          "images": [],
+          "text": "都不是"
+        },
+        {
+          "html": "<p>没关系</p>",
+          "images": [],
+          "text": "没关系"
+        }
+      ],
+      "answer": {
+        "reasoning": "T=4R4R1C/R2，其他量不变时T与R1正比。",
+        "semanticAnswer": "正相关",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>正相关</p>",
+            "images": [],
+            "text": "正相关"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>对三角波发生器的电路结构叙述正确的是？</p>",
+        "images": [],
+        "text": "对三角波发生器的电路结构叙述正确的是？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>由反向输入的滞回比较器和积分电路组成</p>",
+          "images": [],
+          "text": "由反向输入的滞回比较器和积分电路组成"
+        },
+        {
+          "html": "<p>由反向输入的滞回比较器和RC电路组成</p>",
+          "images": [],
+          "text": "由反向输入的滞回比较器和RC电路组成"
+        },
+        {
+          "html": "<p> 由同向输入的滞回比较器和RC电路组成</p>",
+          "images": [],
+          "text": "由同向输入的滞回比较器和RC电路组成"
+        },
+        {
+          "html": "<p>由同向输入的滞回比较器和积分电路组成</p>",
+          "images": [],
+          "text": "由同向输入的滞回比较器和积分电路组成"
+        }
+      ],
+      "answer": {
+        "reasoning": "指导书8.4图8-2采用同相输入滞回比较器和反相积分器。",
+        "semanticAnswer": "由同向输入的滞回比较器和积分电路组成",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>由同向输入的滞回比较器和积分电路组成</p>",
+            "images": [],
+            "text": "由同向输入的滞回比较器和积分电路组成"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>集成运算放大器是一种高增益的放大器，只要加入适当的反馈网络，利用（ ）原理，满足振荡的条件，就可以构成正弦波、方波、三角波和锯齿波等各种振荡电路</p>",
+        "images": [],
+        "text": "集成运算放大器是一种高增益的放大器，只要加入适当的反馈网络，利用（ ）原理，满足振荡的条件，就可以构成正弦波、方波、三角波和锯齿波等各种振荡电路"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>负反馈</p>",
+          "images": [],
+          "text": "负反馈"
+        },
+        {
+          "html": "<p>电流反馈</p>",
+          "images": [],
+          "text": "电流反馈"
+        },
+        {
+          "html": "<p>电压反馈</p>",
+          "images": [],
+          "text": "电压反馈"
+        },
+        {
+          "html": "<p> 正反馈</p>",
+          "images": [],
+          "text": "正反馈"
+        }
+      ],
+      "answer": {
+        "reasoning": "振荡器借助正反馈满足起振条件。",
+        "semanticAnswer": "正反馈",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> 正反馈</p>",
+            "images": [],
+            "text": "正反馈"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>方波发生器电路里，为使输出电压限制在±UZ,应使用（） 器件。</p>",
+        "images": [],
+        "text": "方波发生器电路里，为使输出电压限制在±UZ,应使用（） 器件。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>整流二极管</p>",
+          "images": [],
+          "text": "整流二极管"
+        },
+        {
+          "html": "<p> 单向稳压管</p>",
+          "images": [],
+          "text": "单向稳压管"
+        },
+        {
+          "html": "<p>发光二极管</p>",
+          "images": [],
+          "text": "发光二极管"
+        },
+        {
+          "html": "<p>双向稳压管</p>",
+          "images": [],
+          "text": "双向稳压管"
+        }
+      ],
+      "answer": {
+        "reasoning": "指导书使用双向稳压管DZ实现双极性限幅。",
+        "semanticAnswer": "双向稳压管",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>双向稳压管</p>",
+            "images": [],
+            "text": "双向稳压管"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>三角波发生器电路的振荡周期为</p>",
+        "images": [],
+        "text": "三角波发生器电路的振荡周期为"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p> T=4R4R1C/R2</p>",
+          "images": [],
+          "text": "T=4R4R1C/R2"
+        },
+        {
+          "html": "<p>T=2Π√LC</p>",
+          "images": [],
+          "text": "T=2Π√LC"
+        },
+        {
+          "html": "<p> T=2RfCln(1+2R2/R1)</p>",
+          "images": [],
+          "text": "T=2RfCln(1+2R2/R1)"
+        },
+        {
+          "html": "<p> T=2ΠLC</p>",
+          "images": [],
+          "text": "T=2ΠLC"
+        }
+      ],
+      "answer": {
+        "reasoning": "阈值幅度为(R1/R2)UZ，积分斜率为UZ/(R4C)，周期为4R4R1C/R2。",
+        "semanticAnswer": "T=4R4R1C/R2",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> T=4R4R1C/R2</p>",
+            "images": [],
+            "text": "T=4R4R1C/R2"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>集成运放的输出端一般都接KΩ级别的电阻，主要起到防止电路电流过大，烧坏电路。</p>",
+        "images": [],
+        "text": "集成运放的输出端一般都接KΩ级别的电阻，主要起到防止电路电流过大，烧坏电路。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "kΩ级负载有助于限制输出电流，避免过载。",
+        "semanticAnswer": "正确",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>负反馈放大电路不可能产生自激振荡。</p>",
+        "images": [],
+        "text": "负反馈放大电路不可能产生自激振荡。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "负反馈电路高频附加相移可使环路满足自激条件。",
+        "semanticAnswer": "错误",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": false,
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>三角波和方波通过改变充放电时间常数改变占空比</p>",
+        "images": [],
+        "text": "三角波和方波通过改变充放电时间常数改变占空比"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "分别调节充放电时间常数可改变上升下降时间比例及占空比；同时等比例改变二者不会改变占空比。",
+        "semanticAnswer": "正确",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>示波器中的measure测量的幅值和理论教材中提到的幅值大小一样</p>",
+        "images": [],
+        "text": "示波器中的measure测量的幅值和理论教材中提到的幅值大小一样"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "示波器Amplitude常表示高低电平之差，而教材幅值通常指相对中心的峰值，不能直接等同。",
+        "semanticAnswer": "错误",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": false,
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>在电路工作中，如果发现波形不对，或者异常声音或者异常发热，需要马上断电，检测电路。</p>",
+        "images": [],
+        "text": "在电路工作中，如果发现波形不对，或者异常声音或者异常发热，需要马上断电，检测电路。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "指导书8.5/8.6要求异常波形、声音或发热时立即断电检查。",
+        "semanticAnswer": "正确",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    }
+  ]
+}

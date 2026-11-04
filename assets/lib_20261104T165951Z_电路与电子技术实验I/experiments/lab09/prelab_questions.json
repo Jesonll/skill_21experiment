@@ -1,0 +1,274 @@
+{
+  "experiment": "实验九 综合实验Ⅰ",
+  "resourceId": 361111,
+  "available": true,
+  "acquisitionStage": "after authorized quiz entry, not during read-only acquisition",
+  "questions": [
+    {
+      "answer": [
+        "C"
+      ],
+      "id": 145832,
+      "optionTexts": [
+        "分压",
+        "阻抗匹配",
+        "限流",
+        "产生热量"
+      ],
+      "options": [
+        "<p>分压</p>",
+        "<p>阻抗匹配</p>",
+        "<p>限流</p>",
+        "<p>产生热量</p>"
+      ],
+      "question": "<p>图中，电阻R1是什么作用？</p><p><img src=\"assets/preclass-001.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+      "score": 1,
+      "text": "图中，电阻R1是什么作用？",
+      "type": 2,
+      "derivedAnswers": [
+        "限流"
+      ],
+      "reasoning": "LED串联电阻限制正向电流，I≈(VCC−VF)/R。"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "id": 169153,
+      "optionTexts": [
+        "63.2% Us",
+        "50% Us",
+        "99% Us",
+        "86.5% Us"
+      ],
+      "options": [
+        "<p>63.2% Us</p>",
+        "<p>50% Us</p>",
+        "<p>99% Us</p>",
+        "<p>86.5% Us</p>"
+      ],
+      "question": "<p>一阶 RC 电路的时间常数 τ = RC。对充电过程而言，τ 是电容电压由零上升到（　　）所需的时间。</p><p><img src=\"assets/preclass-002.png\" alt=\"\" data-href=\"\" style=\"width: 50%;\"/></p>",
+      "score": 1,
+      "text": "一阶 RC 电路的时间常数 τ = RC。对充电过程而言，τ 是电容电压由零上升到（　　）所需的时间。",
+      "type": 2,
+      "derivedAnswers": [
+        "63.2% Us"
+      ],
+      "reasoning": "uC(τ)=Us(1−e^−1)≈0.632Us。"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "id": 145830,
+      "optionTexts": [
+        "0.7*(R1+2*R2)*C",
+        "0.7*R2*C",
+        "0.7*(R1+R2)*C",
+        "(R1+R2)/(R1+2*R2)"
+      ],
+      "options": [
+        "<p>0.7*(R1+2*R2)*C</p>",
+        "<p>0.7*R2*C</p>",
+        "<p>0.7*(R1+R2)*C</p>",
+        "<p> (R1+R2)/(R1+2*R2)</p>"
+      ],
+      "question": "<p>555定时器构成多谐振荡器时，电路输出矩形脉冲的周期是？</p>",
+      "score": 1,
+      "text": "555定时器构成多谐振荡器时，电路输出矩形脉冲的周期是？",
+      "type": 2,
+      "derivedAnswers": [
+        "0.7*(R1+2*R2)*C"
+      ],
+      "reasoning": "TH≈0.693(R1+R2)C，TL≈0.693R2C，T≈0.693(R1+2R2)C。"
+    },
+    {
+      "answer": [
+        "D"
+      ],
+      "id": 145835,
+      "optionTexts": [
+        "不确定",
+        "需根据输入状态分析",
+        "高电平",
+        "低电平"
+      ],
+      "options": [
+        "<p>不确定</p>",
+        "<p>需根据输入状态分析</p>",
+        "<p>高电平</p>",
+        "<p>低电平</p>"
+      ],
+      "question": "<p>555芯片4脚为低电平时，3脚输出电压为什么状态？</p>",
+      "score": 1,
+      "text": "555芯片4脚为低电平时，3脚输出电压为什么状态？",
+      "type": 2,
+      "derivedAnswers": [
+        "低电平"
+      ],
+      "reasoning": "555的RESET低有效，复位强制输出为低。"
+    },
+    {
+      "answer": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "id": 145838,
+      "optionTexts": [
+        "一个基本RS触发器",
+        "三个5千欧电阻",
+        "一个放电晶体管",
+        "两个电压比较器"
+      ],
+      "options": [
+        "<p>一个基本RS触发器</p>",
+        "<p>三个5千欧电阻</p>",
+        "<p>一个放电晶体管</p>",
+        "<p>两个电压比较器</p>"
+      ],
+      "question": "<p>555定时器芯片内部包含哪些元件？</p>",
+      "score": 1,
+      "text": "555定时器芯片内部包含哪些元件？",
+      "type": 6,
+      "derivedAnswers": [
+        "一个基本RS触发器",
+        "三个5千欧电阻",
+        "一个放电晶体管",
+        "两个电压比较器"
+      ],
+      "reasoning": "指导书9.5.2.1的555内部结构逐项列出。"
+    },
+    {
+      "answer": [
+        "D"
+      ],
+      "id": 145829,
+      "optionTexts": [
+        "以上都不是",
+        "R2",
+        "R1",
+        "R1和R2"
+      ],
+      "options": [
+        "<p>以上都不是</p>",
+        "<p>R2</p>",
+        "<p>R1</p>",
+        "<p>R1和R2</p>"
+      ],
+      "question": "<p>555定时器构成多谐振荡器时，电容C的充电电阻是？</p>",
+      "score": 1,
+      "text": "555定时器构成多谐振荡器时，电容C的充电电阻是？",
+      "type": 2,
+      "derivedAnswers": [
+        "R1和R2"
+      ],
+      "reasoning": "充电路径为电源经R1和R2到电容，放电仅经R2和7脚。"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "id": 145833,
+      "optionTexts": [
+        "电流",
+        "电压",
+        "温度",
+        "电阻"
+      ],
+      "options": [
+        "<p>电流</p>",
+        "<p>电压</p>",
+        "<p>温度</p>",
+        "<p>电阻</p>"
+      ],
+      "question": "<p>LED的亮度变化和什么物理量直接相关？</p>",
+      "score": 1,
+      "text": "LED的亮度变化和什么物理量直接相关？",
+      "type": 2,
+      "derivedAnswers": [
+        "电流"
+      ],
+      "reasoning": "LED亮度直接随正向电流变化。"
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "id": 145831,
+      "optionTexts": [
+        "R1和R2",
+        "R2和C",
+        "R1和C",
+        "R1、R2和C"
+      ],
+      "options": [
+        "<p>R1和R2</p>",
+        "<p>R2和C</p>",
+        "<p> R1和C</p>",
+        "<p>R1、R2和C</p>"
+      ],
+      "question": "<p>555定时器构成多谐振荡器时，电路输出矩形脉冲的占空比什么参数决定？</p>",
+      "score": 1,
+      "text": "555定时器构成多谐振荡器时，电路输出矩形脉冲的占空比什么参数决定？",
+      "type": 2,
+      "derivedAnswers": [
+        "R1和R2"
+      ],
+      "reasoning": "D=(R1+R2)/(R1+2R2)，C消去。"
+    },
+    {
+      "answer": [
+        "C"
+      ],
+      "id": 145834,
+      "optionTexts": [
+        "断开",
+        "低阻",
+        "高阻",
+        "导通"
+      ],
+      "options": [
+        "<p>断开</p>",
+        "<p>低阻</p>",
+        "<p>高阻</p>",
+        "<p>导通</p>"
+      ],
+      "question": "<p>光敏电阻对光线十分敏感，其在无光照时，呈什么状态？</p>",
+      "score": 1,
+      "text": "光敏电阻对光线十分敏感，其在无光照时，呈什么状态？",
+      "type": 2,
+      "derivedAnswers": [
+        "高阻"
+      ],
+      "reasoning": "光敏电阻越暗阻值越大；暗态可达约200kΩ。"
+    },
+    {
+      "answer": [
+        "B"
+      ],
+      "id": 169154,
+      "optionTexts": [
+        "为 555 提供外部触发信号",
+        "把“光照变化”与“比较器迟滞”分开观察，便于测出两个方向的翻转点",
+        "代替 LM393 的参考电压$V_{REF}$",
+        "提高比较器的输入阻抗"
+      ],
+      "options": [
+        "<p>为 555 提供外部触发信号</p>",
+        "<p>把“光照变化”与“比较器迟滞”分开观察，便于测出两个方向的翻转点</p>",
+        "<p>代替 LM393 的参考电压<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{REF}\"></span></p>",
+        "<p>提高比较器的输入阻抗</p>"
+      ],
+      "question": "<p>9.5.4 的仿真中用三角波电压源替代光敏电阻分压节点 VS，其主要目的是（　　）。</p><p><img src=\"assets/preclass-003.png\" alt=\"\" data-href=\"\" style=\"width: 30%;\"/> &nbsp; <img src=\"assets/preclass-004.png\" alt=\"\" data-href=\"\" style=\"width: 30%;\"/></p>",
+      "score": 1,
+      "text": "9.5.4 的仿真中用三角波电压源替代光敏电阻分压节点 VS，其主要目的是（　　）。",
+      "type": 2,
+      "derivedAnswers": [
+        "把“光照变化”与“比较器迟滞”分开观察，便于测出两个方向的翻转点"
+      ],
+      "reasoning": "指导书9.5.4.2明确使用缓变三角波扫VS，分别测上升和下降翻转阈值。"
+    }
+  ]
+}

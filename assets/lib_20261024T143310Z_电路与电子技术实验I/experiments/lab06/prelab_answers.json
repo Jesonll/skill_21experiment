@@ -1,0 +1,418 @@
+{
+  "experiment": "实验六 集成运算放大器的应用实验",
+  "questions": [
+    {
+      "question": {
+        "html": "<p> 理想运算放大器的开环放大倍数<span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"A_{uo}\"></span>为？</p>",
+        "images": [],
+        "text": "理想运算放大器的开环放大倍数$A_{uo}$为？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>无穷大</p>",
+          "images": [],
+          "text": "无穷大"
+        },
+        {
+          "html": "<p>1</p>",
+          "images": [],
+          "text": "1"
+        },
+        {
+          "html": "<p>0</p>",
+          "images": [],
+          "text": "0"
+        },
+        {
+          "html": "<p>不定</p>",
+          "images": [],
+          "text": "不定"
+        }
+      ],
+      "answer": {
+        "reasoning": "理想运放的开环增益趋于无穷大。",
+        "semanticAnswer": "无穷大",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>无穷大</p>",
+            "images": [],
+            "text": "无穷大"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>理想运算放大器的输入电阻为？输出电阻为？</p>",
+        "images": [],
+        "text": "理想运算放大器的输入电阻为？输出电阻为？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p> 0，0</p>",
+          "images": [],
+          "text": "0，0"
+        },
+        {
+          "html": "<p>无穷大，无穷大</p>",
+          "images": [],
+          "text": "无穷大，无穷大"
+        },
+        {
+          "html": "<p>0，无穷大</p>",
+          "images": [],
+          "text": "0，无穷大"
+        },
+        {
+          "html": "<p> 无穷大，0</p>",
+          "images": [],
+          "text": "无穷大，0"
+        }
+      ],
+      "answer": {
+        "reasoning": "理想输入电阻无穷大、输出电阻为零。",
+        "semanticAnswer": "无穷大，0",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> 无穷大，0</p>",
+            "images": [],
+            "text": "无穷大，0"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>集成运算放大器能处理什么类型的信号？</p>",
+        "images": [],
+        "text": "集成运算放大器能处理什么类型的信号？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>仅交流信号</p>",
+          "images": [],
+          "text": "仅交流信号"
+        },
+        {
+          "html": "<p>以上都不对</p>",
+          "images": [],
+          "text": "以上都不对"
+        },
+        {
+          "html": "<p>仅直流信号</p>",
+          "images": [],
+          "text": "仅直流信号"
+        },
+        {
+          "html": "<p>交流信号和直流信号</p>",
+          "images": [],
+          "text": "交流信号和直流信号"
+        }
+      ],
+      "answer": {
+        "reasoning": "运放为直接耦合，可处理直流与交流。",
+        "semanticAnswer": "交流信号和直流信号",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>交流信号和直流信号</p>",
+            "images": [],
+            "text": "交流信号和直流信号"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>集成运放工作在线性放大区，由理想工作条件得出两个重要规律是？</p>",
+        "images": [],
+        "text": "集成运放工作在线性放大区，由理想工作条件得出两个重要规律是？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-001.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-002.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-003.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-004.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": "线性负反馈下两输入端等电位且输入电流为零，并非两端电压都为零。",
+        "semanticAnswer": "u+ = u−；i+ = i− = 0（虚短、虚断）",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-004.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>若要将幅度为<span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\" \\pm U_m\"></span>的矩形波转变为三角波，则应选用？</p>",
+        "images": [],
+        "text": "若要将幅度为$ \\pm U_m$的矩形波转变为三角波，则应选用？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p> 反向比例运算电路</p>",
+          "images": [],
+          "text": "反向比例运算电路"
+        },
+        {
+          "html": "<p>积分运算电路</p>",
+          "images": [],
+          "text": "积分运算电路"
+        },
+        {
+          "html": "<p>同相比例运算电路</p>",
+          "images": [],
+          "text": "同相比例运算电路"
+        },
+        {
+          "html": "<p>微分运算电路</p>",
+          "images": [],
+          "text": "微分运算电路"
+        }
+      ],
+      "answer": {
+        "reasoning": "恒定电压积分得到线性斜坡，矩形波积分为三角波。",
+        "semanticAnswer": "积分运算电路",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>积分运算电路</p>",
+            "images": [],
+            "text": "积分运算电路"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>函数信号发生器需要交流量叠加直流输出时，需调节？</p>",
+        "images": [],
+        "text": "函数信号发生器需要交流量叠加直流输出时，需调节？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>周期</p>",
+          "images": [],
+          "text": "周期"
+        },
+        {
+          "html": "<p>同相位</p>",
+          "images": [],
+          "text": "同相位"
+        },
+        {
+          "html": "<p>偏移</p>",
+          "images": [],
+          "text": "偏移"
+        },
+        {
+          "html": "<p>幅值</p>",
+          "images": [],
+          "text": "幅值"
+        }
+      ],
+      "answer": {
+        "reasoning": "信号发生器的直流偏移设置叠加直流分量。",
+        "semanticAnswer": "偏移",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>偏移</p>",
+            "images": [],
+            "text": "偏移"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>分析集成运放的非线性应用电路时，不能使用的特性是？</p>",
+        "images": [],
+        "text": "分析集成运放的非线性应用电路时，不能使用的特性是？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p> 都不对</p>",
+          "images": [],
+          "text": "都不对"
+        },
+        {
+          "html": "<p>虚短</p>",
+          "images": [],
+          "text": "虚短"
+        },
+        {
+          "html": "<p>差模输入电阻无穷大</p>",
+          "images": [],
+          "text": "差模输入电阻无穷大"
+        },
+        {
+          "html": "<p>虚断</p>",
+          "images": [],
+          "text": "虚断"
+        }
+      ],
+      "answer": {
+        "reasoning": "非线性应用不保证两输入端电位相等。",
+        "semanticAnswer": "虚短",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>虚短</p>",
+            "images": [],
+            "text": "虚短"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>单限电压比较器有（ ）个门限电压，滞回电压比较器有（ ）个门限电压。</p>",
+        "images": [],
+        "text": "单限电压比较器有（ ）个门限电压，滞回电压比较器有（ ）个门限电压。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>2，2</p>",
+          "images": [],
+          "text": "2，2"
+        },
+        {
+          "html": "<p>1，2</p>",
+          "images": [],
+          "text": "1，2"
+        },
+        {
+          "html": "<p>2，1</p>",
+          "images": [],
+          "text": "2，1"
+        },
+        {
+          "html": "<p>1，1</p>",
+          "images": [],
+          "text": "1，1"
+        }
+      ],
+      "answer": {
+        "reasoning": "单限比较器一个阈值，滞回比较器两个阈值。",
+        "semanticAnswer": "1，2",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>1，2</p>",
+            "images": [],
+            "text": "1，2"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>当集成运放芯片的电源为正负对称电源供电时，不可把正、负电源极性接反或将输出端短路，否则会烧坏芯片。</p>",
+        "images": [],
+        "text": "当集成运放芯片的电源为正负对称电源供电时，不可把正、负电源极性接反或将输出端短路，否则会烧坏芯片。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "电源极性接反和输出短路可能损坏运放，须避免。",
+        "semanticAnswer": "正确",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    },
+    {
+      "question": {
+        "html": "<p>在由运放组成的电路中，运放工作在非线性状态的电路是？</p>",
+        "images": [],
+        "text": "在由运放组成的电路中，运放工作在非线性状态的电路是？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>差值放大器</p>",
+          "images": [],
+          "text": "差值放大器"
+        },
+        {
+          "html": "<p>电压比较器</p>",
+          "images": [],
+          "text": "电压比较器"
+        },
+        {
+          "html": "<p>有源滤波器</p>",
+          "images": [],
+          "text": "有源滤波器"
+        },
+        {
+          "html": "<p>反相放大器</p>",
+          "images": [],
+          "text": "反相放大器"
+        }
+      ],
+      "answer": {
+        "reasoning": "比较器使用运放的饱和非线性状态。",
+        "semanticAnswer": "电压比较器",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>电压比较器</p>",
+            "images": [],
+            "text": "电压比较器"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      }
+    }
+  ]
+}

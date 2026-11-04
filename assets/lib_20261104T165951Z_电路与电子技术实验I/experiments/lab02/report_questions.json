@@ -1,0 +1,142 @@
+{
+  "experiment": "实验二 元器件参数测量和阻抗的串并联",
+  "resourceId": 330765,
+  "sections": [
+    {
+      "content": "<p><img src=\"assets/retry-1.png\" alt=\"\" data-href=\"\" style=\"width: 607.30px;height: 174.24px;\"/></p>",
+      "questions": [],
+      "text": "",
+      "title": "实验目的",
+      "type": 1
+    },
+    {
+      "content": "<p><img src=\"assets/retry-2.png\" alt=\"\" data-href=\"\" style=\"width: 932.83px;height: 437.75px;\"/></p>",
+      "questions": [],
+      "text": "",
+      "title": "实验仪器与器件",
+      "type": 1
+    },
+    {
+      "content": "<p>1.数据处理过程要写在实验数据记录表上，原始测量数据在课堂上需要老师确认。</p><p>2.由数据得出的曲线在实验后完成，并画在坐标纸（或网格纸）上。</p><p>3.实验结果分析及实验结论要根据实验结果给出。</p><p>4.实验的感想、意见和建议写在实验结论之后。</p><p>5.实验报告中所有需要上传的皆以图片形式，勿以附件上传。</p><p><br></p>",
+      "questions": [],
+      "text": "1.数据处理过程要写在实验数据记录表上，原始测量数据在课堂上需要老师确认。2.由数据得出的曲线在实验后完成，并画在坐标纸（或网格纸）上。3.实验结果分析及实验结论要根据实验结果给出。4.实验的感想、意见和建议写在实验结论之后。5.实验报告中所有需要上传的皆以图片形式，勿以附件上传。",
+      "title": "实验报告要求",
+      "type": 1
+    },
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149086,
+          "options": "",
+          "question": "<p>简述实验原理。</p>",
+          "question_detail": "",
+          "score": "5",
+          "text": "简述实验原理。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149087,
+          "options": "",
+          "question": "<p>完善实验数据记录页的理论值计算部分，之后以图片的形式上传，注意带有老师签字或盖章。</p>",
+          "question_detail": "",
+          "score": "5",
+          "text": "完善实验数据记录页的理论值计算部分，之后以图片的形式上传，注意带有老师签字或盖章。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149088,
+          "options": "",
+          "question": "<p>测量电阻器与电感线圈串联的阻抗<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{总}\"></span>，画出设计电路图。根据测试数据，求出<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{总}\"></span>，利用表2-5数据计算出<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{1}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{2}\"></span>，验证串联<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{总}=Z_{1}+Z_{2}\"></span>。</p>",
+          "question_detail": "",
+          "score": "15",
+          "text": "测量电阻器与电感线圈串联的阻抗$Z_{总}$，画出设计电路图。根据测试数据，求出$Z_{总}$，利用表2-5数据计算出$Z_{1}$、$Z_{2}$，验证串联$Z_{总}=Z_{1}+Z_{2}$。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149089,
+          "options": "",
+          "question": "<p>测量电阻器与电感线圈并联的总导纳<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Y_{总}\"></span>，设计电路图如下。求出<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Y_{总}\"></span>，利用表2-6数据计算出<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Y_{1}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Y_{2}\"></span>，验证并联时 <span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Y_{总}=Y_{1}+Y_{2}\"></span><sub> </sub>。</p>",
+          "question_detail": "",
+          "score": "15",
+          "text": "测量电阻器与电感线圈并联的总导纳$Y_{总}$，设计电路图如下。求出$Y_{总}$，利用表2-6数据计算出$Y_{1}$、$Y_{2}$，验证并联时 $Y_{总}=Y_{1}+Y_{2}$ 。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149090,
+          "options": "",
+          "question": "<p>测量电阻器与电感线圈并联，再与电容器串联后的总阻抗<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{总}\"></span>，设计电路图如下。根据表2-7数据求出<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{总}\"></span>，计算出<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{1}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{2}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{3}\"></span>，验证<img src=\"assets/retry-3.png\" alt=\"\" data-href=\"\" style=\"width: 116.99px;height: 37.99px;\"/>。</p><p><br></p>",
+          "question_detail": "",
+          "score": "15",
+          "text": "测量电阻器与电感线圈并联，再与电容器串联后的总阻抗$Z_{总}$，设计电路图如下。根据表2-7数据求出$Z_{总}$，计算出$Z_{1}$、$Z_{2}$、$Z_{3}$，验证。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149091,
+          "options": "",
+          "question": "<p>伏特-安培法测试元件参数，根据表2-8的数据，先用余弦定理求出电压与电流的相位角，后画出各电压相量图，求出复阻抗<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{1}\"></span>（电阻器）、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{2}\"></span>（电感线圈）及 <span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Z_{总}\"></span>，求出电感线圈的电阻<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"r\"></span>和电感量<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"L\"></span>。</p>",
+          "question_detail": "",
+          "score": "20",
+          "text": "伏特-安培法测试元件参数，根据表2-8的数据，先用余弦定理求出电压与电流的相位角，后画出各电压相量图，求出复阻抗$Z_{1}$（电阻器）、$Z_{2}$（电感线圈）及 $Z_{总}$，求出电感线圈的电阻$r$和电感量$L$。",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验数据分析",
+      "type": 2
+    },
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149092,
+          "options": "",
+          "question": "<p>相位法和功率法测得的电阻值，电感值，电容值是否一致？如果存在少许差异，请进行可能的原因分析。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "相位法和功率法测得的电阻值，电感值，电容值是否一致？如果存在少许差异，请进行可能的原因分析。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149093,
+          "options": "",
+          "question": "<p>比较相位法与电压表、电流表向量图法测出的阻抗与导纳是否一致。如果存在少许差异，请进行可能的原因分析。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "比较相位法与电压表、电流表向量图法测出的阻抗与导纳是否一致。如果存在少许差异，请进行可能的原因分析。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "detailText": "",
+          "id": 149094,
+          "options": "",
+          "question": "<p>简述实验总结、体会与建议。</p>",
+          "question_detail": "",
+          "score": "5",
+          "text": "简述实验总结、体会与建议。",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验思考",
+      "type": 3
+    }
+  ]
+}

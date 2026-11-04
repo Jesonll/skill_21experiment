@@ -1,0 +1,134 @@
+{
+  "experiment": "实验五 单管交流放大电路",
+  "resourceId": 330808,
+  "sections": [
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "id": 149137,
+          "options": "",
+          "question": "<p>请简述单管交流放大电路实验的实验目的。</p>",
+          "question_detail": "",
+          "score": "5",
+          "text": "请简述单管交流放大电路实验的实验目的。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149139,
+          "options": "",
+          "question": "<p>请列写单管交流放大电路实验的实验设备及元器件。</p>",
+          "question_detail": "",
+          "score": "5",
+          "text": "请列写单管交流放大电路实验的实验设备及元器件。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149140,
+          "options": "",
+          "question": "<p>请简述单管交流放大电路实验的实验原理。</p>",
+          "question_detail": "",
+          "score": "5",
+          "text": "请简述单管交流放大电路实验的实验原理。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149138,
+          "options": "",
+          "question": "<p>请上传单管交流放大电路实验的原始数据记录页。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "请上传单管交流放大电路实验的原始数据记录页。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149141,
+          "options": "",
+          "question": "<p>根据表5-3中ui和uo的数据，推导说明Ce变化对输出波形影响的原因。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "根据表5-3中ui和uo的数据，推导说明Ce变化对输出波形影响的原因。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149142,
+          "options": "",
+          "question": "<p>根据表5-4，并推导分析负载变化对交流电压放大倍数的影响原因。</p>",
+          "question_detail": "",
+          "score": "15",
+          "text": "根据表5-4，并推导分析负载变化对交流电压放大倍数的影响原因。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149143,
+          "options": "",
+          "question": "<p>自建坐标系，表明刻度及尺寸，绘制表5-5中的ui和uo波形，并注明失真判断。</p>",
+          "question_detail": "",
+          "score": "20",
+          "text": "自建坐标系，表明刻度及尺寸，绘制表5-5中的ui和uo波形，并注明失真判断。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149144,
+          "options": "",
+          "question": "<p>输入信号合适的情况下，共射基本放大电路出现饱和失真或截止失真的原因是什么？电路中应调整哪个元件？</p><p><img src=\"assets/retry-38.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "输入信号合适的情况下，共射基本放大电路出现饱和失真或截止失真的原因是什么？电路中应调整哪个元件？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149145,
+          "options": "",
+          "question": "<p>由于V<sub>cc</sub>、R<sub>p</sub>、R<sub>B1</sub>、R<sub>B2</sub>和地构成的回路一直处于耗能状态，请查阅资料，在实际的单管放大电路中，如何解决此问题？（可绘图说明）</p><p><img src=\"assets/retry-39.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "由于Vcc、Rp、RB1、RB2和地构成的回路一直处于耗能状态，请查阅资料，在实际的单管放大电路中，如何解决此问题？（可绘图说明）",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149146,
+          "options": "",
+          "question": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px; font-family: 宋体;\">在此次使用的放大电路中，如何提高电压放大倍数？</span></p>",
+          "question_detail": "",
+          "score": "5",
+          "text": "在此次使用的放大电路中，如何提高电压放大倍数？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149147,
+          "options": "",
+          "question": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-family: 宋体;\">总结失真类型的判断方法，说明本实验中的放大电路的输出出现削顶失真时，为截止失真，还是饱和失真？这一结论适用于由</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);\">PNP</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-family: 宋体;\">型管构成的共射级放大电路吗？请说明理由。</span></p>",
+          "question_detail": "",
+          "score": "5",
+          "text": "总结失真类型的判断方法，说明本实验中的放大电路的输出出现削顶失真时，为截止失真，还是饱和失真？这一结论适用于由PNP型管构成的共射级放大电路吗？请说明理由。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149148,
+          "options": "",
+          "question": "<p>本次实验体会与建议。（本题不占分，可填“无”）。</p>",
+          "question_detail": "",
+          "score": "0",
+          "text": "本次实验体会与建议。（本题不占分，可填“无”）。",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验报告",
+      "type": 3
+    }
+  ]
+}

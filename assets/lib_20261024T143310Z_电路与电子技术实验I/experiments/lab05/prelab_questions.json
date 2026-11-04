@@ -1,0 +1,286 @@
+{
+  "experiment": "实验五 单管交流放大电路",
+  "resourceId": 330805,
+  "questions": [
+    {
+      "number": 1,
+      "options": [
+        {
+          "html": "双向",
+          "images": [],
+          "text": "双向"
+        },
+        {
+          "html": "相位",
+          "images": [],
+          "text": "相位"
+        },
+        {
+          "html": "截止",
+          "images": [],
+          "text": "截止"
+        },
+        {
+          "html": "饱和",
+          "images": [],
+          "text": "饱和"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>NPN管基本共射交流电压放大电路中，输出电压出现了非线性失真，通过减小R<sub>p</sub>和R<sub>B1</sub>失真消除，这种失真一定是()失真。</p><p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-001.png"
+        ],
+        "text": "NPN管基本共射交流电压放大电路中，输出电压出现了非线性失真，通过减小Rp和RB1失真消除，这种失真一定是()失真。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 2,
+      "options": [
+        {
+          "html": "直流、直流",
+          "images": [],
+          "text": "直流、直流"
+        },
+        {
+          "html": "交流、交流",
+          "images": [],
+          "text": "交流、交流"
+        },
+        {
+          "html": "直流、交流",
+          "images": [],
+          "text": "直流、交流"
+        },
+        {
+          "html": "交流、直流",
+          "images": [],
+          "text": "交流、直流"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>示波器有交流耦合（AC coupling）和直流耦合（DC coupling）。当分析波形的完整信息时采用______耦合，需要分析波形的交流信息时采用______耦合()。</p>",
+        "images": [],
+        "text": "示波器有交流耦合（AC coupling）和直流耦合（DC coupling）。当分析波形的完整信息时采用______耦合，需要分析波形的交流信息时采用______耦合()。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 3,
+      "options": [
+        {
+          "html": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路",
+          "images": [],
+          "text": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路"
+        },
+        {
+          "html": "将输出电流的变化量转化为输出电压的变化量",
+          "images": [],
+          "text": "将输出电流的变化量转化为输出电压的变化量"
+        },
+        {
+          "html": "保护信号源",
+          "images": [],
+          "text": "保护信号源"
+        },
+        {
+          "html": "防止输出电压被短路",
+          "images": [],
+          "text": "防止输出电压被短路"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>基本共射交流电压放大电路中，集电极电阻R<sub>c</sub>的作用是()。</p>",
+        "images": [],
+        "text": "基本共射交流电压放大电路中，集电极电阻Rc的作用是()。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 4,
+      "options": [],
+      "score": 10,
+      "statement": {
+        "html": "<p>电解电容使用时，正负极可以接反。</p>",
+        "images": [],
+        "text": "电解电容使用时，正负极可以接反。"
+      },
+      "type": "true_false"
+    },
+    {
+      "number": 5,
+      "options": [
+        {
+          "html": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路",
+          "images": [],
+          "text": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路"
+        },
+        {
+          "html": "将输出电流的变化量转化为输出电压的变化量",
+          "images": [],
+          "text": "将输出电流的变化量转化为输出电压的变化量"
+        },
+        {
+          "html": "保护信号源",
+          "images": [],
+          "text": "保护信号源"
+        },
+        {
+          "html": "防止输出电压被短路",
+          "images": [],
+          "text": "防止输出电压被短路"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>基本共射交流电压放大电路中，基极电阻R<sub>b</sub>的作用是()。</p>",
+        "images": [],
+        "text": "基本共射交流电压放大电路中，基极电阻Rb的作用是()。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 6,
+      "options": [
+        {
+          "html": "Measure",
+          "images": [],
+          "text": "Measure"
+        },
+        {
+          "html": "Filter VU",
+          "images": [],
+          "text": "Filter VU"
+        },
+        {
+          "html": "Acquire",
+          "images": [],
+          "text": "Acquire"
+        },
+        {
+          "html": "Cursors",
+          "images": [],
+          "text": "Cursors"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>当观察示波器输入输出信号毛刺较多时？可采取什么方法滤波？()</p>",
+        "images": [],
+        "text": "当观察示波器输入输出信号毛刺较多时？可采取什么方法滤波？()"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 7,
+      "options": [
+        {
+          "html": "相差90°",
+          "images": [],
+          "text": "相差90°"
+        },
+        {
+          "html": "相差270°",
+          "images": [],
+          "text": "相差270°"
+        },
+        {
+          "html": "相反",
+          "images": [],
+          "text": "相反"
+        },
+        {
+          "html": "相同",
+          "images": [],
+          "text": "相同"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>基本共射交流电压放大电路中，输入低频正弦信号时，用示波器观察输出电压U<sub>o</sub>和输入电压U<sub>i</sub>的波形，二者相位()。</p>",
+        "images": [],
+        "text": "基本共射交流电压放大电路中，输入低频正弦信号时，用示波器观察输出电压Uo和输入电压Ui的波形，二者相位()。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 8,
+      "options": [],
+      "score": 10,
+      "statement": {
+        "html": "<p>在此次实验中，示波器和直流稳压电源、信号源要共地。</p>",
+        "images": [],
+        "text": "在此次实验中，示波器和直流稳压电源、信号源要共地。"
+      },
+      "type": "true_false"
+    },
+    {
+      "number": 9,
+      "options": [
+        {
+          "html": "饱和失真、饱和失真",
+          "images": [],
+          "text": "饱和失真、饱和失真"
+        },
+        {
+          "html": "截止失真、饱和失真",
+          "images": [],
+          "text": "截止失真、饱和失真"
+        },
+        {
+          "html": "饱和失真、截止失真",
+          "images": [],
+          "text": "饱和失真、截止失真"
+        },
+        {
+          "html": "截止失真、截止失真",
+          "images": [],
+          "text": "截止失真、截止失真"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>在此次实验中，对于NPN型三极管，底部失真代表______，顶部失真代表______()。</p>",
+        "images": [],
+        "text": "在此次实验中，对于NPN型三极管，底部失真代表______，顶部失真代表______()。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 10,
+      "options": [
+        {
+          "html": "电压档、欧姆档",
+          "images": [],
+          "text": "电压档、欧姆档"
+        },
+        {
+          "html": "电流档、欧姆档",
+          "images": [],
+          "text": "电流档、欧姆档"
+        },
+        {
+          "html": "欧姆档、蜂鸣器档",
+          "images": [],
+          "text": "欧姆档、蜂鸣器档"
+        },
+        {
+          "html": " 二极管档、欧姆档",
+          "images": [],
+          "text": "二极管档、欧姆档"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>实验前，需要通过万用表_____档位检测三极管的好坏？通过万用表_____档位检测欢动变阻器的好坏？() </p>",
+        "images": [],
+        "text": "实验前，需要通过万用表_____档位检测三极管的好坏？通过万用表_____档位检测欢动变阻器的好坏？()"
+      },
+      "type": "single_choice"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "experiment": "实验一 直流电路实验",
+  "resourceId": 330756,
+  "sections": [
+    {
+      "instructions": {
+        "html": "<p><span style=\"font-family: 宋体;\">1. 掌握常用</span>仪器仪表<span style=\"font-family: 宋体;\">在实际工程中</span>的使用方法<span style=\"font-family: 宋体;\">，了解仪器仪表的应用特性；</span></p><p><span style=\"font-family: 宋体;\">2. 理解</span>电压、电流参考方向<span style=\"font-family: 宋体;\">在电路中的作用</span>，<span style=\"font-family: 宋体;\">加深对基尔霍夫电压定律的理解；</span></p><p><span style=\"font-family: 宋体;\">3. 学习叠加定理的验证方法，加深对叠加定理的理解；</span></p><p>4. 通过实验验证并加深对基尔霍夫定律<span style=\"font-family: 宋体;\">和叠加定理</span>的理解<span style=\"font-family: 宋体;\">；</span></p><p><span style=\"font-family: 宋体;\">5. 学习测量线性有源一端口网络的戴维南等效电路参数及端口外特性的方法，加深对戴维南定理的理解。</span></p>",
+        "images": [],
+        "text": "1. 掌握常用仪器仪表在实际工程中的使用方法，了解仪器仪表的应用特性；\n2. 理解电压、电流参考方向在电路中的作用，加深对基尔霍夫电压定律的理解；\n3. 学习叠加定理的验证方法，加深对叠加定理的理解；\n4. 通过实验验证并加深对基尔霍夫定律和叠加定理的理解；\n5. 学习测量线性有源一端口网络的戴维南等效电路参数及端口外特性的方法，加深对戴维南定理的理解。"
+      },
+      "questions": [],
+      "title": "实验目的",
+      "type": 1
+    },
+    {
+      "instructions": {
+        "html": "<p><span style=\"font-family: 宋体;\">1. 复习基尔霍夫定律、叠加定理、戴维南定理和诺顿定理的理论知识，完成实验预习考核中的内容；</span></p><p><span style=\"font-family: 宋体;\">2. 预习实验中所用的实验仪器的使用方法及注意事项；</span></p>",
+        "images": [],
+        "text": "1. 复习基尔霍夫定律、叠加定理、戴维南定理和诺顿定理的理论知识，完成实验预习考核中的内容；\n2. 预习实验中所用的实验仪器的使用方法及注意事项；"
+      },
+      "questions": [],
+      "title": "实验预习要求",
+      "type": 1
+    },
+    {
+      "instructions": {
+        "html": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\"></td><td colspan=\"1\" rowspan=\"1\" width=\"220\">名称</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">数量</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">型号</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">1</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">直流稳压电源</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">1台</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">DP832A</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">2</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">手持万用表</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">1台</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">Fluke17B+</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">3</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">直流电压电流表</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">1块</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">30111047</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">4</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">电阻</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">若干</td><td colspan=\"1\" rowspan=\"1\" width=\"135\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">5</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">可变电阻</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">1只</td><td colspan=\"1\" rowspan=\"1\" width=\"135\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">6</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">测电流插孔</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">3只</td><td colspan=\"1\" rowspan=\"1\" width=\"135\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">7</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">电流插孔导线</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">3条</td><td colspan=\"1\" rowspan=\"1\" width=\"135\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">8</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">短接桥和连接导线</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">若干</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">P8-1和50148</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">9</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">实验用9孔插件方板</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">1块</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">300mm×298mm</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"56\">10</td><td colspan=\"1\" rowspan=\"1\" width=\"220\">直流恒流源</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">1台</td><td colspan=\"1\" rowspan=\"1\" width=\"135\">SL1500</td></tr></tbody></table><p><br></p>",
+        "images": [],
+        "text": "名称数量型号\n1直流稳压电源1台DP832A\n2手持万用表1台Fluke17B+\n3直流电压电流表1块30111047\n4电阻若干\n5可变电阻1只\n6测电流插孔3只\n7电流插孔导线3条\n8短接桥和连接导线若干P8-1和50148\n9实验用9孔插件方板1块300mm×298mm\n10直流恒流源1台SL1500"
+      },
+      "questions": [],
+      "title": "实验仪器与器件",
+      "type": 1
+    },
+    {
+      "instructions": {
+        "html": "<h2><strong>实验原理</strong></h2><h3><strong>基尔霍夫定律</strong></h3><h4><strong>a.基尔霍夫电流定律（KCL）</strong></h4><p style=\"text-indent: 23.4pt;\">在集中参数电路中<span style=\"font-family: 宋体;\">，</span>任一时刻流出<span style=\"font-family: 宋体;\">（或流入）任一节点的支路电流代数和等于零，即：</span></p><p style=\"text-align: right;\"> Σ<em>i</em><sub><em>k</em></sub>=0<span style=\"font-family: 宋体;\">（</span><em>i</em><sub><em>k</em></sub>表示第<em>k</em>条支路电流<span style=\"font-family: 宋体;\">） &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>式（<span style=\"font-family: 宋体;\">2</span>-1）</p><p style=\"text-indent: 21pt;\">此时，若取<strong>流出节点</strong>的电流<strong>为正</strong>，则<strong>流入节点</strong>的电流为<strong>负</strong>。它反映了电流的连续性<span style=\"font-family: 宋体;\">，</span>说明了节点上各支路电流的约束关系，它与电路中元件的性质无关。</p><p style=\"text-indent: 21pt;\">要验证<span style=\"font-family: 宋体;\">基尔霍夫</span>电流定律，可选一电路节点，按图中的参考方向测定出各支路电流值，并约定流入或流出该节点的电流为正，将测得的各电流代入式（<span style=\"font-family: 宋体;\">2</span>-1），加以验证。</p><h4><strong>b.基尔霍夫电压定律（KVL）</strong></h4><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">在</span>集中参数电路中<span style=\"font-family: 宋体;\">，</span>任一时刻<span style=\"font-family: 宋体;\">，</span>沿任一回路各支路电压的代数和等于零，即：</p><p style=\"text-indent: 21pt; text-align: right;\">Σ<em>U</em><sub><em>k</em></sub>=0 &nbsp;<span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; （</span><em>U</em><sub><em>k</em></sub>表示第<em>k</em>条支路电压<span style=\"font-family: 宋体;\">） &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>式（<span style=\"font-family: 宋体;\">2</span>-2）</p><p style=\"text-indent: 21pt;\">它说明了电路中各段电压的约束关系，它与电路中元件的性质无关。式（<span style=\"font-family: 宋体;\">2</span>-2）中，通常规定支路或元件电压的参考方向与回路绕行方向一致者取正号，反之取负号。</p><p style=\"text-indent: 21pt;\">关于电压、电流的实际方向与参考方向的对应关系，参考方向是为了分析、计算电路而人为设定的。实验中测量的电压、电流的实际方向，由电压表、电流表的“正”端所标明。在测量电压、电流时，若电压表、电流表的<span style=\"font-family: 宋体;\">“</span>正<span style=\"font-family: 宋体;\">”</span>端与参考方向的<span style=\"font-family: 宋体;\">“</span>正<span style=\"font-family: 宋体;\">”</span>方向一致，则该测量值为正值，否则为负值。</p><p style=\"text-align: center;\"><img src=\"assets/image-001.png\" alt=\"\" style=\"\"></p><p style=\"text-align: center;\">图2- 1 电压，电流的实际方向和参考方向</p><p style=\"text-indent: 21pt;\">关于电位与电位差，在电路中，<strong>电位的参考点</strong>选择不同，各节点的电位也相应改变，但任意两节点间的电位差不变，即任意两点间电压与参考点电位的选择无关。</p><h3><strong>2.4.2叠加定理</strong></h3><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">叠加定理：在线性唯一解的电路中，由几个独立电源共同作用产生的响应等于各个独立电源单独作用时产生相应响应的代数叠加。</span></p><p style=\"text-align: center;\"><span>[源网页图片不可用：作者电脑本地临时文件引用]</span><img src=\"assets/image-003.png\" alt=\"\" style=\"\"></p><p style=\"text-align: center;\">(a)电压源电流源共同作用电路 &nbsp; &nbsp; (b)电压源单独作用电路 &nbsp; &nbsp;(c)电流源单独作用电路</p><p style=\"text-align: center;\"><span style=\"font-family: 宋体;\">图2- </span>2 叠加定理原理图</p><p style=\"text-indent: 21pt;\">图2- 2所示实验电路中有一个电压源<em>U</em><sub>s</sub>及一个电流源<em>I</em><sub>s</sub>。设<em>U</em><sub>s</sub>和<em>I</em><sub>s</sub>共同作用时<span style=\"font-family: 宋体;\">，</span>在电阻<em>R</em><sub>1</sub>上产生的电压、电流分别为<em>U</em><sub>1</sub>、<em>I</em><sub>1</sub>，在电阻<em>R</em><sub>2</sub>上产生的电压、电流分别为<em>U</em><sub>2</sub>、<em>I</em><sub>2</sub>，<span style=\"font-family: 宋体;\">如</span>图2- 2 (a)所示。为了验证叠加原理令电压源和电流源分别作用。当<span style=\"font-family: 宋体;\">电压源单独作用电路，</span>电流源<em>I</em><sub>s</sub>不作用即<em>I</em><sub>s</sub>=0时，<strong>在</strong><em><strong>I</strong></em><sub><strong>s</strong></sub><strong>处用开路代替（注意：需要把电流源的线从九孔方板中拔掉，不仅仅是关闭电流源）</strong>；当<span style=\"font-family: 宋体;\">电流源单独作用电路，</span>电压源<em>U</em><sub>s</sub>不作用即<em>U</em><sub>s</sub>=0时，在<em>U</em><sub>s</sub>处用短路线代替。</p><p><span style=\"font-family: 宋体;\">（1） </span>设电压源<em>U</em><sub>s</sub>单独作用时（电流源支路开路）引起的电压、电流分别为U<sub>1</sub><sup>'</sup>、U<sub>2</sub><sup>'</sup>、I<sub>1</sub><sup>'</sup>、I<sub>2</sub><sup>'</sup>，如图2- 2 (b)所示。</p><p><span style=\"font-family: 宋体;\">（2） </span>设电流源单独作用时（电压源支路短路）引起的电压、电流分别为U<sub>1</sub><sup>''</sup>、U<sub>2</sub><sup>''</sup>、I<sub>1</sub><sup>''</sup>、I<sub>2</sub><sup>''</sup>，如图2- 2 &nbsp;(<span style=\"font-family: 宋体;\">c)</span>所示。</p><p style=\"text-indent: 21pt;\">这些电压、电流的参考方向均已在图中标明。验证叠加定理，即验证式（<span style=\"font-family: 宋体;\">2-3</span>）成立。</p><p style=\"text-align: right;\"><img src=\"assets/image-004.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 式（2-3）</span></p><h3><strong>2.4.3戴维南定理和诺顿定理</strong></h3><p style=\"text-indent: 21.1pt;\"><strong>戴维南定理</strong><span style=\"font-family: 宋体;\">：线性含源一端口网络的对外作用可以用一个电压源串联电阻的电路来等效代替。其中电压源的源电压等于此一端口网络的开路电压，而电阻等于此一端口网络内部各独立电源置零（电压源处短路，电流源处开路）后所得无独立源一端口网络的等效电阻。</span>图2- 3所示<span style=\"font-family: 宋体;\">。</span></p><p style=\"text-align: center;\"><img src=\"assets/image-005.png\" alt=\"\" style=\"\"></p><p style=\"text-align: center;\">图2- 3 戴维南定理图示</p><p style=\"text-indent: 21.1pt;\"><strong>诺顿定理：</strong><span style=\"font-family: 宋体;\">线性含源一端口网络的对外作用可以用一个电流源并联电导的电阻来等效代替，其中电流源的源电流等于此一端口网络的短路电流，而电导等于此一端口网络内部各独立源置零（</span><strong>电压源处短路，电流源处开路</strong><span style=\"font-family: 宋体;\">）后所得无独立源一端口网络的等效电导。</span>如图2- 4所示<span style=\"font-family: 宋体;\">。</span></p><p style=\"text-align: center;\"><img src=\"assets/image-006.png\" alt=\"\" style=\"\"></p><p style=\"text-align: center;\"><span style=\"font-family: 宋体;\">图2- </span>4<span style=\"font-family: 宋体;\"> 诺顿</span>定理图示</p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">一般情况下，含源一端口网络既可以用戴维南电路等效代替，也可以用诺顿电路等效代替。特殊情况下，若R</span><span style=\"font-family: 宋体;\"><sub>i</sub></span><span style=\"font-family: 宋体;\">=0，</span>则只能等效为戴维南电路<span style=\"font-family: 宋体;\">，</span>并成为电压源<span style=\"font-family: 宋体;\">，</span>若<span style=\"font-family: 宋体;\">G</span><span style=\"font-family: 宋体;\"><sub>i</sub></span><span style=\"font-family: 宋体;\">=0，</span>则只能等效为诺顿电路<span style=\"font-family: 宋体;\">，</span>成为电流源<span style=\"font-family: 宋体;\">。</span>求等效电路相当于确定端口电压与电流的直线方程<span style=\"font-family: 宋体;\">。</span>根据直线方程的形式<span style=\"font-family: 宋体;\">，</span>设计出确定等效电路的实验方法<span style=\"font-family: 宋体;\">。</span>实际应用时<span style=\"font-family: 宋体;\">，</span>加以选择<span style=\"font-family: 宋体;\">。</span>下面介绍几种测量等效电路参数的实验方法<span style=\"font-family: 宋体;\">。</span></p><p>（1） <span style=\"font-family: 宋体;\">测量开路电压和短路电流</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">如果一端口网络允许开路和短路，可分别测量开路电压U</span><span style=\"font-family: 宋体;\"><sub>oc</sub></span><span style=\"font-family: 宋体;\">和短路电流I</span><span style=\"font-family: 宋体;\"><sub>SC</sub></span><span style=\"font-family: 宋体;\">，</span>如图2- 5<span style=\"font-family: 宋体;\">所示，得到直线在电压坐标轴和电流坐标轴上的截距，分别对应等效电路中的电压源的电压和电流源的电流，而等效电阻和等效电导分别为：</span></p><p style=\"text-indent: 21pt; text-align: center;\"><span>[源网页图片不可用：作者电脑本地临时文件引用]</span> <img src=\"assets/image-008.png\" alt=\"\" style=\"width: 207.00px;height: 62.95px;\"></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">（2）测量开路电压和等效电阻</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">当一端口网络不允许短路时，可按</span>图2- 5<span style=\"font-family: 宋体;\"> (a)测量端口的开路电压U</span><span style=\"font-family: 宋体;\"><sub>oc</sub></span><span style=\"font-family: 宋体;\">；然后将一端口网络内独立电源置零（电压源处短路，电流源处开路），用万用表测出一端口网络的等效电阻R</span><span style=\"font-family: 宋体;\"><sub>i</sub></span><span style=\"font-family: 宋体;\">（参见</span>图2- 6<span style=\"font-family: 宋体;\">(a)，或在端口处外加电源，通过测量端口电压</span><em>U</em><span style=\"font-family: 宋体;\">与电流</span><em>I</em><span style=\"font-family: 宋体;\">，计算</span><em>U</em><span style=\"font-family: 宋体;\">/</span><em>I</em><span style=\"font-family: 宋体;\">=R</span><span style=\"font-family: 宋体;\"><sub>i</sub></span><span style=\"font-family: 宋体;\">，参见</span>图2- 6<span style=\"font-family: 宋体;\"> (b)。</span></p><p style=\"text-align: center;\"><img src=\"assets/image-009.png\" alt=\"\" style=\"\"><img src=\"assets/image-010.png\" alt=\"\" style=\"\"></p><p style=\"text-align: center;\">a<span style=\"font-family: 宋体;\">）测开路电压 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b）测短路电流</span></p><p style=\"text-align: center;\">图2- 5方法一的原理示意图</p><p style=\"text-align: center;\"><img src=\"assets/image-011.png\" alt=\"\" style=\"\"><img src=\"assets/image-012.png\" alt=\"\" style=\"\"></p><p style=\"text-align: center;\">a<span style=\"font-family: 宋体;\">）用欧姆表测电阻 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b）用外加电源测电阻</span></p><p style=\"text-align: center;\">图2- 6 方法二测量等效电阻的原理示意图</p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">（3）测量短路电流和等效电阻</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">当一端口网络不允许开路时，将方法二中测量端口的开路电压更改为测量端口的短路电流I</span><span style=\"font-family: 宋体;\"><sub>SC</sub></span><span style=\"font-family: 宋体;\">即可。</span></p>",
+        "images": [
+          {
+            "path": "assets/image-001.png",
+            "status": "downloaded"
+          },
+          {
+            "reason": "源网页误引用作者电脑本地临时文件，无法下载",
+            "status": "unavailable"
+          },
+          {
+            "path": "assets/image-003.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-004.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-005.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-006.png",
+            "status": "downloaded"
+          },
+          {
+            "reason": "源网页误引用作者电脑本地临时文件，无法下载",
+            "status": "unavailable"
+          },
+          {
+            "path": "assets/image-008.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-009.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-010.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-011.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-012.png",
+            "status": "downloaded"
+          }
+        ],
+        "text": "实验原理\n基尔霍夫定律\na.基尔霍夫电流定律（KCL）\n在集中参数电路中，任一时刻流出（或流入）任一节点的支路电流代数和等于零，即：\n Σik=0（ik表示第k条支路电流）                    式（2-1）\n此时，若取流出节点的电流为正，则流入节点的电流为负。它反映了电流的连续性，说明了节点上各支路电流的约束关系，它与电路中元件的性质无关。\n要验证基尔霍夫电流定律，可选一电路节点，按图中的参考方向测定出各支路电流值，并约定流入或流出该节点的电流为正，将测得的各电流代入式（2-1），加以验证。\nb.基尔霍夫电压定律（KVL）\n在集中参数电路中，任一时刻，沿任一回路各支路电压的代数和等于零，即：\nΣUk=0           （Uk表示第k条支路电压）            式（2-2）\n它说明了电路中各段电压的约束关系，它与电路中元件的性质无关。式（2-2）中，通常规定支路或元件电压的参考方向与回路绕行方向一致者取正号，反之取负号。\n关于电压、电流的实际方向与参考方向的对应关系，参考方向是为了分析、计算电路而人为设定的。实验中测量的电压、电流的实际方向，由电压表、电流表的“正”端所标明。在测量电压、电流时，若电压表、电流表的“正”端与参考方向的“正”方向一致，则该测量值为正值，否则为负值。\n\n图2- 1 电压，电流的实际方向和参考方向\n关于电位与电位差，在电路中，电位的参考点选择不同，各节点的电位也相应改变，但任意两节点间的电位差不变，即任意两点间电压与参考点电位的选择无关。\n2.4.2叠加定理\n叠加定理：在线性唯一解的电路中，由几个独立电源共同作用产生的响应等于各个独立电源单独作用时产生相应响应的代数叠加。\n\n(a)电压源电流源共同作用电路     (b)电压源单独作用电路    (c)电流源单独作用电路\n图2- 2 叠加定理原理图\n图2- 2所示实验电路中有一个电压源Us及一个电流源Is。设Us和Is共同作用时，在电阻R1上产生的电压、电流分别为U1、I1，在电阻R2上产生的电压、电流分别为U2、I2，如图2- 2 (a)所示。为了验证叠加原理令电压源和电流源分别作用。当电压源单独作用电路，电流源Is不作用即Is=0时，在Is处用开路代替（注意：需要把电流源的线从九孔方板中拔掉，不仅仅是关闭电流源）；当电流源单独作用电路，电压源Us不作用即Us=0时，在Us处用短路线代替。\n（1） 设电压源Us单独作用时（电流源支路开路）引起的电压、电流分别为U1'、U2'、I1'、I2'，如图2- 2 (b)所示。\n（2） 设电流源单独作用时（电压源支路短路）引起的电压、电流分别为U1''、U2''、I1''、I2''，如图2- 2  (c)所示。\n这些电压、电流的参考方向均已在图中标明。验证叠加定理，即验证式（2-3）成立。\n                                 式（2-3）\n2.4.3戴维南定理和诺顿定理\n戴维南定理：线性含源一端口网络的对外作用可以用一个电压源串联电阻的电路来等效代替。其中电压源的源电压等于此一端口网络的开路电压，而电阻等于此一端口网络内部各独立电源置零（电压源处短路，电流源处开路）后所得无独立源一端口网络的等效电阻。图2- 3所示。\n\n图2- 3 戴维南定理图示\n诺顿定理：线性含源一端口网络的对外作用可以用一个电流源并联电导的电阻来等效代替，其中电流源的源电流等于此一端口网络的短路电流，而电导等于此一端口网络内部各独立源置零（电压源处短路，电流源处开路）后所得无独立源一端口网络的等效电导。如图2- 4所示。\n\n图2- 4 诺顿定理图示\n一般情况下，含源一端口网络既可以用戴维南电路等效代替，也可以用诺顿电路等效代替。特殊情况下，若Ri=0，则只能等效为戴维南电路，并成为电压源，若Gi=0，则只能等效为诺顿电路，成为电流源。求等效电路相当于确定端口电压与电流的直线方程。根据直线方程的形式，设计出确定等效电路的实验方法。实际应用时，加以选择。下面介绍几种测量等效电路参数的实验方法。\n（1） 测量开路电压和短路电流\n如果一端口网络允许开路和短路，可分别测量开路电压Uoc和短路电流ISC，如图2- 5所示，得到直线在电压坐标轴和电流坐标轴上的截距，分别对应等效电路中的电压源的电压和电流源的电流，而等效电阻和等效电导分别为：\n \n（2）测量开路电压和等效电阻\n当一端口网络不允许短路时，可按图2- 5 (a)测量端口的开路电压Uoc；然后将一端口网络内独立电源置零（电压源处短路，电流源处开路），用万用表测出一端口网络的等效电阻Ri（参见图2- 6(a)，或在端口处外加电源，通过测量端口电压U与电流I，计算U/I=Ri，参见图2- 6 (b)。\n\na）测开路电压                b）测短路电流\n图2- 5方法一的原理示意图\n\na）用欧姆表测电阻                b）用外加电源测电阻\n图2- 6 方法二测量等效电阻的原理示意图\n（3）测量短路电流和等效电阻\n当一端口网络不允许开路时，将方法二中测量端口的开路电压更改为测量端口的短路电流ISC即可。"
+      },
+      "questions": [],
+      "title": "实验原理",
+      "type": 1
+    },
+    {
+      "instructions": {
+        "html": "",
+        "images": [],
+        "text": ""
+      },
+      "questions": [
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149075,
+          "number": 1,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>请附上实验课实操的实验数据记录（截图或拍照，以图片形式上传即可）</p>",
+            "images": [],
+            "text": "请附上实验课实操的实验数据记录（截图或拍照，以图片形式上传即可）"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149076,
+          "number": 2,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>根据实验内容和实验数据，简述KVL的验证过程（不能抄袭指导书），分析实验结果是否满足KVL</p>",
+            "images": [],
+            "text": "根据实验内容和实验数据，简述KVL的验证过程（不能抄袭指导书），分析实验结果是否满足KVL"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149077,
+          "number": 3,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>根据实验内容和实验数据，简述叠加的验证过程（不能抄袭指导书），分析实验结果是否满足叠加定理</p>",
+            "images": [],
+            "text": "根据实验内容和实验数据，简述叠加的验证过程（不能抄袭指导书），分析实验结果是否满足叠加定理"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149078,
+          "number": 4,
+          "options": "",
+          "score": "20",
+          "statement": {
+            "html": "<p>根据实验内容和实验数据，简述线性含源一端口电阻网络等效电路参数测试的验证过程（不能抄袭指导书），分析实验结果</p>",
+            "images": [],
+            "text": "根据实验内容和实验数据，简述线性含源一端口电阻网络等效电路参数测试的验证过程（不能抄袭指导书），分析实验结果"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149079,
+          "number": 5,
+          "options": "",
+          "score": "25",
+          "statement": {
+            "html": "<p>上传外特性曲线，对比三组曲线是否存在差别及原因。</p>",
+            "images": [],
+            "text": "上传外特性曲线，对比三组曲线是否存在差别及原因。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149080,
+          "number": 6,
+          "options": "",
+          "score": "15",
+          "statement": {
+            "html": "<p>在叠加原理验证实验中，通过对实验数据的计算，判别电阻上的功率是否也符合叠加原理？</p>",
+            "images": [],
+            "text": "在叠加原理验证实验中，通过对实验数据的计算，判别电阻上的功率是否也符合叠加原理？"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149081,
+          "number": 7,
+          "options": "",
+          "score": "25",
+          "statement": {
+            "html": "<p>简述电压源为什么不能短路，电流源为什么不能开路？本次实验的体会与建议。</p>",
+            "images": [],
+            "text": "简述电压源为什么不能短路，电流源为什么不能开路？本次实验的体会与建议。"
+          },
+          "type": 8
+        }
+      ],
+      "title": "实验报告",
+      "type": 2
+    }
+  ]
+}

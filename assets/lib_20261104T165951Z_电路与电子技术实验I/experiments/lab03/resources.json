@@ -1,0 +1,65 @@
+{
+  "experiment": "实验三 互感电路实验",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 330773,
+          "title": "实验三 预习测验",
+          "category": 4,
+          "process": 100,
+          "passed": 1,
+          "score": 90
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 330771,
+          "title": "实验三 实验报告",
+          "category": 11,
+          "process": 100,
+          "score": 5
+        },
+        {
+          "id": 334921,
+          "title": "实验三 互感电路实验数据记录页（提前打印）",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 334920,
+          "title": "实验三 互感电路实验指导书",
+          "category": 13,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 363710,
+          "title": "实验三PPT  互感电路实验.pptx",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330772,
+          "title": "互感电路操作视频",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330774,
+          "title": "数字示波器DSOX2014A使用方法",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

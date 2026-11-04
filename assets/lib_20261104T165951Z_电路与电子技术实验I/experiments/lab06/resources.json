@@ -1,0 +1,79 @@
+{
+  "experiment": "实验六 集成运算放大器的应用实验",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 330829,
+          "title": "预习考核",
+          "category": 4,
+          "process": 100,
+          "passed": 1,
+          "score": 100
+        },
+        {
+          "id": 333300,
+          "title": "实验6 电路与电子技术实验指导书",
+          "category": 13,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 333299,
+          "title": "实验六 集成运放的应用实验数据记录",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330831,
+          "title": "集成运算放大器的应用(线性)",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330832,
+          "title": "函数信号发生器DG4062",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330833,
+          "title": "吉时利2110型台式万用表",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330834,
+          "title": "数字示波器MSO2012B",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330835,
+          "title": "三路可编程线性直流稳压电源DP832A.mp4 - 副本",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 330830,
+          "title": "集成运算放大器的应用实验",
+          "category": 11,
+          "process": 100,
+          "score": 100
+        }
+      ]
+    }
+  ]
+}

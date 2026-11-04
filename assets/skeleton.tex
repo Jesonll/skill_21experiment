@@ -1,0 +1,52 @@
+% Minimal two-page skeleton: one question per page.
+% Build: tectonic -X compile skeleton.tex
+\documentclass[11pt,a4paper]{ctexart}
+\input{preamble}
+
+\begin{document}
+
+%====================== Q1 ======================
+\question{1}{静态工作点}
+\begin{qbox}
+已知 $V_{CC}=12\,\mathrm{V}$，$R_C=2.4\,\mathrm{k\Omega}$，$R_E=1\,\mathrm{k\Omega}$，
+$V_C=7.77\,\mathrm{V}$，$V_E=1.76\,\mathrm{V}$，求 $I_C$、$U_{CE}$。
+\end{qbox}
+
+由测量值可得
+\begin{equation}
+I_C=\frac{V_{CC}-V_C}{R_C}
+=\frac{12-7.77}{2.4\times10^{3}}=1.76\,\mathrm{mA},
+\end{equation}
+\begin{equation}
+U_{CE}=V_C-V_E=7.77-1.76=6.01\,\mathrm{V}.
+\end{equation}
+
+与记录值 $6.00\,\mathrm{V}$ 相差 $0.01\,\mathrm{V}$，属于读数误差。
+
+%====================== Q2 ======================
+\newpage
+\question{2}{分压式偏置电路}
+\begin{qbox}
+画出分压式偏置共射放大电路，并说明 $R_E$ 的作用。
+\end{qbox}
+
+\begin{figure}[H]
+\centering
+\begin{circuitikz}[scale=0.78,transform shape]
+  \node[npn] (Q) at (6,4) {};
+  \draw (Q.C) -- (6,5.2) to[R, l=$R_C$] (6,6.6) -- (6,7.1) node[vcc]{$+V_{CC}$};
+  \draw (Q.E) -- (6,2.8) to[R, l=$R_E$] (6,1.4) -- (6,1.0) node[ground]{};
+  \draw (6,2.8) -- (7.5,2.8) to[C, l=$C_E$] (7.5,1.4) -- (6,1.4);
+  \draw (Q.B) -- (4.6,4);
+  \draw (4.6,4) to[R, l_=$R_{B1}$] (4.6,5.2) to[vR, l=$R_P$] (4.6,6.6) -- (6,6.6);
+  \draw (4.6,4) -- (4.6,2.7) to[R, l=$R_{B2}$] (4.6,1.4) -- (4.6,1.0) node[ground]{};
+  \draw (2.6,4) to[C, l=$C_1$] (4.6,4) (2.2,4) node[left]{$u_i$};
+  \draw (6,5.2) -- (7.8,5.2) to[C, l=$C_2$] (9.0,5.2) node[right]{$u_o$};
+\end{circuitikz}
+\caption{分压式偏置共射放大电路}
+\end{figure}
+
+$R_E$ 引入直流负反馈：温度升高使 $I_C$ 增大时，$V_E$ 升高、$U_{BE}$ 减小，
+从而抑制 $I_C$ 的变化，稳定静态工作点。
+
+\end{document}

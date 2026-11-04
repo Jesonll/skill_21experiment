@@ -1,0 +1,3596 @@
+{
+  "courseName": "电路与电子技术实验I",
+  "generatedAt": "2026-10-24T14:33:10.287Z",
+  "randomization": {
+    "questionContent": "用户说明同系列题干不变；仍须核对当前课程版本",
+    "questionOrder": "每次开始答题顺序会变",
+    "optionOrder": "每次开始答题选项顺序会变",
+    "matching": "题干文字+公式+配图语义 -> 答案内容 -> 本次选项位置"
+  },
+  "entries": [
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>若使用该直流稳压源输出10V的电压，可以使用该设备的哪个通道输出。</p><p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-001.png"
+        ],
+        "text": "若使用该直流稳压源输出10V的电压，可以使用该设备的哪个通道输出。"
+      },
+      "type": "multiple_choice",
+      "options": [
+        {
+          "html": "<p>2</p>",
+          "images": [],
+          "text": "2"
+        },
+        {
+          "html": "<p>1</p>",
+          "images": [],
+          "text": "1"
+        },
+        {
+          "html": "<p>4</p>",
+          "images": [],
+          "text": "4"
+        },
+        {
+          "html": "<p>3</p>",
+          "images": [],
+          "text": "3"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>1</p>",
+            "images": [],
+            "text": "1"
+          },
+          {
+            "html": "<p>2</p>",
+            "images": [],
+            "text": "2"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>测电流导线的一头插入测电流插孔中，另一头的红色端子需要接在电流表的正极性端，黑色端子接在电流表的负极性端，这样便将电流表串</p><p>联到测电流插孔所在的支路。故，建议在摆放时应使得测电流插孔从“+”到“-”的方向与电路参考电流方向（），否则所测电流方向为（）。</p><p><img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-002.png"
+        ],
+        "text": "测电流导线的一头插入测电流插孔中，另一头的红色端子需要接在电流表的正极性端，黑色端子接在电流表的负极性端，这样便将电流表串联到测电流插孔所在的支路。故，建议在摆放时应使得测电流插孔从“+”到“-”的方向与电路参考电流方向（），否则所测电流方向为（）。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>一致，负</p>",
+          "images": [],
+          "text": "一致，负"
+        },
+        {
+          "html": "<p>一致，相等</p>",
+          "images": [],
+          "text": "一致，相等"
+        },
+        {
+          "html": "<p> 相反，相等</p>",
+          "images": [],
+          "text": "相反，相等"
+        },
+        {
+          "html": "<p>相反，负</p>",
+          "images": [],
+          "text": "相反，负"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>一致，负</p>",
+            "images": [],
+            "text": "一致，负"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>实验中，若测试电流，需要将电流表（）在电路中;若测试电压，需要将电压表（）在电路中</p>",
+        "images": [],
+        "text": "实验中，若测试电流，需要将电流表（）在电路中;若测试电压，需要将电压表（）在电路中"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>并联、并联</p>",
+          "images": [],
+          "text": "并联、并联"
+        },
+        {
+          "html": "<p>并联、串联</p>",
+          "images": [],
+          "text": "并联、串联"
+        },
+        {
+          "html": "<p> 串联、并联</p>",
+          "images": [],
+          "text": "串联、并联"
+        },
+        {
+          "html": "<p>串联、串联</p>",
+          "images": [],
+          "text": "串联、串联"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> 串联、并联</p>",
+            "images": [],
+            "text": "串联、并联"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>可调电位器在接入实验二的电路前，一定要先用万用表测试其阻值，保证以阻值调到合适值或调到最（）值接入电路，防止因为阻值过（），电流过（），烧坏电位器</p>",
+        "images": [],
+        "text": "可调电位器在接入实验二的电路前，一定要先用万用表测试其阻值，保证以阻值调到合适值或调到最（）值接入电路，防止因为阻值过（），电流过（），烧坏电位器"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>大，大，大</p>",
+          "images": [],
+          "text": "大，大，大"
+        },
+        {
+          "html": "<p>大，小，大</p>",
+          "images": [],
+          "text": "大，小，大"
+        },
+        {
+          "html": "<p>小，大，大</p>",
+          "images": [],
+          "text": "小，大，大"
+        },
+        {
+          "html": "<p>小，小，大</p>",
+          "images": [],
+          "text": "小，小，大"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>大，小，大</p>",
+            "images": [],
+            "text": "大，小，大"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>若使用万用表的电压档测量5V的直流电压，应将旋钮调到图中哪个档位</p><p><img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-003.png"
+        ],
+        "text": "若使用万用表的电压档测量5V的直流电压，应将旋钮调到图中哪个档位"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>皆可</p>",
+          "images": [],
+          "text": "皆可"
+        },
+        {
+          "html": "<p>A</p>",
+          "images": [],
+          "text": "A"
+        },
+        {
+          "html": "<p>C</p>",
+          "images": [],
+          "text": "C"
+        },
+        {
+          "html": "<p>B</p>",
+          "images": [],
+          "text": "B"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>B</p>",
+            "images": [],
+            "text": "B"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>使用万用表测量电压Uab，红色表笔与（）端连接，黑色表笔（）端连接</p>",
+        "images": [],
+        "text": "使用万用表测量电压Uab，红色表笔与（）端连接，黑色表笔（）端连接"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>b，a</p>",
+          "images": [],
+          "text": "b，a"
+        },
+        {
+          "html": "<p>b，b</p>",
+          "images": [],
+          "text": "b，b"
+        },
+        {
+          "html": "<p>a，a</p>",
+          "images": [],
+          "text": "a，a"
+        },
+        {
+          "html": "<p>a，b</p>",
+          "images": [],
+          "text": "a，b"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>a，b</p>",
+            "images": [],
+            "text": "a，b"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>实验时，要认真检查电路，防止电压源处于（）状态，电流源处于（）</p>",
+        "images": [],
+        "text": "实验时，要认真检查电路，防止电压源处于（）状态，电流源处于（）"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>开路、短路</p>",
+          "images": [],
+          "text": "开路、短路"
+        },
+        {
+          "html": "<p>开路、开路</p>",
+          "images": [],
+          "text": "开路、开路"
+        },
+        {
+          "html": "<p>短路，短路</p>",
+          "images": [],
+          "text": "短路，短路"
+        },
+        {
+          "html": "<p>短路、开路</p>",
+          "images": [],
+          "text": "短路、开路"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>短路、开路</p>",
+            "images": [],
+            "text": "短路、开路"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>电流源使用时，旋转按钮表示（）按下按钮表示（）</p><p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-004.png"
+        ],
+        "text": "电流源使用时，旋转按钮表示（）按下按钮表示（）"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>不确定</p>",
+          "images": [],
+          "text": "不确定"
+        },
+        {
+          "html": "<p>电压调节、输出</p>",
+          "images": [],
+          "text": "电压调节、输出"
+        },
+        {
+          "html": "<p>输出、电流调节</p>",
+          "images": [],
+          "text": "输出、电流调节"
+        },
+        {
+          "html": "<p>电流调节，输出</p>",
+          "images": [],
+          "text": "电流调节，输出"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>电流调节，输出</p>",
+            "images": [],
+            "text": "电流调节，输出"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>实验时，电压源单独作用时，需要电流源处开路，如何做使电流源处开路呢</p>",
+        "images": [],
+        "text": "实验时，电压源单独作用时，需要电流源处开路，如何做使电流源处开路呢"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>仅仅拔掉电流源所在电路中的导线即可</p>",
+          "images": [],
+          "text": "仅仅拔掉电流源所在电路中的导线即可"
+        },
+        {
+          "html": "<p>关闭电流源，将电流源所在的支路用导线连接</p>",
+          "images": [],
+          "text": "关闭电流源，将电流源所在的支路用导线连接"
+        },
+        {
+          "html": "<p>仅仅关闭电流源即可</p>",
+          "images": [],
+          "text": "仅仅关闭电流源即可"
+        },
+        {
+          "html": "<p> 关闭电流源，拔掉电流源所在电路中的导线</p>",
+          "images": [],
+          "text": "关闭电流源，拔掉电流源所在电路中的导线"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> 关闭电流源，拔掉电流源所在电路中的导线</p>",
+            "images": [],
+            "text": "关闭电流源，拔掉电流源所在电路中的导线"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 1,
+      "experiment": "实验一 直流电路实验",
+      "question": {
+        "html": "<p>下图中（）表示有源一端口的输出</p><p><img src=\"assets/preclass-005.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-005.png"
+        ],
+        "text": "下图中（）表示有源一端口的输出"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>b</p>",
+          "images": [],
+          "text": "b"
+        },
+        {
+          "html": "<p> a,b点</p>",
+          "images": [],
+          "text": "a,b点"
+        },
+        {
+          "html": "<p>a</p>",
+          "images": [],
+          "text": "a"
+        },
+        {
+          "html": "<p>不确定</p>",
+          "images": [],
+          "text": "不确定"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> a,b点</p>",
+            "images": [],
+            "text": "a,b点"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab01"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">下列关于导纳的描述，哪个是正确的？</span></p>",
+        "images": [],
+        "text": "下列关于导纳的描述，哪个是正确的？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳是阻抗的倒数</span></p>",
+          "images": [],
+          "text": "导纳是阻抗的倒数"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳与阻抗的单位相同</span></p>",
+          "images": [],
+          "text": "导纳与阻抗的单位相同"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳总是实数</span></p>",
+          "images": [],
+          "text": "导纳总是实数"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳总是虚数</span></p>",
+          "images": [],
+          "text": "导纳总是虚数"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳是阻抗的倒数</span></p>",
+            "images": [],
+            "text": "导纳是阻抗的倒数"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电感线圈的虚部通常表示的是：（）。</span></p>",
+        "images": [],
+        "text": "电感线圈的虚部通常表示的是：（）。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电感值</span></p>",
+          "images": [],
+          "text": "电感值"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电感的电阻</span></p>",
+          "images": [],
+          "text": "电感的电阻"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">感抗</span></p>",
+          "images": [],
+          "text": "感抗"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电导</span></p>",
+          "images": [],
+          "text": "电导"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">感抗</span></p>",
+            "images": [],
+            "text": "感抗"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电容器的阻抗在频率增大时会（）。</span></p>",
+        "images": [],
+        "text": "电容器的阻抗在频率增大时会（）。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">增大</span></p>",
+          "images": [],
+          "text": "增大"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">减小</span></p>",
+          "images": [],
+          "text": "减小"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">不变</span></p>",
+          "images": [],
+          "text": "不变"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">先增大后减小</span></p>",
+          "images": [],
+          "text": "先增大后减小"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">减小</span></p>",
+            "images": [],
+            "text": "减小"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">使用电量仪测量相位角时，应该选择哪个档位？</span></p>",
+        "images": [],
+        "text": "使用电量仪测量相位角时，应该选择哪个档位？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">功率（W）档</span></p>",
+          "images": [],
+          "text": "功率（W）档"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电流（A）档</span></p>",
+          "images": [],
+          "text": "电流（A）档"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">相位角（Φ）档</span></p>",
+          "images": [],
+          "text": "相位角（Φ）档"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电压（V）档</span></p>",
+          "images": [],
+          "text": "电压（V）档"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">相位角（Φ）档</span></p>",
+            "images": [],
+            "text": "相位角（Φ）档"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">在测量复阻抗时，使用电压表和电流表的方法来判断电路的性质时，以下哪项是正确的？</span></p>",
+        "images": [],
+        "text": "在测量复阻抗时，使用电压表和电流表的方法来判断电路的性质时，以下哪项是正确的？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">电压表应串联接入电路</span></p>",
+          "images": [],
+          "text": "电压表应串联接入电路"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">电流表的测试端口标注为V</span></p>",
+          "images": [],
+          "text": "电流表的测试端口标注为V"
+        },
+        {
+          "html": "<p>电流表和电压表的接线端口可以相同<span style=\"color: rgb(178, 44, 0); background-color: rgb(255, 255, 255); font-size: 14px;\">(</span></p>",
+          "images": [],
+          "text": "电流表和电压表的接线端口可以相同("
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">测量电压时应并联接入电压表，测量电流时应串联接入电流表</span></p>",
+          "images": [],
+          "text": "测量电压时应并联接入电压表，测量电流时应串联接入电流表"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">测量电压时应并联接入电压表，测量电流时应串联接入电流表</span></p>",
+            "images": [],
+            "text": "测量电压时应并联接入电压表，测量电流时应串联接入电流表"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">在实验中，如果需要测量电感线圈的感抗，电流表应如何连接？</span></p>",
+        "images": [],
+        "text": "在实验中，如果需要测量电感线圈的感抗，电流表应如何连接？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">并联到电感线圈两端</span></p>",
+          "images": [],
+          "text": "并联到电感线圈两端"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">串联到电感线圈中</span></p>",
+          "images": [],
+          "text": "串联到电感线圈中"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">与电压表并联</span></p>",
+          "images": [],
+          "text": "与电压表并联"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">连接在电源端</span></p>",
+          "images": [],
+          "text": "连接在电源端"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">串联到电感线圈中</span></p>",
+            "images": [],
+            "text": "串联到电感线圈中"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">在测试电阻器和电感线圈串联电路时，如何确定总阻抗的虚部？</span></p>",
+        "images": [],
+        "text": "在测试电阻器和电感线圈串联电路时，如何确定总阻抗的虚部？"
+      },
+      "type": "multiple_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">通过测量相位角来计算</span></p>",
+          "images": [],
+          "text": "通过测量相位角来计算"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">通过伏安法测量电流和电压的有效值计算来得到</span></p>",
+          "images": [],
+          "text": "通过伏安法测量电流和电压的有效值计算来得到"
+        },
+        {
+          "html": "<p>通过功率测量来计算</p>",
+          "images": [],
+          "text": "通过功率测量来计算"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">通过电压表、电流表和相位角来计算</span></p>",
+          "images": [],
+          "text": "通过电压表、电流表和相位角来计算"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">通过伏安法测量电流和电压的有效值计算来得到</span></p>",
+            "images": [],
+            "text": "通过伏安法测量电流和电压的有效值计算来得到"
+          },
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">通过电压表、电流表和相位角来计算</span></p>",
+            "images": [],
+            "text": "通过电压表、电流表和相位角来计算"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">在实验中使用万用表测量电感线圈时，万用表的欧姆档只能显示下列哪种电阻值？</span></p>",
+        "images": [],
+        "text": "在实验中使用万用表测量电感线圈时，万用表的欧姆档只能显示下列哪种电阻值？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">交流电阻</span></p>",
+          "images": [],
+          "text": "交流电阻"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">直流电阻</span></p>",
+          "images": [],
+          "text": "直流电阻"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">复阻抗</span></p>",
+          "images": [],
+          "text": "复阻抗"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电感值</span></p>",
+          "images": [],
+          "text": "电感值"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">直流电阻</span></p>",
+            "images": [],
+            "text": "直流电阻"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">使用相位法测量电感的阻抗时，以下哪些参数需要从电量仪中获得？</span></p>",
+        "images": [],
+        "text": "使用相位法测量电感的阻抗时，以下哪些参数需要从电量仪中获得？"
+      },
+      "type": "multiple_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电流有效值</span></p>",
+          "images": [],
+          "text": "电流有效值"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电压有效值</span></p>",
+          "images": [],
+          "text": "电压有效值"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">相位角</span></p>",
+          "images": [],
+          "text": "相位角"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">功率</span></p>",
+          "images": [],
+          "text": "功率"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电流有效值</span></p>",
+            "images": [],
+            "text": "电流有效值"
+          },
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电压有效值</span></p>",
+            "images": [],
+            "text": "电压有效值"
+          },
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">相位角</span></p>",
+            "images": [],
+            "text": "相位角"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 2,
+      "experiment": "实验二 元器件参数测量和阻抗的串并联",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">在被测元件两端并接一只适当容量的试验电容器，如果电流表的读数在测试过程中增加，则被测电路是（）。</span></p>",
+        "images": [],
+        "text": "在被测元件两端并接一只适当容量的试验电容器，如果电流表的读数在测试过程中增加，则被测电路是（）。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">感性</span></p>",
+          "images": [],
+          "text": "感性"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">电阻性</span></p>",
+          "images": [],
+          "text": "电阻性"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">容性</span></p>",
+          "images": [],
+          "text": "容性"
+        },
+        {
+          "html": "<p>理想无阻抗<span style=\"color: rgb(178, 44, 0); background-color: rgb(255, 255, 255); font-size: 14px;\"> </span></p>",
+          "images": [],
+          "text": "理想无阻抗"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">容性</span></p>",
+            "images": [],
+            "text": "容性"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab02"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">若调节示波器波形水平精度，选用（）旋钮；若调节示波器所在2通道的波形的垂直精度，应选用（）旋钮。</span></p>",
+        "images": [
+          "assets/preclass-001.png"
+        ],
+        "text": "若调节示波器波形水平精度，选用（）旋钮；若调节示波器所在2通道的波形的垂直精度，应选用（）旋钮。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>1，4</p>",
+          "images": [],
+          "text": "1，4"
+        },
+        {
+          "html": "<p>1，3</p>",
+          "images": [],
+          "text": "1，3"
+        },
+        {
+          "html": "<p>2，4</p>",
+          "images": [],
+          "text": "2，4"
+        },
+        {
+          "html": "<p>1，6</p>",
+          "images": [],
+          "text": "1，6"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>1，4</p>",
+            "images": [],
+            "text": "1，4"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">若采用直流法测定两个互感线圈的同名端，若当开关断开时，发光二极管发光，则电感L1的1端子与电感L2的哪个端子互为同名端。</span></p><p><img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-002.png"
+        ],
+        "text": "若采用直流法测定两个互感线圈的同名端，若当开关断开时，发光二极管发光，则电感L1的1端子与电感L2的哪个端子互为同名端。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>1</p>",
+          "images": [],
+          "text": "1"
+        },
+        {
+          "html": "<p>2</p>",
+          "images": [],
+          "text": "2"
+        },
+        {
+          "html": "<p>3</p>",
+          "images": [],
+          "text": "3"
+        },
+        {
+          "html": "<p>4</p>",
+          "images": [],
+          "text": "4"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>4</p>",
+            "images": [],
+            "text": "4"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">若调节示波器波形的水平位置，选用（）旋钮；若调节示波器所在1通道的波形的垂直位置，应选用（）旋钮。</span></p>",
+        "images": [
+          "assets/preclass-003.png"
+        ],
+        "text": "若调节示波器波形的水平位置，选用（）旋钮；若调节示波器所在1通道的波形的垂直位置，应选用（）旋钮。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>2，6</p>",
+          "images": [],
+          "text": "2，6"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">1，3</span></p>",
+          "images": [],
+          "text": "1，3"
+        },
+        {
+          "html": "<p>2，5</p>",
+          "images": [],
+          "text": "2，5"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">1，5</span></p>",
+          "images": [],
+          "text": "1，5"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>2，5</p>",
+            "images": [],
+            "text": "2，5"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">互感系数是比值定义式，与两线圈的几何形状、大小、相对位置及周围磁介质分布等有关。</span></p>",
+        "images": [],
+        "text": "互感系数是比值定义式，与两线圈的几何形状、大小、相对位置及周围磁介质分布等有关。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px; font-family: 宋体;\">通过互感线圈的电流若同时流入同名端，则它们产生的感应电压彼此增强。</span></p>",
+        "images": [],
+        "text": "通过互感线圈的电流若同时流入同名端，则它们产生的感应电压彼此增强。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">示波器的探头，（）端用来测量信号，（）端用来接地。</span></p>",
+        "images": [
+          "assets/preclass-004.png"
+        ],
+        "text": "示波器的探头，（）端用来测量信号，（）端用来接地。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">2，1</span></p>",
+          "images": [],
+          "text": "2，1"
+        },
+        {
+          "html": "<p>1，2</p>",
+          "images": [],
+          "text": "1，2"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">2，2</span></p>",
+          "images": [],
+          "text": "2，2"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">1，2</span></p>",
+          "images": [],
+          "text": "1，2"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>1，2</p>",
+            "images": [],
+            "text": "1，2"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><img src=\"assets/preclass-005.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\"><strong>互感电动势法测量互感系数，</strong></span><img src=\"assets/preclass-006.png\" alt=\"\" style=\"\"><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\"><strong>。</strong></span></p>",
+        "images": [
+          "assets/preclass-005.png",
+          "assets/preclass-006.png"
+        ],
+        "text": "互感电动势法测量互感系数，。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><img src=\"assets/preclass-007.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">将三相电源中的一相进行调压，使得220V的电压调到0-36V，调压器需要缓慢调节到指定的电压值，测完数据断电前将调压器逆时针调到底归零。</span></p>",
+        "images": [
+          "assets/preclass-007.png"
+        ],
+        "text": "将三相电源中的一相进行调压，使得220V的电压调到0-36V，调压器需要缓慢调节到指定的电压值，测完数据断电前将调压器逆时针调到底归零。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><img src=\"assets/preclass-008.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">若采用交流法测试两个互感线圈的同名端，根据KVL定理判断，</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">若</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">12=</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">1+</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">2，则</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: &quot;Times New Roman&quot;;\">1</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">端和</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: &quot;Times New Roman&quot;;\">2</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">端互为（），若</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">12=</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">1-</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">2，则1端和2端互为（）。</span></p>",
+        "images": [
+          "assets/preclass-008.png"
+        ],
+        "text": "若采用交流法测试两个互感线圈的同名端，根据KVL定理判断，若U12=U1+U2，则1端和2端互为（），若U12=U1-U2，则1端和2端互为（）。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>同名端，同名端</p>",
+          "images": [],
+          "text": "同名端，同名端"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">异名端，同名端</span></p>",
+          "images": [],
+          "text": "异名端，同名端"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">同名端，异名端</span></p>",
+          "images": [],
+          "text": "同名端，异名端"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">异名端，异名端</span></p>",
+          "images": [],
+          "text": "异名端，异名端"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">异名端，同名端</span></p>",
+            "images": [],
+            "text": "异名端，同名端"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 3,
+      "experiment": "实验三 互感电路实验",
+      "question": {
+        "html": "<p><img src=\"assets/preclass-009.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">采用等效电感法测量互感系数M时，需要将两个电感串联，若电感L1的1端子与L2的4端子互为同名端，那么正串时，L1的2端子应与L2的（）端子串联；反串时，L1的2端子应与L2的（）端子串联。</span></p>",
+        "images": [
+          "assets/preclass-009.png"
+        ],
+        "text": "采用等效电感法测量互感系数M时，需要将两个电感串联，若电感L1的1端子与L2的4端子互为同名端，那么正串时，L1的2端子应与L2的（）端子串联；反串时，L1的2端子应与L2的（）端子串联。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">3，4</span></p>",
+          "images": [],
+          "text": "3，4"
+        },
+        {
+          "html": "<p>4，3<span style=\"color: rgb(70, 140, 0); background-color: rgb(255, 255, 255); font-size: 14px;\"> </span></p>",
+          "images": [],
+          "text": "4，3"
+        },
+        {
+          "html": "<p>4，4<span style=\"color: rgb(178, 44, 0); background-color: rgb(255, 255, 255); font-size: 14px;\"> </span></p>",
+          "images": [],
+          "text": "4，4"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">3，3</span></p>",
+          "images": [],
+          "text": "3，3"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>4，3<span style=\"color: rgb(70, 140, 0); background-color: rgb(255, 255, 255); font-size: 14px;\"> </span></p>",
+            "images": [],
+            "text": "4，3"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab03"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51);\">一端口电路发生谐振是指什么？（）</span></p>",
+        "images": [],
+        "text": "一端口电路发生谐振是指什么？（）"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电容元件和电阻元件两端电压相等，相位相同，则称一端口电路发生谐 振。</span></p>",
+          "images": [],
+          "text": "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电容元件和电阻元件两端电压相等，相位相同，则称一端口电路发生谐 振。"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电感线圈和电阻元件两端电压相等，相位相同，则称一端口电路发生谐 振。</span></p>",
+          "images": [],
+          "text": "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电感线圈和电阻元件两端电压相等，相位相同，则称一端口电路发生谐 振。"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电感线圈和电容元件两端电压相等，相位相同，则称一端口电路发生谐 振。</span></p>",
+          "images": [],
+          "text": "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电感线圈和电容元件两端电压相等，相位相同，则称一端口电路发生谐 振。"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电路负载可呈现纯电阻性，端口电压与电流同相位，则称一端口电路发 生谐振。</span></p>",
+          "images": [],
+          "text": "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电路负载可呈现纯电阻性，端口电压与电流同相位，则称一端口电路发 生谐振。"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电路负载可呈现纯电阻性，端口电压与电流同相位，则称一端口电路发 生谐振。</span></p>",
+            "images": [],
+            "text": "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电路负载可呈现纯电阻性，端口电压与电流同相位，则称一端口电路发 生谐振。"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"R−L−C\"></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);\">串联谐振电路发生谐振时，品质因数</span><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Q\"></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);\">可表示为（）</span></p>",
+        "images": [],
+        "text": "$R−L−C$串联谐振电路发生谐振时，品质因数$Q$可表示为（）"
+      },
+      "type": "multiple_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-001.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-002.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-003.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-004.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-001.png"
+            ],
+            "text": ""
+          },
+          {
+            "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-004.png"
+            ],
+            "text": ""
+          },
+          {
+            "html": "<p><img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-003.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路，从通用串联谐振曲线中可知，通频带</span><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Δf\"></span><span style=\"color: rgb(51, 51, 51);\">定义为（）。</span></p>",
+        "images": [],
+        "text": "$R-L-C$串联谐振电路，从通用串联谐振曲线中可知，通频带$Δf$定义为（）。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51);\">通过的高频率范围。</span></p>",
+          "images": [],
+          "text": "通过的高频率范围。"
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-005.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-005.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51);\">通过的低频率范围。</span></p>",
+          "images": [],
+          "text": "通过的低频率范围。"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51);\">通过的中间频率范围。</span></p>",
+          "images": [],
+          "text": "通过的中间频率范围。"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-005.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-005.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路发生谐振时，下面哪些现象或关系是正确的？（）</span></p>",
+        "images": [],
+        "text": "$R-L-C$串联谐振电路发生谐振时，下面哪些现象或关系是正确的？（）"
+      },
+      "type": "multiple_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-006.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-006.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-007.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-007.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-008.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-008.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-009.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-009.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-006.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-006.png"
+            ],
+            "text": ""
+          },
+          {
+            "html": "<p><img src=\"assets/preclass-007.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-007.png"
+            ],
+            "text": ""
+          },
+          {
+            "html": "<p><img src=\"assets/preclass-009.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-009.png"
+            ],
+            "text": ""
+          },
+          {
+            "html": "<p><img src=\"assets/preclass-008.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-008.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p>正弦交流电路中，电容器的容抗为（）</p>",
+        "images": [],
+        "text": "正弦交流电路中，电容器的容抗为（）"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-010.jpg\" alt=\"\" style=\"width: 123.00px;height: 21.02px;\"></p>",
+          "images": [
+            "assets/preclass-010.jpg"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-011.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-011.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-012.jpg\" alt=\"\" style=\"width: 78.00px;height: 24.00px;\"></p>",
+          "images": [
+            "assets/preclass-012.jpg"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-013.jpg\" alt=\"\" style=\"width: 72.00px;height: 22.66px;\"></p>",
+          "images": [
+            "assets/preclass-013.jpg"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-011.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-011.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路发生谐振时，谐振角频率为（）</span></p>",
+        "images": [],
+        "text": "$R-L-C$串联谐振电路发生谐振时，谐振角频率为（）"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-014.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-014.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-015.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-015.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-016.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-016.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-017.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-017.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-016.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-016.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">下面哪一个通用串联谐振曲线的信息是正确的？（）</span></p>",
+        "images": [],
+        "text": "下面哪一个通用串联谐振曲线的信息是正确的？（）"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-018.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-018.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-019.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-019.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-020.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-020.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-021.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-021.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-019.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-019.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51);\">正弦交流电路中，电感的感抗为（）</span></p>",
+        "images": [],
+        "text": "正弦交流电路中，电感的感抗为（）"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-022.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-022.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-023.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-023.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-024.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-024.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-025.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-025.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-024.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-024.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路中，品质因数</span><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Q\"></span><span style=\"color: rgb(51, 51, 51);\">和通频带</span><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Δf\"></span><span style=\"color: rgb(51, 51, 51);\">有什么样的关系?</span></p>",
+        "images": [],
+        "text": "$R-L-C$串联谐振电路中，品质因数$Q$和通频带$Δf$有什么样的关系?"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Q值越大，通频带越窄，电路的选择性越好。\"></span></p>",
+          "images": [],
+          "text": "$Q值越大，通频带越窄，电路的选择性越好。$"
+        },
+        {
+          "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Q值越小，通频带越窄，电路的选择性越好。\"></span></p>",
+          "images": [],
+          "text": "$Q值越小，通频带越窄，电路的选择性越好。$"
+        },
+        {
+          "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Q值越大，通频带越宽，电路的选择性越好。\"></span></p>",
+          "images": [],
+          "text": "$Q值越大，通频带越宽，电路的选择性越好。$"
+        },
+        {
+          "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Q值越小，通频带越宽，电路的选择性越好。\"></span></p>",
+          "images": [],
+          "text": "$Q值越小，通频带越宽，电路的选择性越好。$"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"Q值越大，通频带越窄，电路的选择性越好。\"></span></p>",
+            "images": [],
+            "text": "$Q值越大，通频带越窄，电路的选择性越好。$"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 4,
+      "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "question": {
+        "html": "<p><span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路发生谐振时，谐振频率为（）</span></p>",
+        "images": [],
+        "text": "$R-L-C$串联谐振电路发生谐振时，谐振频率为（）"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-026.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-026.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-027.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-027.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-028.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-028.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-029.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-029.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-027.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-027.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab04"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>NPN管基本共射交流电压放大电路中，输出电压出现了非线性失真，通过减小R<sub>p</sub>和R<sub>B1</sub>失真消除，这种失真一定是()失真。</p><p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-001.png"
+        ],
+        "text": "NPN管基本共射交流电压放大电路中，输出电压出现了非线性失真，通过减小Rp和RB1失真消除，这种失真一定是()失真。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "双向",
+          "images": [],
+          "text": "双向"
+        },
+        {
+          "html": "相位",
+          "images": [],
+          "text": "相位"
+        },
+        {
+          "html": "截止",
+          "images": [],
+          "text": "截止"
+        },
+        {
+          "html": "饱和",
+          "images": [],
+          "text": "饱和"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "截止",
+            "images": [],
+            "text": "截止"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>示波器有交流耦合（AC coupling）和直流耦合（DC coupling）。当分析波形的完整信息时采用______耦合，需要分析波形的交流信息时采用______耦合()。</p>",
+        "images": [],
+        "text": "示波器有交流耦合（AC coupling）和直流耦合（DC coupling）。当分析波形的完整信息时采用______耦合，需要分析波形的交流信息时采用______耦合()。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "直流、直流",
+          "images": [],
+          "text": "直流、直流"
+        },
+        {
+          "html": "交流、交流",
+          "images": [],
+          "text": "交流、交流"
+        },
+        {
+          "html": "直流、交流",
+          "images": [],
+          "text": "直流、交流"
+        },
+        {
+          "html": "交流、直流",
+          "images": [],
+          "text": "交流、直流"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "直流、交流",
+            "images": [],
+            "text": "直流、交流"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>基本共射交流电压放大电路中，集电极电阻R<sub>c</sub>的作用是()。</p>",
+        "images": [],
+        "text": "基本共射交流电压放大电路中，集电极电阻Rc的作用是()。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路",
+          "images": [],
+          "text": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路"
+        },
+        {
+          "html": "将输出电流的变化量转化为输出电压的变化量",
+          "images": [],
+          "text": "将输出电流的变化量转化为输出电压的变化量"
+        },
+        {
+          "html": "保护信号源",
+          "images": [],
+          "text": "保护信号源"
+        },
+        {
+          "html": "防止输出电压被短路",
+          "images": [],
+          "text": "防止输出电压被短路"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "将输出电流的变化量转化为输出电压的变化量",
+            "images": [],
+            "text": "将输出电流的变化量转化为输出电压的变化量"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>电解电容使用时，正负极可以接反。</p>",
+        "images": [],
+        "text": "电解电容使用时，正负极可以接反。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": false,
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>基本共射交流电压放大电路中，基极电阻R<sub>b</sub>的作用是()。</p>",
+        "images": [],
+        "text": "基本共射交流电压放大电路中，基极电阻Rb的作用是()。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路",
+          "images": [],
+          "text": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路"
+        },
+        {
+          "html": "将输出电流的变化量转化为输出电压的变化量",
+          "images": [],
+          "text": "将输出电流的变化量转化为输出电压的变化量"
+        },
+        {
+          "html": "保护信号源",
+          "images": [],
+          "text": "保护信号源"
+        },
+        {
+          "html": "防止输出电压被短路",
+          "images": [],
+          "text": "防止输出电压被短路"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路",
+            "images": [],
+            "text": "限制基极电流，使晶体管工作在放大区，并防止输入信号短路"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>当观察示波器输入输出信号毛刺较多时？可采取什么方法滤波？()</p>",
+        "images": [],
+        "text": "当观察示波器输入输出信号毛刺较多时？可采取什么方法滤波？()"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "Measure",
+          "images": [],
+          "text": "Measure"
+        },
+        {
+          "html": "Filter VU",
+          "images": [],
+          "text": "Filter VU"
+        },
+        {
+          "html": "Acquire",
+          "images": [],
+          "text": "Acquire"
+        },
+        {
+          "html": "Cursors",
+          "images": [],
+          "text": "Cursors"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "Filter VU",
+            "images": [],
+            "text": "Filter VU"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>基本共射交流电压放大电路中，输入低频正弦信号时，用示波器观察输出电压U<sub>o</sub>和输入电压U<sub>i</sub>的波形，二者相位()。</p>",
+        "images": [],
+        "text": "基本共射交流电压放大电路中，输入低频正弦信号时，用示波器观察输出电压Uo和输入电压Ui的波形，二者相位()。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "相差90°",
+          "images": [],
+          "text": "相差90°"
+        },
+        {
+          "html": "相差270°",
+          "images": [],
+          "text": "相差270°"
+        },
+        {
+          "html": "相反",
+          "images": [],
+          "text": "相反"
+        },
+        {
+          "html": "相同",
+          "images": [],
+          "text": "相同"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "相反",
+            "images": [],
+            "text": "相反"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>在此次实验中，示波器和直流稳压电源、信号源要共地。</p>",
+        "images": [],
+        "text": "在此次实验中，示波器和直流稳压电源、信号源要共地。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>在此次实验中，对于NPN型三极管，底部失真代表______，顶部失真代表______()。</p>",
+        "images": [],
+        "text": "在此次实验中，对于NPN型三极管，底部失真代表______，顶部失真代表______()。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "饱和失真、饱和失真",
+          "images": [],
+          "text": "饱和失真、饱和失真"
+        },
+        {
+          "html": "截止失真、饱和失真",
+          "images": [],
+          "text": "截止失真、饱和失真"
+        },
+        {
+          "html": "饱和失真、截止失真",
+          "images": [],
+          "text": "饱和失真、截止失真"
+        },
+        {
+          "html": "截止失真、截止失真",
+          "images": [],
+          "text": "截止失真、截止失真"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "饱和失真、截止失真",
+            "images": [],
+            "text": "饱和失真、截止失真"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 5,
+      "experiment": "实验五 单管交流放大电路",
+      "question": {
+        "html": "<p>实验前，需要通过万用表_____档位检测三极管的好坏？通过万用表_____档位检测欢动变阻器的好坏？() </p>",
+        "images": [],
+        "text": "实验前，需要通过万用表_____档位检测三极管的好坏？通过万用表_____档位检测欢动变阻器的好坏？()"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "电压档、欧姆档",
+          "images": [],
+          "text": "电压档、欧姆档"
+        },
+        {
+          "html": "电流档、欧姆档",
+          "images": [],
+          "text": "电流档、欧姆档"
+        },
+        {
+          "html": "欧姆档、蜂鸣器档",
+          "images": [],
+          "text": "欧姆档、蜂鸣器档"
+        },
+        {
+          "html": " 二极管档、欧姆档",
+          "images": [],
+          "text": "二极管档、欧姆档"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": " 二极管档、欧姆档",
+            "images": [],
+            "text": "二极管档、欧姆档"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      },
+      "imageBase": "experiments/lab05"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p> 理想运算放大器的开环放大倍数<span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"A_{uo}\"></span>为？</p>",
+        "images": [],
+        "text": "理想运算放大器的开环放大倍数$A_{uo}$为？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>无穷大</p>",
+          "images": [],
+          "text": "无穷大"
+        },
+        {
+          "html": "<p>1</p>",
+          "images": [],
+          "text": "1"
+        },
+        {
+          "html": "<p>0</p>",
+          "images": [],
+          "text": "0"
+        },
+        {
+          "html": "<p>不定</p>",
+          "images": [],
+          "text": "不定"
+        }
+      ],
+      "answer": {
+        "reasoning": "理想运放的开环增益趋于无穷大。",
+        "semanticAnswer": "无穷大",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>无穷大</p>",
+            "images": [],
+            "text": "无穷大"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>理想运算放大器的输入电阻为？输出电阻为？</p>",
+        "images": [],
+        "text": "理想运算放大器的输入电阻为？输出电阻为？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p> 0，0</p>",
+          "images": [],
+          "text": "0，0"
+        },
+        {
+          "html": "<p>无穷大，无穷大</p>",
+          "images": [],
+          "text": "无穷大，无穷大"
+        },
+        {
+          "html": "<p>0，无穷大</p>",
+          "images": [],
+          "text": "0，无穷大"
+        },
+        {
+          "html": "<p> 无穷大，0</p>",
+          "images": [],
+          "text": "无穷大，0"
+        }
+      ],
+      "answer": {
+        "reasoning": "理想输入电阻无穷大、输出电阻为零。",
+        "semanticAnswer": "无穷大，0",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> 无穷大，0</p>",
+            "images": [],
+            "text": "无穷大，0"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>集成运算放大器能处理什么类型的信号？</p>",
+        "images": [],
+        "text": "集成运算放大器能处理什么类型的信号？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>仅交流信号</p>",
+          "images": [],
+          "text": "仅交流信号"
+        },
+        {
+          "html": "<p>以上都不对</p>",
+          "images": [],
+          "text": "以上都不对"
+        },
+        {
+          "html": "<p>仅直流信号</p>",
+          "images": [],
+          "text": "仅直流信号"
+        },
+        {
+          "html": "<p>交流信号和直流信号</p>",
+          "images": [],
+          "text": "交流信号和直流信号"
+        }
+      ],
+      "answer": {
+        "reasoning": "运放为直接耦合，可处理直流与交流。",
+        "semanticAnswer": "交流信号和直流信号",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>交流信号和直流信号</p>",
+            "images": [],
+            "text": "交流信号和直流信号"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>集成运放工作在线性放大区，由理想工作条件得出两个重要规律是？</p>",
+        "images": [],
+        "text": "集成运放工作在线性放大区，由理想工作条件得出两个重要规律是？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-001.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-002.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-003.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-004.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": "线性负反馈下两输入端等电位且输入电流为零，并非两端电压都为零。",
+        "semanticAnswer": "u+ = u−；i+ = i− = 0（虚短、虚断）",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-004.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>若要将幅度为<span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\" \\pm U_m\"></span>的矩形波转变为三角波，则应选用？</p>",
+        "images": [],
+        "text": "若要将幅度为$ \\pm U_m$的矩形波转变为三角波，则应选用？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p> 反向比例运算电路</p>",
+          "images": [],
+          "text": "反向比例运算电路"
+        },
+        {
+          "html": "<p>积分运算电路</p>",
+          "images": [],
+          "text": "积分运算电路"
+        },
+        {
+          "html": "<p>同相比例运算电路</p>",
+          "images": [],
+          "text": "同相比例运算电路"
+        },
+        {
+          "html": "<p>微分运算电路</p>",
+          "images": [],
+          "text": "微分运算电路"
+        }
+      ],
+      "answer": {
+        "reasoning": "恒定电压积分得到线性斜坡，矩形波积分为三角波。",
+        "semanticAnswer": "积分运算电路",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>积分运算电路</p>",
+            "images": [],
+            "text": "积分运算电路"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>函数信号发生器需要交流量叠加直流输出时，需调节？</p>",
+        "images": [],
+        "text": "函数信号发生器需要交流量叠加直流输出时，需调节？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>周期</p>",
+          "images": [],
+          "text": "周期"
+        },
+        {
+          "html": "<p>同相位</p>",
+          "images": [],
+          "text": "同相位"
+        },
+        {
+          "html": "<p>偏移</p>",
+          "images": [],
+          "text": "偏移"
+        },
+        {
+          "html": "<p>幅值</p>",
+          "images": [],
+          "text": "幅值"
+        }
+      ],
+      "answer": {
+        "reasoning": "信号发生器的直流偏移设置叠加直流分量。",
+        "semanticAnswer": "偏移",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>偏移</p>",
+            "images": [],
+            "text": "偏移"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>分析集成运放的非线性应用电路时，不能使用的特性是？</p>",
+        "images": [],
+        "text": "分析集成运放的非线性应用电路时，不能使用的特性是？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p> 都不对</p>",
+          "images": [],
+          "text": "都不对"
+        },
+        {
+          "html": "<p>虚短</p>",
+          "images": [],
+          "text": "虚短"
+        },
+        {
+          "html": "<p>差模输入电阻无穷大</p>",
+          "images": [],
+          "text": "差模输入电阻无穷大"
+        },
+        {
+          "html": "<p>虚断</p>",
+          "images": [],
+          "text": "虚断"
+        }
+      ],
+      "answer": {
+        "reasoning": "非线性应用不保证两输入端电位相等。",
+        "semanticAnswer": "虚短",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>虚短</p>",
+            "images": [],
+            "text": "虚短"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>单限电压比较器有（ ）个门限电压，滞回电压比较器有（ ）个门限电压。</p>",
+        "images": [],
+        "text": "单限电压比较器有（ ）个门限电压，滞回电压比较器有（ ）个门限电压。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>2，2</p>",
+          "images": [],
+          "text": "2，2"
+        },
+        {
+          "html": "<p>1，2</p>",
+          "images": [],
+          "text": "1，2"
+        },
+        {
+          "html": "<p>2，1</p>",
+          "images": [],
+          "text": "2，1"
+        },
+        {
+          "html": "<p>1，1</p>",
+          "images": [],
+          "text": "1，1"
+        }
+      ],
+      "answer": {
+        "reasoning": "单限比较器一个阈值，滞回比较器两个阈值。",
+        "semanticAnswer": "1，2",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>1，2</p>",
+            "images": [],
+            "text": "1，2"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>当集成运放芯片的电源为正负对称电源供电时，不可把正、负电源极性接反或将输出端短路，否则会烧坏芯片。</p>",
+        "images": [],
+        "text": "当集成运放芯片的电源为正负对称电源供电时，不可把正、负电源极性接反或将输出端短路，否则会烧坏芯片。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "电源极性接反和输出短路可能损坏运放，须避免。",
+        "semanticAnswer": "正确",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 6,
+      "experiment": "实验六 集成运算放大器的应用实验",
+      "question": {
+        "html": "<p>在由运放组成的电路中，运放工作在非线性状态的电路是？</p>",
+        "images": [],
+        "text": "在由运放组成的电路中，运放工作在非线性状态的电路是？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>差值放大器</p>",
+          "images": [],
+          "text": "差值放大器"
+        },
+        {
+          "html": "<p>电压比较器</p>",
+          "images": [],
+          "text": "电压比较器"
+        },
+        {
+          "html": "<p>有源滤波器</p>",
+          "images": [],
+          "text": "有源滤波器"
+        },
+        {
+          "html": "<p>反相放大器</p>",
+          "images": [],
+          "text": "反相放大器"
+        }
+      ],
+      "answer": {
+        "reasoning": "比较器使用运放的饱和非线性状态。",
+        "semanticAnswer": "电压比较器",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>电压比较器</p>",
+            "images": [],
+            "text": "电压比较器"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab06"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>有源滤波器的阶数越（ ），滤波器的滤波性能越 （ ）。</p>",
+        "images": [],
+        "text": "有源滤波器的阶数越（ ），滤波器的滤波性能越 （ ）。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>低，好</p>",
+          "images": [],
+          "text": "低，好"
+        },
+        {
+          "html": "<p>高，好</p>",
+          "images": [],
+          "text": "高，好"
+        },
+        {
+          "html": "<p>低，不变</p>",
+          "images": [],
+          "text": "低，不变"
+        },
+        {
+          "html": "<p>高，差</p>",
+          "images": [],
+          "text": "高，差"
+        }
+      ],
+      "answer": {
+        "reasoning": "阶数增加使阻带衰减更陡，逼近理想特性。",
+        "semanticAnswer": "高，好",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>高，好</p>",
+            "images": [],
+            "text": "高，好"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>根据实验指导书的实验原理部分，二阶有源低通滤波器和二阶压控电压源有源低通滤波器特性描述正确的有哪些？</p>",
+        "images": [],
+        "text": "根据实验指导书的实验原理部分，二阶有源低通滤波器和二阶压控电压源有源低通滤波器特性描述正确的有哪些？"
+      },
+      "type": "multiple_choice",
+      "options": [
+        {
+          "html": "<p>二阶有源低通滤波器通带内的放大倍数为1</p>",
+          "images": [],
+          "text": "二阶有源低通滤波器通带内的放大倍数为1"
+        },
+        {
+          "html": "<p>二阶压控电压源有源低通滤波器的品质因数为<img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-001.png"
+          ],
+          "text": "二阶压控电压源有源低通滤波器的品质因数为"
+        },
+        {
+          "html": "<p>二阶有源低通滤波器的品质因数为<img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-002.png"
+          ],
+          "text": "二阶有源低通滤波器的品质因数为"
+        },
+        {
+          "html": "<p>二阶压控电压源有源低通滤波器通带内的放大倍数为<img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-003.png"
+          ],
+          "text": "二阶压控电压源有源低通滤波器通带内的放大倍数为"
+        }
+      ],
+      "answer": {
+        "reasoning": "指导书7.4给出这四个表达式，全部成立。",
+        "semanticAnswer": [
+          "二阶有源低通滤波器通带增益为1",
+          "二阶压控电压源低通Q=1/(3-A0)",
+          "二阶低通Q=(1/2)√(C1/C2)",
+          "二阶压控电压源低通A0=1+Rf/R1"
+        ],
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>二阶压控电压源有源低通滤波器通带内的放大倍数为<img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-003.png"
+            ],
+            "text": "二阶压控电压源有源低通滤波器通带内的放大倍数为"
+          },
+          {
+            "html": "<p>二阶有源低通滤波器通带内的放大倍数为1</p>",
+            "images": [],
+            "text": "二阶有源低通滤波器通带内的放大倍数为1"
+          },
+          {
+            "html": "<p>二阶压控电压源有源低通滤波器的品质因数为<img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-001.png"
+            ],
+            "text": "二阶压控电压源有源低通滤波器的品质因数为"
+          },
+          {
+            "html": "<p>二阶有源低通滤波器的品质因数为<img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-002.png"
+            ],
+            "text": "二阶有源低通滤波器的品质因数为"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>二阶压控电压源有源低通滤波器产生自激振荡的条件是什么？</p>",
+        "images": [],
+        "text": "二阶压控电压源有源低通滤波器产生自激振荡的条件是什么？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-004.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-005.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-005.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p>都不是</p>",
+          "images": [],
+          "text": "都不是"
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-006.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-006.png"
+          ],
+          "text": ""
+        }
+      ],
+      "answer": {
+        "reasoning": "按指导书7.4，A0>3时极点进入右半平面，自激振荡。",
+        "semanticAnswer": "A0>3",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><img src=\"assets/preclass-006.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              "assets/preclass-006.png"
+            ],
+            "text": ""
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>有源滤波器与无源滤波器相比，在电路性能指标方面，其主要优势是什么？</p>",
+        "images": [],
+        "text": "有源滤波器与无源滤波器相比，在电路性能指标方面，其主要优势是什么？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>可以提供电压增益</p>",
+          "images": [],
+          "text": "可以提供电压增益"
+        },
+        {
+          "html": "<p>体积更小</p>",
+          "images": [],
+          "text": "体积更小"
+        },
+        {
+          "html": "<p>滤波性能更好</p>",
+          "images": [],
+          "text": "滤波性能更好"
+        },
+        {
+          "html": "<p>成本更低</p>",
+          "images": [],
+          "text": "成本更低"
+        }
+      ],
+      "answer": {
+        "reasoning": "有源器件可在滤波同时提供增益。",
+        "semanticAnswer": "可以提供电压增益",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>可以提供电压增益</p>",
+            "images": [],
+            "text": "可以提供电压增益"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>有源滤波器的带宽指的是什么？</p>",
+        "images": [],
+        "text": "有源滤波器的带宽指的是什么？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>滤波器的增益大小</p>",
+          "images": [],
+          "text": "滤波器的增益大小"
+        },
+        {
+          "html": "<p>滤波器允许通过的最高频率与最低频率之差</p>",
+          "images": [],
+          "text": "滤波器允许通过的最高频率与最低频率之差"
+        },
+        {
+          "html": "<p> 滤波器的输入电阻大小</p>",
+          "images": [],
+          "text": "滤波器的输入电阻大小"
+        },
+        {
+          "html": "<p>滤波器的输出电压大小</p>",
+          "images": [],
+          "text": "滤波器的输出电压大小"
+        }
+      ],
+      "answer": {
+        "reasoning": "带宽为通带上下边界频率之差。",
+        "semanticAnswer": "滤波器允许通过的最高频率与最低频率之差",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>滤波器允许通过的最高频率与最低频率之差</p>",
+            "images": [],
+            "text": "滤波器允许通过的最高频率与最低频率之差"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>有源带通滤波器的主要特点是什么？</p>",
+        "images": [],
+        "text": "有源带通滤波器的主要特点是什么？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>允许所有频段信号通过</p>",
+          "images": [],
+          "text": "允许所有频段信号通过"
+        },
+        {
+          "html": "<p>允许某一频段内的信号通过，其他频段信号被阻断</p>",
+          "images": [],
+          "text": "允许某一频段内的信号通过，其他频段信号被阻断"
+        },
+        {
+          "html": "<p>允许高频信号通过，阻断低频信号</p>",
+          "images": [],
+          "text": "允许高频信号通过，阻断低频信号"
+        },
+        {
+          "html": "<p>允许低频信号通过，阻断高频信号</p>",
+          "images": [],
+          "text": "允许低频信号通过，阻断高频信号"
+        }
+      ],
+      "answer": {
+        "reasoning": "带通通过中间频段并抑制两侧频段。",
+        "semanticAnswer": "允许某一频段内的信号通过，其他频段信号被阻断",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>允许某一频段内的信号通过，其他频段信号被阻断</p>",
+            "images": [],
+            "text": "允许某一频段内的信号通过，其他频段信号被阻断"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>在设计有源滤波器时，下列哪个参数通常不被考虑？</p>",
+        "images": [],
+        "text": "在设计有源滤波器时，下列哪个参数通常不被考虑？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>滤波器的绝缘电阻</p>",
+          "images": [],
+          "text": "滤波器的绝缘电阻"
+        },
+        {
+          "html": "<p> 截止频率</p>",
+          "images": [],
+          "text": "截止频率"
+        },
+        {
+          "html": "<p>滤波器的功耗</p>",
+          "images": [],
+          "text": "滤波器的功耗"
+        },
+        {
+          "html": "<p>通带增益</p>",
+          "images": [],
+          "text": "通带增益"
+        }
+      ],
+      "answer": {
+        "reasoning": "该题列出的常用设计指标为截止频率、增益和功耗。",
+        "semanticAnswer": "滤波器的绝缘电阻",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>滤波器的绝缘电阻</p>",
+            "images": [],
+            "text": "滤波器的绝缘电阻"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>在有源高通滤波器中，若要提高截止频率，以下哪种措施是有效的？</p>",
+        "images": [],
+        "text": "在有源高通滤波器中，若要提高截止频率，以下哪种措施是有效的？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>减小电容值</p>",
+          "images": [],
+          "text": "减小电容值"
+        },
+        {
+          "html": "<p>增大电容值</p>",
+          "images": [],
+          "text": "增大电容值"
+        },
+        {
+          "html": "<p>使用更高增益的运放</p>",
+          "images": [],
+          "text": "使用更高增益的运放"
+        },
+        {
+          "html": "<p>增大电阻值</p>",
+          "images": [],
+          "text": "增大电阻值"
+        }
+      ],
+      "answer": {
+        "reasoning": "fc与RC乘积成反比，减小C提高截止频率。",
+        "semanticAnswer": "减小电容值",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>减小电容值</p>",
+            "images": [],
+            "text": "减小电容值"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>以下哪种方法不是用于改善有源滤波器性能的有效手段？</p>",
+        "images": [],
+        "text": "以下哪种方法不是用于改善有源滤波器性能的有效手段？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>减小滤波器的电源电压</p>",
+          "images": [],
+          "text": "减小滤波器的电源电压"
+        },
+        {
+          "html": "<p>优化电阻和电容的值</p>",
+          "images": [],
+          "text": "优化电阻和电容的值"
+        },
+        {
+          "html": "<p>使用更高增益的运算放大器</p>",
+          "images": [],
+          "text": "使用更高增益的运算放大器"
+        },
+        {
+          "html": "<p> 增加滤波器的阶数</p>",
+          "images": [],
+          "text": "增加滤波器的阶数"
+        }
+      ],
+      "answer": {
+        "reasoning": "减小电源电压不是普遍改善性能的方法，可能减小动态范围。",
+        "semanticAnswer": "减小滤波器的电源电压",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>减小滤波器的电源电压</p>",
+            "images": [],
+            "text": "减小滤波器的电源电压"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 7,
+      "experiment": "实验七 有源滤波电路研究",
+      "question": {
+        "html": "<p>有源滤波器的主要分类有（ ）。</p>",
+        "images": [],
+        "text": "有源滤波器的主要分类有（ ）。"
+      },
+      "type": "multiple_choice",
+      "options": [
+        {
+          "html": "<p>低通滤波器</p>",
+          "images": [],
+          "text": "低通滤波器"
+        },
+        {
+          "html": "<p>带通滤波器</p>",
+          "images": [],
+          "text": "带通滤波器"
+        },
+        {
+          "html": "<p>高通滤波器</p>",
+          "images": [],
+          "text": "高通滤波器"
+        },
+        {
+          "html": "<p>带阻滤波器</p>",
+          "images": [],
+          "text": "带阻滤波器"
+        }
+      ],
+      "answer": {
+        "reasoning": "按通带位置分为低通、高通、带通、带阻四类。",
+        "semanticAnswer": [
+          "低通滤波器",
+          "高通滤波器",
+          "带通滤波器",
+          "带阻滤波器"
+        ],
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>低通滤波器</p>",
+            "images": [],
+            "text": "低通滤波器"
+          },
+          {
+            "html": "<p>高通滤波器</p>",
+            "images": [],
+            "text": "高通滤波器"
+          },
+          {
+            "html": "<p>带通滤波器</p>",
+            "images": [],
+            "text": "带通滤波器"
+          },
+          {
+            "html": "<p>带阻滤波器</p>",
+            "images": [],
+            "text": "带阻滤波器"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab07"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>三角波发生器电路中的R1和周期的关系？</p>",
+        "images": [],
+        "text": "三角波发生器电路中的R1和周期的关系？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>负相关</p>",
+          "images": [],
+          "text": "负相关"
+        },
+        {
+          "html": "<p>正相关</p>",
+          "images": [],
+          "text": "正相关"
+        },
+        {
+          "html": "<p>都不是</p>",
+          "images": [],
+          "text": "都不是"
+        },
+        {
+          "html": "<p>没关系</p>",
+          "images": [],
+          "text": "没关系"
+        }
+      ],
+      "answer": {
+        "reasoning": "T=4R4R1C/R2，其他量不变时T与R1正比。",
+        "semanticAnswer": "正相关",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>正相关</p>",
+            "images": [],
+            "text": "正相关"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>对三角波发生器的电路结构叙述正确的是？</p>",
+        "images": [],
+        "text": "对三角波发生器的电路结构叙述正确的是？"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>由反向输入的滞回比较器和积分电路组成</p>",
+          "images": [],
+          "text": "由反向输入的滞回比较器和积分电路组成"
+        },
+        {
+          "html": "<p>由反向输入的滞回比较器和RC电路组成</p>",
+          "images": [],
+          "text": "由反向输入的滞回比较器和RC电路组成"
+        },
+        {
+          "html": "<p> 由同向输入的滞回比较器和RC电路组成</p>",
+          "images": [],
+          "text": "由同向输入的滞回比较器和RC电路组成"
+        },
+        {
+          "html": "<p>由同向输入的滞回比较器和积分电路组成</p>",
+          "images": [],
+          "text": "由同向输入的滞回比较器和积分电路组成"
+        }
+      ],
+      "answer": {
+        "reasoning": "指导书8.4图8-2采用同相输入滞回比较器和反相积分器。",
+        "semanticAnswer": "由同向输入的滞回比较器和积分电路组成",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>由同向输入的滞回比较器和积分电路组成</p>",
+            "images": [],
+            "text": "由同向输入的滞回比较器和积分电路组成"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>集成运算放大器是一种高增益的放大器，只要加入适当的反馈网络，利用（ ）原理，满足振荡的条件，就可以构成正弦波、方波、三角波和锯齿波等各种振荡电路</p>",
+        "images": [],
+        "text": "集成运算放大器是一种高增益的放大器，只要加入适当的反馈网络，利用（ ）原理，满足振荡的条件，就可以构成正弦波、方波、三角波和锯齿波等各种振荡电路"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>负反馈</p>",
+          "images": [],
+          "text": "负反馈"
+        },
+        {
+          "html": "<p>电流反馈</p>",
+          "images": [],
+          "text": "电流反馈"
+        },
+        {
+          "html": "<p>电压反馈</p>",
+          "images": [],
+          "text": "电压反馈"
+        },
+        {
+          "html": "<p> 正反馈</p>",
+          "images": [],
+          "text": "正反馈"
+        }
+      ],
+      "answer": {
+        "reasoning": "振荡器借助正反馈满足起振条件。",
+        "semanticAnswer": "正反馈",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> 正反馈</p>",
+            "images": [],
+            "text": "正反馈"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>方波发生器电路里，为使输出电压限制在±UZ,应使用（） 器件。</p>",
+        "images": [],
+        "text": "方波发生器电路里，为使输出电压限制在±UZ,应使用（） 器件。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>整流二极管</p>",
+          "images": [],
+          "text": "整流二极管"
+        },
+        {
+          "html": "<p> 单向稳压管</p>",
+          "images": [],
+          "text": "单向稳压管"
+        },
+        {
+          "html": "<p>发光二极管</p>",
+          "images": [],
+          "text": "发光二极管"
+        },
+        {
+          "html": "<p>双向稳压管</p>",
+          "images": [],
+          "text": "双向稳压管"
+        }
+      ],
+      "answer": {
+        "reasoning": "指导书使用双向稳压管DZ实现双极性限幅。",
+        "semanticAnswer": "双向稳压管",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>双向稳压管</p>",
+            "images": [],
+            "text": "双向稳压管"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>三角波发生器电路的振荡周期为</p>",
+        "images": [],
+        "text": "三角波发生器电路的振荡周期为"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p> T=4R4R1C/R2</p>",
+          "images": [],
+          "text": "T=4R4R1C/R2"
+        },
+        {
+          "html": "<p>T=2Π√LC</p>",
+          "images": [],
+          "text": "T=2Π√LC"
+        },
+        {
+          "html": "<p> T=2RfCln(1+2R2/R1)</p>",
+          "images": [],
+          "text": "T=2RfCln(1+2R2/R1)"
+        },
+        {
+          "html": "<p> T=2ΠLC</p>",
+          "images": [],
+          "text": "T=2ΠLC"
+        }
+      ],
+      "answer": {
+        "reasoning": "阈值幅度为(R1/R2)UZ，积分斜率为UZ/(R4C)，周期为4R4R1C/R2。",
+        "semanticAnswer": "T=4R4R1C/R2",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p> T=4R4R1C/R2</p>",
+            "images": [],
+            "text": "T=4R4R1C/R2"
+          }
+        ],
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>集成运放的输出端一般都接KΩ级别的电阻，主要起到防止电路电流过大，烧坏电路。</p>",
+        "images": [],
+        "text": "集成运放的输出端一般都接KΩ级别的电阻，主要起到防止电路电流过大，烧坏电路。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "kΩ级负载有助于限制输出电流，避免过载。",
+        "semanticAnswer": "正确",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>负反馈放大电路不可能产生自激振荡。</p>",
+        "images": [],
+        "text": "负反馈放大电路不可能产生自激振荡。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "负反馈电路高频附加相移可使环路满足自激条件。",
+        "semanticAnswer": "错误",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": false,
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>三角波和方波通过改变充放电时间常数改变占空比</p>",
+        "images": [],
+        "text": "三角波和方波通过改变充放电时间常数改变占空比"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "分别调节充放电时间常数可改变上升下降时间比例及占空比；同时等比例改变二者不会改变占空比。",
+        "semanticAnswer": "正确",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>示波器中的measure测量的幅值和理论教材中提到的幅值大小一样</p>",
+        "images": [],
+        "text": "示波器中的measure测量的幅值和理论教材中提到的幅值大小一样"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "示波器Amplitude常表示高低电平之差，而教材幅值通常指相对中心的峰值，不能直接等同。",
+        "semanticAnswer": "错误",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": false,
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    },
+    {
+      "lab": 8,
+      "experiment": "实验八  波形发生器实验",
+      "question": {
+        "html": "<p>在电路工作中，如果发现波形不对，或者异常声音或者异常发热，需要马上断电，检测电路。</p>",
+        "images": [],
+        "text": "在电路工作中，如果发现波形不对，或者异常声音或者异常发热，需要马上断电，检测电路。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": "指导书8.5/8.6要求异常波形、声音或发热时立即断电检查。",
+        "semanticAnswer": "正确",
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "independently_solved_and_quiz_score_100"
+      },
+      "imageBase": "experiments/lab08"
+    }
+  ]
+}

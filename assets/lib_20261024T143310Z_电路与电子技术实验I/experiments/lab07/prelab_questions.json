@@ -1,0 +1,338 @@
+{
+  "experiment": "实验七 有源滤波电路研究",
+  "resourceId": 330838,
+  "questions": [
+    {
+      "number": 1,
+      "options": [
+        {
+          "html": "<p>低，好</p>",
+          "images": [],
+          "text": "低，好"
+        },
+        {
+          "html": "<p>高，好</p>",
+          "images": [],
+          "text": "高，好"
+        },
+        {
+          "html": "<p>低，不变</p>",
+          "images": [],
+          "text": "低，不变"
+        },
+        {
+          "html": "<p>高，差</p>",
+          "images": [],
+          "text": "高，差"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>有源滤波器的阶数越（ ），滤波器的滤波性能越 （ ）。</p>",
+        "images": [],
+        "text": "有源滤波器的阶数越（ ），滤波器的滤波性能越 （ ）。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 2,
+      "options": [
+        {
+          "html": "<p>二阶有源低通滤波器通带内的放大倍数为1</p>",
+          "images": [],
+          "text": "二阶有源低通滤波器通带内的放大倍数为1"
+        },
+        {
+          "html": "<p>二阶压控电压源有源低通滤波器的品质因数为<img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-001.png"
+          ],
+          "text": "二阶压控电压源有源低通滤波器的品质因数为"
+        },
+        {
+          "html": "<p>二阶有源低通滤波器的品质因数为<img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-002.png"
+          ],
+          "text": "二阶有源低通滤波器的品质因数为"
+        },
+        {
+          "html": "<p>二阶压控电压源有源低通滤波器通带内的放大倍数为<img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-003.png"
+          ],
+          "text": "二阶压控电压源有源低通滤波器通带内的放大倍数为"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>根据实验指导书的实验原理部分，二阶有源低通滤波器和二阶压控电压源有源低通滤波器特性描述正确的有哪些？</p>",
+        "images": [],
+        "text": "根据实验指导书的实验原理部分，二阶有源低通滤波器和二阶压控电压源有源低通滤波器特性描述正确的有哪些？"
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "number": 3,
+      "options": [
+        {
+          "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-004.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-005.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-005.png"
+          ],
+          "text": ""
+        },
+        {
+          "html": "<p>都不是</p>",
+          "images": [],
+          "text": "都不是"
+        },
+        {
+          "html": "<p><img src=\"assets/preclass-006.png\" alt=\"\" style=\"\"></p>",
+          "images": [
+            "assets/preclass-006.png"
+          ],
+          "text": ""
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>二阶压控电压源有源低通滤波器产生自激振荡的条件是什么？</p>",
+        "images": [],
+        "text": "二阶压控电压源有源低通滤波器产生自激振荡的条件是什么？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 4,
+      "options": [
+        {
+          "html": "<p>可以提供电压增益</p>",
+          "images": [],
+          "text": "可以提供电压增益"
+        },
+        {
+          "html": "<p>体积更小</p>",
+          "images": [],
+          "text": "体积更小"
+        },
+        {
+          "html": "<p>滤波性能更好</p>",
+          "images": [],
+          "text": "滤波性能更好"
+        },
+        {
+          "html": "<p>成本更低</p>",
+          "images": [],
+          "text": "成本更低"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>有源滤波器与无源滤波器相比，在电路性能指标方面，其主要优势是什么？</p>",
+        "images": [],
+        "text": "有源滤波器与无源滤波器相比，在电路性能指标方面，其主要优势是什么？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 5,
+      "options": [
+        {
+          "html": "<p>滤波器的增益大小</p>",
+          "images": [],
+          "text": "滤波器的增益大小"
+        },
+        {
+          "html": "<p>滤波器允许通过的最高频率与最低频率之差</p>",
+          "images": [],
+          "text": "滤波器允许通过的最高频率与最低频率之差"
+        },
+        {
+          "html": "<p> 滤波器的输入电阻大小</p>",
+          "images": [],
+          "text": "滤波器的输入电阻大小"
+        },
+        {
+          "html": "<p>滤波器的输出电压大小</p>",
+          "images": [],
+          "text": "滤波器的输出电压大小"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>有源滤波器的带宽指的是什么？</p>",
+        "images": [],
+        "text": "有源滤波器的带宽指的是什么？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 6,
+      "options": [
+        {
+          "html": "<p>允许所有频段信号通过</p>",
+          "images": [],
+          "text": "允许所有频段信号通过"
+        },
+        {
+          "html": "<p>允许某一频段内的信号通过，其他频段信号被阻断</p>",
+          "images": [],
+          "text": "允许某一频段内的信号通过，其他频段信号被阻断"
+        },
+        {
+          "html": "<p>允许高频信号通过，阻断低频信号</p>",
+          "images": [],
+          "text": "允许高频信号通过，阻断低频信号"
+        },
+        {
+          "html": "<p>允许低频信号通过，阻断高频信号</p>",
+          "images": [],
+          "text": "允许低频信号通过，阻断高频信号"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>有源带通滤波器的主要特点是什么？</p>",
+        "images": [],
+        "text": "有源带通滤波器的主要特点是什么？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 7,
+      "options": [
+        {
+          "html": "<p>滤波器的绝缘电阻</p>",
+          "images": [],
+          "text": "滤波器的绝缘电阻"
+        },
+        {
+          "html": "<p> 截止频率</p>",
+          "images": [],
+          "text": "截止频率"
+        },
+        {
+          "html": "<p>滤波器的功耗</p>",
+          "images": [],
+          "text": "滤波器的功耗"
+        },
+        {
+          "html": "<p>通带增益</p>",
+          "images": [],
+          "text": "通带增益"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>在设计有源滤波器时，下列哪个参数通常不被考虑？</p>",
+        "images": [],
+        "text": "在设计有源滤波器时，下列哪个参数通常不被考虑？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 8,
+      "options": [
+        {
+          "html": "<p>减小电容值</p>",
+          "images": [],
+          "text": "减小电容值"
+        },
+        {
+          "html": "<p>增大电容值</p>",
+          "images": [],
+          "text": "增大电容值"
+        },
+        {
+          "html": "<p>使用更高增益的运放</p>",
+          "images": [],
+          "text": "使用更高增益的运放"
+        },
+        {
+          "html": "<p>增大电阻值</p>",
+          "images": [],
+          "text": "增大电阻值"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>在有源高通滤波器中，若要提高截止频率，以下哪种措施是有效的？</p>",
+        "images": [],
+        "text": "在有源高通滤波器中，若要提高截止频率，以下哪种措施是有效的？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 9,
+      "options": [
+        {
+          "html": "<p>减小滤波器的电源电压</p>",
+          "images": [],
+          "text": "减小滤波器的电源电压"
+        },
+        {
+          "html": "<p>优化电阻和电容的值</p>",
+          "images": [],
+          "text": "优化电阻和电容的值"
+        },
+        {
+          "html": "<p>使用更高增益的运算放大器</p>",
+          "images": [],
+          "text": "使用更高增益的运算放大器"
+        },
+        {
+          "html": "<p> 增加滤波器的阶数</p>",
+          "images": [],
+          "text": "增加滤波器的阶数"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>以下哪种方法不是用于改善有源滤波器性能的有效手段？</p>",
+        "images": [],
+        "text": "以下哪种方法不是用于改善有源滤波器性能的有效手段？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 10,
+      "options": [
+        {
+          "html": "<p>低通滤波器</p>",
+          "images": [],
+          "text": "低通滤波器"
+        },
+        {
+          "html": "<p>带通滤波器</p>",
+          "images": [],
+          "text": "带通滤波器"
+        },
+        {
+          "html": "<p>高通滤波器</p>",
+          "images": [],
+          "text": "高通滤波器"
+        },
+        {
+          "html": "<p>带阻滤波器</p>",
+          "images": [],
+          "text": "带阻滤波器"
+        }
+      ],
+      "score": 1,
+      "statement": {
+        "html": "<p>有源滤波器的主要分类有（ ）。</p>",
+        "images": [],
+        "text": "有源滤波器的主要分类有（ ）。"
+      },
+      "type": "multiple_choice"
+    }
+  ]
+}

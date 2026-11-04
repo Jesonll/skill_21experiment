@@ -1,0 +1,58 @@
+{
+  "experiment": "实验八  波形发生器实验",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 331029,
+          "title": "预习考核",
+          "category": 4,
+          "process": 100,
+          "passed": 1,
+          "score": 100
+        },
+        {
+          "id": 331031,
+          "title": "方波发生器实验二.mp4",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 331032,
+          "title": "方波发生器实验一.mp4",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 347424,
+          "title": "实验八 波形发生电路实验指导书.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 347425,
+          "title": "实验八 波形发生器实验数据记录.pdf",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 331030,
+          "title": "波形发生器实验",
+          "category": 11,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "experiment": "实验六 集成运算放大器的应用实验",
+  "resourceId": 330830,
+  "sections": [
+    {
+      "instructions": {
+        "html": "<p>1. &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family: 宋体;\">掌握集成运算放大器的基本运算功能及其正确使用；</span></p><p>2. &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family: 宋体;\">掌握集成运算放大器常用单元电路的设计和调试方法；</span></p><p>3. &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family: 宋体;\">熟悉示波器、低频信号发生器、毫伏表的使用方法。</span></p>",
+        "images": [],
+        "text": "1.        掌握集成运算放大器的基本运算功能及其正确使用；\n2.        掌握集成运算放大器常用单元电路的设计和调试方法；\n3.        熟悉示波器、低频信号发生器、毫伏表的使用方法。"
+      },
+      "questions": [],
+      "title": "实验目的",
+      "type": 1
+    },
+    {
+      "instructions": {
+        "html": "<p>1.复习集成运算放大器的基本理论知识，观看实验仪器的使用视频，及示例接线的实验视频；</p><p>2.预习实验注意事项，完成所有理论值的计算，完成Easy云课堂上的实验预习测验；</p><p>3.掌握正负15V电源的连接方法。</p>",
+        "images": [],
+        "text": "1.复习集成运算放大器的基本理论知识，观看实验仪器的使用视频，及示例接线的实验视频；\n2.预习实验注意事项，完成所有理论值的计算，完成Easy云课堂上的实验预习测验；\n3.掌握正负15V电源的连接方法。"
+      },
+      "questions": [],
+      "title": "实验预习要求",
+      "type": 1
+    },
+    {
+      "instructions": {
+        "html": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">名称</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">型号</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">数量</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">直流稳压电源</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">DP832A</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">1台</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">信号发生器</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">DG4062</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">1台</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">示波器</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">TEK MSO 2012B</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">1台</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">集成运算放大器</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">LM741或μA741</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">1块</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">电阻</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">100Ω、10kΩ、20kΩ、100kΩ</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">若干</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">电容</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">0.1μF、0.01μF</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">各1只</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">短接桥和连接导线</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">P8-1和50148</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">若干</td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"141\">实验用九孔插件方板</td><td colspan=\"1\" rowspan=\"1\" width=\"252\">300mm×298mm</td><td colspan=\"1\" rowspan=\"1\" width=\"66\">1块</td></tr></tbody></table><p><br></p>",
+        "images": [],
+        "text": "名称型号数量\n直流稳压电源DP832A1台\n信号发生器DG40621台\n示波器TEK MSO 2012B1台\n集成运算放大器LM741或μA7411块\n电阻100Ω、10kΩ、20kΩ、100kΩ若干\n电容0.1μF、0.01μF各1只\n短接桥和连接导线P8-1和50148若干\n实验用九孔插件方板300mm×298mm1块"
+      },
+      "questions": [],
+      "title": "实验设备与元器件",
+      "type": 1
+    },
+    {
+      "instructions": {
+        "html": "<p style=\"text-indent: 18.15pt;\"><span style=\"font-family: 宋体;\">集成运算放大器是最重要的模拟集成电路之一。它具有体积小、功耗低、可靠性高等优点，种类繁多，应用广泛。从工作原理上，集成运算放大器可分为线性应用和非线性应用两方面。在线性工作区内，其输出电压</span><em>u</em><sub>o</sub><span style=\"font-family: 宋体;\">与输入电压</span><em>u</em><sub>i</sub><span style=\"font-family: 宋体;\">的线性放大的关系为</span></p><p style=\"text-indent: 18.15pt; text-align: center;\"><img src=\"assets/image-001.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">在工程应用情况下，将集成运放视为理想运放，就是将集成运放的各项技术指标理想化，满足下列条件的运算放大器称为理想运放，即</span></p><p style=\"text-indent: 21pt;\">(1) <span style=\"font-family: 宋体;\">开环电压放大倍数</span><img src=\"assets/image-002.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\">(2) <span style=\"font-family: 宋体;\">输入阻抗</span><img src=\"assets/image-003.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\">(3) <span style=\"font-family: 宋体;\">输出阻抗</span><img src=\"assets/image-004.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\">(4) <span style=\"font-family: 宋体;\">带宽</span><img src=\"assets/image-005.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\">(5) <span style=\"font-family: 宋体;\">失调与漂移均为零</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">理想运放工作在线性区的分析依据是，输入端的虚短（</span><img src=\"assets/image-006.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">）、虚断（</span><img src=\"assets/image-007.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">）和虚地（同相端接地时，</span><img src=\"assets/image-008.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">）。</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">理想运放工作在非线性区的分析依据是，</span><img src=\"assets/image-009.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">，</span><img src=\"assets/image-010.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">，</span><img src=\"assets/image-011.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">，</span><img src=\"assets/image-012.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">。</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">本实验中使用的集成运算放大器为通用集成运放</span>LM741<span style=\"font-family: 宋体;\">或者</span>μA741<span style=\"font-family: 宋体;\">，其引脚及引脚功能如图</span>5-1<span style=\"font-family: 宋体;\">所示。</span>2<span style=\"font-family: 宋体;\">脚为运放的反相输入端，</span>3<span style=\"font-family: 宋体;\">脚为运放的同相输入端，</span>6<span style=\"font-family: 宋体;\">脚为运放的输出端，</span>7<span style=\"font-family: 宋体;\">脚为正电源引脚，</span>4<span style=\"font-family: 宋体;\">脚为负电源引脚。</span>1<span style=\"font-family: 宋体;\">脚和</span>5<span style=\"font-family: 宋体;\">脚为输出调零端，</span>8<span style=\"font-family: 宋体;\">脚为空脚。</span></p><table style=\"width: 100%;\"><tbody><tr><td colspan=\"1\" rowspan=\"1\" width=\"325\" style=\"text-align: center;\"><img src=\"assets/image-013.png\" alt=\"\" style=\"\"></td><td colspan=\"1\" rowspan=\"1\" width=\"325\" style=\"text-align: center;\"><img src=\"assets/image-014.png\" alt=\"\" style=\"\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\" width=\"325\" style=\"text-align: center;\">(a) LM741的引脚排列图<br></td><td colspan=\"1\" rowspan=\"1\" width=\"325\" style=\"text-align: center;\">(b) LM741实物图（使用时先找半圆形缺口朝向）</td></tr></tbody></table><p><strong>5.4.1 &nbsp; &nbsp; 加法运算电路</strong></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">根据信号输入端的不同有同相加法电路和反相加法电路两种形式。其运算电路如图</span>5-2<span style=\"font-family: 宋体;\">和图</span>5-3<span style=\"font-family: 宋体;\">所示。</span></p><p style=\"text-indent: 21pt; text-align: center;\"><img src=\"assets/image-015.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt; text-align: center;\">图5-2 同相加法运算电路</p><p style=\"text-indent: 21pt; text-align: center;\"><img src=\"assets/image-016.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt; text-align: center;\">图5-3 反相加法运算电路</p><p style=\"text-indent: 23.25pt;\"><span style=\"font-family: 宋体;\">同相加法运算电路的输出电压为</span></p><p style=\"text-indent: 21pt;\"><img src=\"assets/image-017.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">其中，</span><img src=\"assets/image-018.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">因此，</span><em>R</em><sub>p</sub><span style=\"font-family: 宋体;\">与每个回路电阻均有关，要满足一定的比例关系，调节不便。</span></p><p style=\"text-indent: 23.25pt;\"><span style=\"font-family: 宋体;\">反相加法运算电路的输出电压为</span></p><p style=\"text-indent: 21pt;\"><img src=\"assets/image-019.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">当</span><img src=\"assets/image-020.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">时，</span><img src=\"assets/image-021.png\" alt=\"\" style=\"\"></p><p><strong>5.4.2 &nbsp; &nbsp; 减法运算电路</strong></p><p style=\"text-indent: 21pt; text-align: center;\"><img src=\"assets/image-022.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt; text-align: center;\"><span style=\"font-family: 宋体;\">图5-4 减法运算电路</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">减法运算电路实际上是反相比例运算电路和同相比例运算电路的组合，其运算电路如图</span>5-4<span style=\"font-family: 宋体;\">所示。在理想条件下，输出电压与各输入电压的关系为：</span></p><p style=\"text-indent: 21pt;\"><img src=\"assets/image-023.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">当</span><img src=\"assets/image-024.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">和</span><img src=\"assets/image-025.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">时，则上式为：</span></p><p style=\"text-indent: 21pt;\"><img src=\"assets/image-026.png\" alt=\"\" style=\"\"></p><p><strong>5.4.3 &nbsp; &nbsp; 积分运算电路</strong></p><p style=\"text-indent: 21pt; text-align: center;\"><img src=\"assets/image-027.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt; text-align: center;\"><span style=\"font-family: 宋体;\">图5-5 积分运算电路</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">同相输入和反相输入可以构成积分运算电路，在此以反相积分为例，其运算电路如图</span>5-5<span style=\"font-family: 宋体;\">所示。在理想条件下，输出电压与输入电压的关系为</span></p><p style=\"text-indent: 21pt;\"><img src=\"assets/image-028.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">即输出电压的大小与输入电压对时间的积分值成正比关系，这个比值由电阻</span><em>R</em><sub>1</sub><span style=\"font-family: 宋体;\">和电容</span><em>C</em><span style=\"font-family: 宋体;\">决定，时间常数</span><em>R</em><sub>1</sub><em>C</em><span style=\"font-family: 宋体;\">的数值愈大，达到给定的输出值所需要的时间就愈长，式中的负号表示输出与输入电压的反相关系。</span></p><p>1<span style=\"font-family: 宋体;\">）当输入信号为一直流电压</span><em>U</em><span style=\"font-family: 宋体;\">时且电容初始值为</span>0<span style=\"font-family: 宋体;\">，积分电路的输出电压为</span><img src=\"assets/image-029.png\" alt=\"\" style=\"\"><span style=\"font-family: 宋体;\">。输出电路为斜坡电压，但其输出电压值不会无限制的增加，当输出达到饱和时就不再增加，显然，</span><em>R</em><sub>1</sub><em>C</em><span style=\"font-family: 宋体;\">的数值愈大，达到饱和所需的时间就愈长。</span></p><p>2<span style=\"font-family: 宋体;\">）当输入信号为方波电压时，积分电路的输出电压为</span></p><p style=\"text-align: center;\"><img src=\"assets/image-030.png\" alt=\"\" style=\"\"></p><p><span style=\"font-family: 宋体;\">输出为三角波，为了使三角波的幅度满足要求，要注意时间常数</span><em>R</em><sub>1</sub><em>C</em><span style=\"font-family: 宋体;\">的选择：</span><em>R</em><sub>1</sub><em>C</em><span style=\"font-family: 宋体;\">值过大，在一定的积分时间内，输出电压会过低，无法满足输出幅度的要求；</span><em>R</em><sub>1</sub><em>C</em><span style=\"font-family: 宋体;\">值过小，积分电路的输出会在未达到积分时间要求时就饱和了。</span></p><p><strong>5.4.4 &nbsp; &nbsp; 微分运算电路</strong></p><p style=\"text-indent: 21pt; text-align: center;\"><img src=\"assets/image-031.png\" alt=\"\" style=\"\"></p><p style=\"text-indent: 21pt; text-align: center;\"><span style=\"font-family: 宋体;\">图5-6 微分运算电路</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">微分运算是积分运算的逆运算，只需将反相输入端的电阻和反馈电容调换位置，就称为微分运算电路，其运算电路如图</span>5-6<span style=\"font-family: 宋体;\">所示。</span></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">在理想条件下，输出电压与输入电压的关系为</span></p><p style=\"text-indent: 21pt;\"><img src=\"assets/image-032.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          {
+            "path": "assets/image-001.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-002.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-003.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-004.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-005.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-006.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-007.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-008.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-009.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-010.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-011.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-012.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-013.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-014.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-015.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-016.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-017.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-018.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-019.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-020.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-021.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-022.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-023.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-024.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-025.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-026.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-027.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-028.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-029.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-030.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-031.png",
+            "status": "downloaded"
+          },
+          {
+            "path": "assets/image-032.png",
+            "status": "downloaded"
+          }
+        ],
+        "text": "集成运算放大器是最重要的模拟集成电路之一。它具有体积小、功耗低、可靠性高等优点，种类繁多，应用广泛。从工作原理上，集成运算放大器可分为线性应用和非线性应用两方面。在线性工作区内，其输出电压uo与输入电压ui的线性放大的关系为\n\n在工程应用情况下，将集成运放视为理想运放，就是将集成运放的各项技术指标理想化，满足下列条件的运算放大器称为理想运放，即\n(1) 开环电压放大倍数\n(2) 输入阻抗\n(3) 输出阻抗\n(4) 带宽\n(5) 失调与漂移均为零\n理想运放工作在线性区的分析依据是，输入端的虚短（）、虚断（）和虚地（同相端接地时，）。\n理想运放工作在非线性区的分析依据是，，，，。\n本实验中使用的集成运算放大器为通用集成运放LM741或者μA741，其引脚及引脚功能如图5-1所示。2脚为运放的反相输入端，3脚为运放的同相输入端，6脚为运放的输出端，7脚为正电源引脚，4脚为负电源引脚。1脚和5脚为输出调零端，8脚为空脚。\n\n(a) LM741的引脚排列图\n(b) LM741实物图（使用时先找半圆形缺口朝向）\n5.4.1     加法运算电路\n根据信号输入端的不同有同相加法电路和反相加法电路两种形式。其运算电路如图5-2和图5-3所示。\n\n图5-2 同相加法运算电路\n\n图5-3 反相加法运算电路\n同相加法运算电路的输出电压为\n\n其中，\n因此，Rp与每个回路电阻均有关，要满足一定的比例关系，调节不便。\n反相加法运算电路的输出电压为\n\n当时，\n5.4.2     减法运算电路\n\n图5-4 减法运算电路\n减法运算电路实际上是反相比例运算电路和同相比例运算电路的组合，其运算电路如图5-4所示。在理想条件下，输出电压与各输入电压的关系为：\n\n当和时，则上式为：\n\n5.4.3     积分运算电路\n\n图5-5 积分运算电路\n同相输入和反相输入可以构成积分运算电路，在此以反相积分为例，其运算电路如图5-5所示。在理想条件下，输出电压与输入电压的关系为\n\n即输出电压的大小与输入电压对时间的积分值成正比关系，这个比值由电阻R1和电容C决定，时间常数R1C的数值愈大，达到给定的输出值所需要的时间就愈长，式中的负号表示输出与输入电压的反相关系。\n1）当输入信号为一直流电压U时且电容初始值为0，积分电路的输出电压为。输出电路为斜坡电压，但其输出电压值不会无限制的增加，当输出达到饱和时就不再增加，显然，R1C的数值愈大，达到饱和所需的时间就愈长。\n2）当输入信号为方波电压时，积分电路的输出电压为\n\n输出为三角波，为了使三角波的幅度满足要求，要注意时间常数R1C的选择：R1C值过大，在一定的积分时间内，输出电压会过低，无法满足输出幅度的要求；R1C值过小，积分电路的输出会在未达到积分时间要求时就饱和了。\n5.4.4     微分运算电路\n\n图5-6 微分运算电路\n微分运算是积分运算的逆运算，只需将反相输入端的电阻和反馈电容调换位置，就称为微分运算电路，其运算电路如图5-6所示。\n在理想条件下，输出电压与输入电压的关系为"
+      },
+      "questions": [],
+      "title": "实验原理",
+      "type": 1
+    },
+    {
+      "instructions": {
+        "html": "",
+        "images": [],
+        "text": ""
+      },
+      "questions": [
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149169,
+          "number": 1,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>简述实验六的实验目的。</p>",
+            "images": [],
+            "text": "简述实验六的实验目的。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149170,
+          "number": 2,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>请上传实验过程原始数据记录页（记录页上应写有个人姓名及学号、并附有教师盖章）。</p>",
+            "images": [],
+            "text": "请上传实验过程原始数据记录页（记录页上应写有个人姓名及学号、并附有教师盖章）。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149171,
+          "number": 3,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>画出减法器的实验电路图，并根据理论计算元器件参数（要有计算过程），最后绘制电压<span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"u_{i2}\"></span>和<span data-w-e-type=\"formula\" data-w-e-is-void=\"\" data-w-e-is-inline=\"\" data-value=\"u_{o}\"></span>的波形（采用坐标纸或者网格纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或电脑作图）</p>",
+            "images": [],
+            "text": "画出减法器的实验电路图，并根据理论计算元器件参数（要有计算过程），最后绘制电压$u_{i2}$和$u_{o}$的波形（采用坐标纸或者网格纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或电脑作图）"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149172,
+          "number": 4,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>画出加法器的实验电路图，并根据理论计算选元器件参数（要有计算过程）</p>",
+            "images": [],
+            "text": "画出加法器的实验电路图，并根据理论计算选元器件参数（要有计算过程）"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149173,
+          "number": 5,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>将积分电路、微分电路按照实验指导书的要求，绘制输入和输出电压波形，输入和输出需在同一坐标系下绘制（采用坐标纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或电脑作图）</p>",
+            "images": [],
+            "text": "将积分电路、微分电路按照实验指导书的要求，绘制输入和输出电压波形，输入和输出需在同一坐标系下绘制（采用坐标纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或电脑作图）"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149174,
+          "number": 6,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>在减法器和加法器电路中，输入信号是否都需要同相位？为什么？在本次实验的加法器实验中，示波器观察加法器输出信号时，是否可以采用AC耦合方式？为什么？</p>",
+            "images": [],
+            "text": "在减法器和加法器电路中，输入信号是否都需要同相位？为什么？在本次实验的加法器实验中，示波器观察加法器输出信号时，是否可以采用AC耦合方式？为什么？"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149175,
+          "number": 7,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>实验电路电阻为什么使用kΩ级电阻而不使用Ω或MΩ级电阻？请分别分析电阻过小、过大带来的问题。（提示：电阻过小时从电流角度分析，电阻过大时从信号噪声角度分析）</p>",
+            "images": [],
+            "text": "实验电路电阻为什么使用kΩ级电阻而不使用Ω或MΩ级电阻？请分别分析电阻过小、过大带来的问题。（提示：电阻过小时从电流角度分析，电阻过大时从信号噪声角度分析）"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149176,
+          "number": 8,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>实际的微分电路，往往在输入端与电容C之间串联入一个小电阻的同时在反馈通路电阻上并联一个小电容，请分析原因。（提示：电容电压是连续变化的，阻塞和自激振荡）</p>",
+            "images": [],
+            "text": "实际的微分电路，往往在输入端与电容C之间串联入一个小电阻的同时在反馈通路电阻上并联一个小电容，请分析原因。（提示：电容电压是连续变化的，阻塞和自激振荡）"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149177,
+          "number": 9,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>电阻、电容本身就可组成积分器，为什么还要用运算放大器？</p>",
+            "images": [],
+            "text": "电阻、电容本身就可组成积分器，为什么还要用运算放大器？"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149178,
+          "number": 10,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>反相比例放大器与同相比例放大器的输入、输出电阻各有什么特点？试用负反馈概念结合二者中任意一个的电路解释。</p>",
+            "images": [],
+            "text": "反相比例放大器与同相比例放大器的输入、输出电阻各有什么特点？试用负反馈概念结合二者中任意一个的电路解释。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149179,
+          "number": 11,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>为了防止集成运放的正、负电源的极性接反而损坏集成运放，应在集成运放的电源端加什么保护电路？请画出保护电路图。</p>",
+            "images": [],
+            "text": "为了防止集成运放的正、负电源的极性接反而损坏集成运放，应在集成运放的电源端加什么保护电路？请画出保护电路图。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149180,
+          "number": 12,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>在实际测试中，如果发现运算放大器的输出电压与理论值相差很多，接近电源电压，是什么原因造成的？（至少回答4点，原因合理即可）</p>",
+            "images": [],
+            "text": "在实际测试中，如果发现运算放大器的输出电压与理论值相差很多，接近电源电压，是什么原因造成的？（至少回答4点，原因合理即可）"
+          },
+          "type": 8
+        }
+      ],
+      "title": "实验报告",
+      "type": 2
+    }
+  ]
+}

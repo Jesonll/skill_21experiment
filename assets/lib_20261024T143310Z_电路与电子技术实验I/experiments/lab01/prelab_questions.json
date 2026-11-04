@@ -1,0 +1,336 @@
+{
+  "experiment": "实验一 直流电路实验",
+  "resourceId": 330755,
+  "questions": [
+    {
+      "number": 1,
+      "options": [
+        {
+          "html": "<p>2</p>",
+          "images": [],
+          "text": "2"
+        },
+        {
+          "html": "<p>1</p>",
+          "images": [],
+          "text": "1"
+        },
+        {
+          "html": "<p>4</p>",
+          "images": [],
+          "text": "4"
+        },
+        {
+          "html": "<p>3</p>",
+          "images": [],
+          "text": "3"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>若使用该直流稳压源输出10V的电压，可以使用该设备的哪个通道输出。</p><p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-001.png"
+        ],
+        "text": "若使用该直流稳压源输出10V的电压，可以使用该设备的哪个通道输出。"
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "number": 2,
+      "options": [
+        {
+          "html": "<p>一致，负</p>",
+          "images": [],
+          "text": "一致，负"
+        },
+        {
+          "html": "<p>一致，相等</p>",
+          "images": [],
+          "text": "一致，相等"
+        },
+        {
+          "html": "<p> 相反，相等</p>",
+          "images": [],
+          "text": "相反，相等"
+        },
+        {
+          "html": "<p>相反，负</p>",
+          "images": [],
+          "text": "相反，负"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>测电流导线的一头插入测电流插孔中，另一头的红色端子需要接在电流表的正极性端，黑色端子接在电流表的负极性端，这样便将电流表串</p><p>联到测电流插孔所在的支路。故，建议在摆放时应使得测电流插孔从“+”到“-”的方向与电路参考电流方向（），否则所测电流方向为（）。</p><p><img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-002.png"
+        ],
+        "text": "测电流导线的一头插入测电流插孔中，另一头的红色端子需要接在电流表的正极性端，黑色端子接在电流表的负极性端，这样便将电流表串联到测电流插孔所在的支路。故，建议在摆放时应使得测电流插孔从“+”到“-”的方向与电路参考电流方向（），否则所测电流方向为（）。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 3,
+      "options": [
+        {
+          "html": "<p>并联、并联</p>",
+          "images": [],
+          "text": "并联、并联"
+        },
+        {
+          "html": "<p>并联、串联</p>",
+          "images": [],
+          "text": "并联、串联"
+        },
+        {
+          "html": "<p> 串联、并联</p>",
+          "images": [],
+          "text": "串联、并联"
+        },
+        {
+          "html": "<p>串联、串联</p>",
+          "images": [],
+          "text": "串联、串联"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>实验中，若测试电流，需要将电流表（）在电路中;若测试电压，需要将电压表（）在电路中</p>",
+        "images": [],
+        "text": "实验中，若测试电流，需要将电流表（）在电路中;若测试电压，需要将电压表（）在电路中"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 4,
+      "options": [
+        {
+          "html": "<p>大，大，大</p>",
+          "images": [],
+          "text": "大，大，大"
+        },
+        {
+          "html": "<p>大，小，大</p>",
+          "images": [],
+          "text": "大，小，大"
+        },
+        {
+          "html": "<p>小，大，大</p>",
+          "images": [],
+          "text": "小，大，大"
+        },
+        {
+          "html": "<p>小，小，大</p>",
+          "images": [],
+          "text": "小，小，大"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>可调电位器在接入实验二的电路前，一定要先用万用表测试其阻值，保证以阻值调到合适值或调到最（）值接入电路，防止因为阻值过（），电流过（），烧坏电位器</p>",
+        "images": [],
+        "text": "可调电位器在接入实验二的电路前，一定要先用万用表测试其阻值，保证以阻值调到合适值或调到最（）值接入电路，防止因为阻值过（），电流过（），烧坏电位器"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 5,
+      "options": [
+        {
+          "html": "<p>皆可</p>",
+          "images": [],
+          "text": "皆可"
+        },
+        {
+          "html": "<p>A</p>",
+          "images": [],
+          "text": "A"
+        },
+        {
+          "html": "<p>C</p>",
+          "images": [],
+          "text": "C"
+        },
+        {
+          "html": "<p>B</p>",
+          "images": [],
+          "text": "B"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>若使用万用表的电压档测量5V的直流电压，应将旋钮调到图中哪个档位</p><p><img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-003.png"
+        ],
+        "text": "若使用万用表的电压档测量5V的直流电压，应将旋钮调到图中哪个档位"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 6,
+      "options": [
+        {
+          "html": "<p>b，a</p>",
+          "images": [],
+          "text": "b，a"
+        },
+        {
+          "html": "<p>b，b</p>",
+          "images": [],
+          "text": "b，b"
+        },
+        {
+          "html": "<p>a，a</p>",
+          "images": [],
+          "text": "a，a"
+        },
+        {
+          "html": "<p>a，b</p>",
+          "images": [],
+          "text": "a，b"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>使用万用表测量电压Uab，红色表笔与（）端连接，黑色表笔（）端连接</p>",
+        "images": [],
+        "text": "使用万用表测量电压Uab，红色表笔与（）端连接，黑色表笔（）端连接"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 7,
+      "options": [
+        {
+          "html": "<p>开路、短路</p>",
+          "images": [],
+          "text": "开路、短路"
+        },
+        {
+          "html": "<p>开路、开路</p>",
+          "images": [],
+          "text": "开路、开路"
+        },
+        {
+          "html": "<p>短路，短路</p>",
+          "images": [],
+          "text": "短路，短路"
+        },
+        {
+          "html": "<p>短路、开路</p>",
+          "images": [],
+          "text": "短路、开路"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>实验时，要认真检查电路，防止电压源处于（）状态，电流源处于（）</p>",
+        "images": [],
+        "text": "实验时，要认真检查电路，防止电压源处于（）状态，电流源处于（）"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 8,
+      "options": [
+        {
+          "html": "<p>不确定</p>",
+          "images": [],
+          "text": "不确定"
+        },
+        {
+          "html": "<p>电压调节、输出</p>",
+          "images": [],
+          "text": "电压调节、输出"
+        },
+        {
+          "html": "<p>输出、电流调节</p>",
+          "images": [],
+          "text": "输出、电流调节"
+        },
+        {
+          "html": "<p>电流调节，输出</p>",
+          "images": [],
+          "text": "电流调节，输出"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>电流源使用时，旋转按钮表示（）按下按钮表示（）</p><p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-004.png"
+        ],
+        "text": "电流源使用时，旋转按钮表示（）按下按钮表示（）"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 9,
+      "options": [
+        {
+          "html": "<p>仅仅拔掉电流源所在电路中的导线即可</p>",
+          "images": [],
+          "text": "仅仅拔掉电流源所在电路中的导线即可"
+        },
+        {
+          "html": "<p>关闭电流源，将电流源所在的支路用导线连接</p>",
+          "images": [],
+          "text": "关闭电流源，将电流源所在的支路用导线连接"
+        },
+        {
+          "html": "<p>仅仅关闭电流源即可</p>",
+          "images": [],
+          "text": "仅仅关闭电流源即可"
+        },
+        {
+          "html": "<p> 关闭电流源，拔掉电流源所在电路中的导线</p>",
+          "images": [],
+          "text": "关闭电流源，拔掉电流源所在电路中的导线"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>实验时，电压源单独作用时，需要电流源处开路，如何做使电流源处开路呢</p>",
+        "images": [],
+        "text": "实验时，电压源单独作用时，需要电流源处开路，如何做使电流源处开路呢"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 10,
+      "options": [
+        {
+          "html": "<p>b</p>",
+          "images": [],
+          "text": "b"
+        },
+        {
+          "html": "<p> a,b点</p>",
+          "images": [],
+          "text": "a,b点"
+        },
+        {
+          "html": "<p>a</p>",
+          "images": [],
+          "text": "a"
+        },
+        {
+          "html": "<p>不确定</p>",
+          "images": [],
+          "text": "不确定"
+        }
+      ],
+      "score": 10,
+      "statement": {
+        "html": "<p>下图中（）表示有源一端口的输出</p><p><img src=\"assets/preclass-005.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-005.png"
+        ],
+        "text": "下图中（）表示有源一端口的输出"
+      },
+      "type": "single_choice"
+    }
+  ]
+}

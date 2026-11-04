@@ -1,0 +1,132 @@
+{
+  "experiment": "实验七 有源滤波电路研究",
+  "resourceId": 330839,
+  "sections": [
+    {
+      "content": "<p><span style=\"font-family: 宋体;\">1. 掌握有源滤波器的组成原理及滤波特性，学会用运算放大器、电阻、电容设计组成的有源低通、高通滤波器。</span></p><p><span style=\"font-family: 宋体;\">2. 学会调节滤波器截止频率及测量方法。</span></p>",
+      "questions": [],
+      "text": "1. 掌握有源滤波器的组成原理及滤波特性，学会用运算放大器、电阻、电容设计组成的有源低通、高通滤波器。2. 学会调节滤波器截止频率及测量方法。",
+      "title": "实验目的",
+      "type": 1
+    },
+    {
+      "content": "<p>1. 复习<span style=\"font-family: 宋体;\">有源滤波器的基本理论知识。</span></p><p>2. 阅读实验指导书<span style=\"font-family: 宋体;\">，</span>理解实验原理<span style=\"font-family: 宋体;\">，</span>了解实验步骤<span style=\"font-family: 宋体;\">。</span></p>",
+      "questions": [],
+      "text": "1. 复习有源滤波器的基本理论知识。2. 阅读实验指导书，理解实验原理，了解实验步骤。",
+      "title": "实验预习要求",
+      "type": 1
+    },
+    {
+      "content": "<p><br></p><table style=\"width: auto;\"><tbody><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">名称</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">数量</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">型号</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">线性直流稳压电源</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">1台</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">DP832A</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">手持万用表</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">1台</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">Fluke 287C</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">示波器</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">1台</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">Tek MSO2012B</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">信号发生器</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">1台</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">Tek AFG1062或DG4062</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">交流毫伏表</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">1台</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">SM2030A</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">电阻</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">若干</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">任选</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">电容</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">若干</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">任选</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">集成运放</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">2只</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">LM741×2 或μA741×2</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">短接桥和连接导线</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">若干</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">P8-1和50148</td></tr><tr><td colSpan=\"1\" rowSpan=\"1\" width=\"198\">实验用9孔插件方板</td><td colSpan=\"1\" rowSpan=\"1\" width=\"138\">1块</td><td colSpan=\"1\" rowSpan=\"1\" width=\"214\">300mm×298mm</td></tr></tbody></table><p><br></p>",
+      "questions": [],
+      "text": "名称数量型号线性直流稳压电源1台DP832A手持万用表1台Fluke 287C示波器1台Tek MSO2012B信号发生器1台Tek AFG1062或DG4062交流毫伏表1台SM2030A电阻若干任选电容若干任选集成运放2只LM741×2 或μA741×2短接桥和连接导线若干P8-1和50148实验用9孔插件方板1块300mm×298mm",
+      "title": "实验仪器与器件",
+      "type": 1
+    },
+    {
+      "content": "<p style=\"text-indent: 21pt; text-align: left;\"><span style=\"font-family: 宋体;\">若滤波电路含有有源元件（双极型管、单极型管、集成运放）组成，成为有源滤波电路。有运算放大器和阻容元件组成的选频网络。用于传输有用频段的信号，抑制或衰减无用频段的信号。滤波器阶数越高，性能越逼近理想滤波器特性。有源滤波器主要分为四类：低通滤波器（LPF），高通滤波器（HPF），带通滤波器（BPF），带阻滤波器（BEF）。</span></p><p style=\"text-indent: 21pt; text-align: left;\"><span style=\"font-family: 宋体;\">集成运算放大器是具有高开环电压放大倍数的多级直接耦合放大器。它具有体积小、功耗低、可靠性高等优点，广泛应用于信号的运算、处理和测量以及波形的发生等方面。</span></p><p><strong>1.有源低通滤波器</strong></p><p style=\"text-indent: 21pt;\"><span style=\"font-family: 宋体;\">低通滤波器是一种用来传输低频段信号，抑制高频段信号的电路。一阶有源低通滤波器，如</span>图7- 1（a）<span style=\"font-family: 宋体;\">所示，其传递函数</span><em>H</em><span style=\"font-family: 宋体;\">(</span><em>s</em><span style=\"font-family: 宋体;\">)为</span></p><p style=\"text-align: center;\"><img src=\"assets/report-001.png\" alt=\"\" data-href=\"\" style=\"\"></p><p style=\"text-align: center;\"><img src=\"assets/report-002.png\" alt=\"\" data-href=\"\" style=\"width: 495.00px;height: 155.33px;\"></p><p style=\"text-align: center;\"><span style=\"font-family: 黑体;\">图7- </span>1 <span style=\"font-family: 宋体;\">一阶有源低通滤波器电路及特性</span></p><p style=\"text-indent: 18pt; text-align: center;\"><span style=\"font-family: 宋体;\">（a）一阶有源低通滤波器 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; （b）一阶有源低通滤波器幅频特性</span></p><p style=\"text-indent: 18.35pt;\"><span style=\"font-family: 宋体;\">一阶有源低通滤波器频率特性为</span></p><p style=\"text-align: center;\"><img src=\"assets/report-003.png\" alt=\"\" data-href=\"\" style=\"width: 155.00px;height: 64.27px;\"><img src=\"file:///C:\\Users\\29741\\AppData\\Local\\Temp\\ksohtml16020\\wps5.jpg\" alt=\"\" data-href=\"\" style=\"\"></p><p style=\"text-indent: 18.35pt;\"><span style=\"font-family: 宋体;\">式中</span><em>A</em><sub>0</sub><span style=\"font-family: 宋体;\">—通带内放大倍数，</span><img src=\"assets/report-004.png\" alt=\"\" data-href=\"\" style=\"\"><span style=\"font-family: 宋体;\">；</span><em>ω</em><sub>H</sub><span style=\"font-family: 宋体;\">—上限截止角频率，</span><img src=\"assets/report-005.png\" alt=\"\" data-href=\"\" style=\"\"><span style=\"font-family: 宋体;\"> 幅频特性曲线见</span>图7- 1<span style=\"font-family: 宋体;\">（b）。</span></p><p style=\"text-indent: 18.35pt;\"><img src=\"file:///C:\\Users\\29741\\AppData\\Local\\Temp\\ksohtml16020\\wps8.png\" alt=\"\" data-href=\"\" style=\"\"><span style=\"font-family: 宋体;\">二阶有源低通滤波器有多种电路连接形式，如</span>图7- 2<span style=\"font-family: 宋体;\">和</span>图7- 3<span style=\"font-family: 宋体;\">所示有源滤波器都是二阶有源低通滤波器，但滤波器特征参数略有不同。</span></p><p style=\"text-indent: 18.35pt;\"><img src=\"file:///C:\\Users\\29741\\AppData\\Local\\Temp\\ksohtml16020\\wps9.jpg\" alt=\"\" data-href=\"\" style=\"\"><span style=\"font-family: 宋体;\">如</span>图7- 2<span style=\"font-family: 宋体;\">所示二阶压控电压源有源低通滤波器的频率特性为:</span></p><p style=\"text-indent: 18.35pt; text-align: center;\"><img src=\"assets/report-006.png\" alt=\"\" data-href=\"\" style=\"width: 263.00px;height: 185.16px;\"><img src=\"file:///C:\\Users\\29741\\AppData\\Local\\Temp\\ksohtml16020\\wps10.jpg\" alt=\"\" data-href=\"\" style=\"\"> </p><p><span style=\"font-family: 宋体;\">式中，</span><img src=\"assets/report-004.png\" alt=\"\" data-href=\"\" style=\"\"/><span style=\"font-family: 宋体;\">，</span><img src=\"assets/report-007.png\" alt=\"\" data-href=\"\" style=\"\"/><span style=\"font-family: 宋体;\">，</span><img src=\"assets/report-008.png\" alt=\"\" data-href=\"\" style=\"\"/><span style=\"font-family: 宋体;\">。</span><em>Q</em><span style=\"font-family: 宋体;\">为等效品质因素，与</span><em>A</em><sub>0</sub><span style=\"font-family: 宋体;\">有关。</span><em>A</em><sub>0</sub><span style=\"font-family: 宋体;\">大于3，滤波器极点落在s右半平面，将会产生自激振荡。</span></p><p style=\"text-indent: 18.35pt;\"><img src=\"file:///C:\\Users\\29741\\AppData\\Local\\Temp\\ksohtml16020\\wps14.png\" alt=\"\" data-href=\"\" style=\"\"><span style=\"font-family: 宋体;\">如</span>图7- 3<span style=\"font-family: 宋体;\">所示，二阶有源低通滤波器的频率特性与二阶压控电压源有源低通滤波器的频率特性相似，即</span></p><p style=\"text-align: center;\"><img src=\"assets/report-009.png\" alt=\"\" data-href=\"\" style=\"width: 223.00px;height: 60.95px;\"><img src=\"file:///C:\\Users\\29741\\AppData\\Local\\Temp\\ksohtml16020\\wps15.jpg\" alt=\"\" data-href=\"\" style=\"\"> </p><p style=\"text-indent: 18.35pt;\"><span style=\"font-family: 宋体;\">式中</span><img src=\"assets/report-010.png\" alt=\"\" data-href=\"\" style=\"width: 90.00px;height: 43.91px;\"><span style=\"font-family: 宋体;\">，</span><img src=\"assets/report-011.png\" alt=\"\" data-href=\"\" style=\"\"><span style=\"font-family: 宋体;\">。</span></p><p style=\"text-indent: 18.35pt;\"><span style=\"font-family: 宋体;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><img src=\"assets/report-012.png\" alt=\"\" data-href=\"\" style=\"width: 282.00px;height: 177.19px;\"></p><p style=\"text-indent: 18.35pt;\"><span style=\"font-family: 宋体;\">两有源低通滤波器频率特性的表达式相同，所以他们有相似的频率特性。两有源低通滤波器的差异：首先，是通带内放大倍数，一个是</span><em>A</em><sub>0</sub><span style=\"font-family: 宋体;\">，另一个是1；其次，是两有源低通滤波器的等效品质因素Q的表达式不一样，一个取决于</span><em>A</em><sub>0</sub><span style=\"font-family: 宋体;\">，另一个取决于电容比值。</span></p><p style=\"text-indent: 18.35pt;\"><span style=\"font-family: 宋体;\">二阶有源低通滤波器幅频特性曲线和一阶有源低通滤波器不同：在</span><em>Q</em><span style=\"font-family: 宋体;\">=0.707时，两者幅频特性曲线相似，但二阶有源低通滤波器是按40dB/10倍频的速率衰减，一阶有源低通滤波器是按20dB/10倍率的速率衰减，即二阶滤波器有较好的衰减特性；其二是Q&gt;0.707时二阶有源低通滤波器在</span><em>ω</em><sub>0</sub><span style=\"font-family: 宋体;\">处出现峰值。</span></p><p><strong>2.有源高通滤波器</strong></p><p style=\"text-indent: 18.35pt;\"><span style=\"font-family: 宋体;\">高通滤波器是一种用来传输高频段信号，抑制或衰减低频段信号的电路。将低通滤波器中电阻电容位置互换，低通滤波器就变换为高通滤波器。二阶压控电压源高通有源滤波器，如</span>图7- 4<span style=\"font-family: 宋体;\">（a）所示。其频率特性为：</span></p><p style=\"text-align: center;\"><img src=\"assets/report-013.png\" alt=\"\" data-href=\"\" style=\"width: 223.00px;height: 79.38px;\"><img src=\"file:///C:\\Users\\29741\\AppData\\Local\\Temp\\ksohtml16020\\wps19.jpg\" alt=\"\" data-href=\"\" style=\"\"> </p><p><span style=\"font-family: 宋体;\">式中，</span><img src=\"assets/report-014.png\" alt=\"\" data-href=\"\" style=\"width: 91.00px;height: 40.03px;\"/><img src=\"assets/report-015.png\" alt=\"\" data-href=\"\" style=\"\"/><span style=\"font-family: 宋体;\">，，Q=。二阶压控电压源高通有源滤波器幅频特性如</span>图7- 4<span style=\"font-family: 宋体;\">（b）所示，阻带内衰减速率也是40dB/10倍频，且Q&gt;0.707时出现峰值。</span></p><p style=\"text-align: center;\"><img src=\"assets/report-016.png\" alt=\"\" data-href=\"\" style=\"width: 457.00px;height: 151.89px;\"> </p><p style=\"text-align: center;\">图7- 4二阶有源高通滤波器特性</p><p style=\"text-align: center;\"><span style=\"font-family: 宋体;\"> &nbsp;（a）二阶压控电压源有源高通滤波器 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; （b）二阶有源高通滤波器幅频特性</span></p>",
+      "questions": [],
+      "text": "若滤波电路含有有源元件（双极型管、单极型管、集成运放）组成，成为有源滤波电路。有运算放大器和阻容元件组成的选频网络。用于传输有用频段的信号，抑制或衰减无用频段的信号。滤波器阶数越高，性能越逼近理想滤波器特性。有源滤波器主要分为四类：低通滤波器（LPF），高通滤波器（HPF），带通滤波器（BPF），带阻滤波器（BEF）。集成运算放大器是具有高开环电压放大倍数的多级直接耦合放大器。它具有体积小、功耗低、可靠性高等优点，广泛应用于信号的运算、处理和测量以及波形的发生等方面。1.有源低通滤波器低通滤波器是一种用来传输低频段信号，抑制高频段信号的电路。一阶有源低通滤波器，如图7- 1（a）所示，其传递函数H(s)为图7- 1 一阶有源低通滤波器电路及特性（a）一阶有源低通滤波器                   （b）一阶有源低通滤波器幅频特性一阶有源低通滤波器频率特性为式中A0—通带内放大倍数，；ωH—上限截止角频率， 幅频特性曲线见图7- 1（b）。二阶有源低通滤波器有多种电路连接形式，如图7- 2和图7- 3所示有源滤波器都是二阶有源低通滤波器，但滤波器特征参数略有不同。如图7- 2所示二阶压控电压源有源低通滤波器的频率特性为: 式中，，，。Q为等效品质因素，与A0有关。A0大于3，滤波器极点落在s右半平面，将会产生自激振荡。如图7- 3所示，二阶有源低通滤波器的频率特性与二阶压控电压源有源低通滤波器的频率特性相似，即 式中，。                           两有源低通滤波器频率特性的表达式相同，所以他们有相似的频率特性。两有源低通滤波器的差异：首先，是通带内放大倍数，一个是A0，另一个是1；其次，是两有源低通滤波器的等效品质因素Q的表达式不一样，一个取决于A0，另一个取决于电容比值。二阶有源低通滤波器幅频特性曲线和一阶有源低通滤波器不同：在Q=0.707时，两者幅频特性曲线相似，但二阶有源低通滤波器是按40dB/10倍频的速率衰减，一阶有源低通滤波器是按20dB/10倍率的速率衰减，即二阶滤波器有较好的衰减特性；其二是Q>0.707时二阶有源低通滤波器在ω0处出现峰值。2.有源高通滤波器高通滤波器是一种用来传输高频段信号，抑制或衰减低频段信号的电路。将低通滤波器中电阻电容位置互换，低通滤波器就变换为高通滤波器。二阶压控电压源高通有源滤波器，如图7- 4（a）所示。其频率特性为： 式中，，，Q=。二阶压控电压源高通有源滤波器幅频特性如图7- 4（b）所示，阻带内衰减速率也是40dB/10倍频，且Q>0.707时出现峰值。 图7- 4二阶有源高通滤波器特性  （a）二阶压控电压源有源高通滤波器           （b）二阶有源高通滤波器幅频特性",
+      "title": "实验原理",
+      "type": 1
+    },
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "id": 149187,
+          "options": "",
+          "question": "<p>请上传实操数据记录页（记录页上应写有个人姓名及学号、并附有教师盖章）。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "请上传实操数据记录页（记录页上应写有个人姓名及学号、并附有教师盖章）。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149188,
+          "options": "",
+          "question": "<p>绘制一阶有源低通滤波器的幅频特性曲线（可用对数坐标）（采用坐标纸或者网格纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或者电脑作图），并与理论结果对比，分析是否有差异？</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "绘制一阶有源低通滤波器的幅频特性曲线（可用对数坐标）（采用坐标纸或者网格纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或者电脑作图），并与理论结果对比，分析是否有差异？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149189,
+          "options": "",
+          "question": "<p>绘制R3=10kΩ，R4=20kΩ和R3=10kΩ，R4=10kΩ两种情况下的二阶有源低通滤波器的幅频特性曲线（可用对数坐标）（采用坐标纸或者网格纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或者电脑作图）并与理论结果对比，分析是否有差异？</p>",
+          "question_detail": "",
+          "score": "20",
+          "text": "绘制R3=10kΩ，R4=20kΩ和R3=10kΩ，R4=10kΩ两种情况下的二阶有源低通滤波器的幅频特性曲线（可用对数坐标）（采用坐标纸或者网格纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或者电脑作图）并与理论结果对比，分析是否有差异？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149190,
+          "options": "",
+          "question": "<p>绘制二阶有源高通滤波器的幅频特性曲线（可用对数坐标）（采用坐标纸或者网格纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或者电脑作图）并与理论结果对比，分析是否有差异？</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "绘制二阶有源高通滤波器的幅频特性曲线（可用对数坐标）（采用坐标纸或者网格纸，注意绘图规范，不要直接使用示波器照片，可以为手绘或者电脑作图）并与理论结果对比，分析是否有差异？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149192,
+          "options": "",
+          "question": "<p>在二阶有源低通滤波器实验过程中，结合实验数据，分析品质因数和什么因素有关？是否与理论一致。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "在二阶有源低通滤波器实验过程中，结合实验数据，分析品质因数和什么因素有关？是否与理论一致。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149193,
+          "options": "",
+          "question": "<p>二阶有源低通滤波器和一阶有源低通滤波器幅频特性的不同点是什么？</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "二阶有源低通滤波器和一阶有源低通滤波器幅频特性的不同点是什么？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149194,
+          "options": "",
+          "question": "<p>分析有源滤波器和无源滤波器的差异。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "分析有源滤波器和无源滤波器的差异。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 149195,
+          "options": "",
+          "question": "<p>低通有源滤波电路和高通有源电路在结构上怎么区分？</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "低通有源滤波电路和高通有源电路在结构上怎么区分？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 158320,
+          "options": "",
+          "question": "<p style=\"text-indent: 20.4pt;\"><span style=\"font-family: 宋体;\">有源滤波器的阶数和什么有关系？阶数和运放个数有什么关系？请简要分析？</span></p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "有源滤波器的阶数和什么有关系？阶数和运放个数有什么关系？请简要分析？",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验报告",
+      "type": 2
+    }
+  ]
+}

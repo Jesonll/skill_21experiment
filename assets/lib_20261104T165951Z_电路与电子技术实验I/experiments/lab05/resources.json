@@ -1,0 +1,86 @@
+{
+  "experiment": "实验五 单管交流放大电路",
+  "stages": [
+    {
+      "name": "课前",
+      "resources": [
+        {
+          "id": 330805,
+          "title": "实验5预习考核",
+          "category": 4,
+          "process": 100,
+          "passed": 1,
+          "score": 90
+        },
+        {
+          "id": 347358,
+          "title": "实验五 实验指导书",
+          "category": 13,
+          "process": 100,
+          "score": 0
+        },
+        {
+          "id": 333305,
+          "title": "实验五-数据记录页",
+          "category": 13,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330804,
+          "title": "单管交流电压放大电路实验",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330799,
+          "title": "三路可编程线性直流稳压电源DP832A",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330800,
+          "title": "数字示波器MSO2012B",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330801,
+          "title": "交流毫伏表SM2030A",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330802,
+          "title": "吉时利2110型台式万用表",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        },
+        {
+          "id": 330803,
+          "title": "函数信号发生器DG4062",
+          "category": 6,
+          "process": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "name": "课中",
+      "resources": [
+        {
+          "id": 330808,
+          "title": "实验报告",
+          "category": 11,
+          "process": 100,
+          "score": 75
+        }
+      ]
+    }
+  ]
+}

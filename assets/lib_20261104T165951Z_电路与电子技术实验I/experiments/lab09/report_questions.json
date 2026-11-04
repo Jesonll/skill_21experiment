@@ -1,0 +1,129 @@
+{
+  "experiment": "实验九 综合实验Ⅰ",
+  "resourceId": 359543,
+  "sections": [
+    {
+      "content": "<p><span style=\"font-family: 宋体;\">1. 完成5</span>55<span style=\"font-family: 宋体;\">定时器知识的自主学习，提升自主学习能力；</span></p><p><span style=\"font-family: 宋体;\">2. 综合运用电路电子相关知识设计符合要求的电路，提高知识融会贯通的应用能力；</span></p><p><span style=\"font-family: 宋体;\">3. 能够运用仿真软件验证设计的正确性，具备使用计算机辅助进行电路设计的能力。</span></p>",
+      "questions": [],
+      "text": "1. 完成555定时器知识的自主学习，提升自主学习能力；2. 综合运用电路电子相关知识设计符合要求的电路，提高知识融会贯通的应用能力；3. 能够运用仿真软件验证设计的正确性，具备使用计算机辅助进行电路设计的能力。",
+      "title": "实验目的",
+      "type": 1
+    },
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "id": 166854,
+          "options": "",
+          "question": "<p>请上传实操数据记录页（记录页上应写有个人姓名及学号、并附有教师盖章）。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "请上传实操数据记录页（记录页上应写有个人姓名及学号、并附有教师盖章）。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 166850,
+          "options": "",
+          "question": "<p>结合实验电路，简述555构成多谐振荡器电路的工作原理。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "结合实验电路，简述555构成多谐振荡器电路的工作原理。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 166852,
+          "options": "",
+          "question": "<p>仿真<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>亮灭自动控制电路（指导书9.5.2），实现<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>灯有规律地自动点亮和熄灭，用示波器观察<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R3\"></span>上的电压（等效LED电流），即可测出<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>电流的周期。提交仿真电路图和波形图。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "仿真$LED$亮灭自动控制电路（指导书9.5.2），实现$LED$灯有规律地自动点亮和熄灭，用示波器观察$R3$上的电压（等效LED电流），即可测出$LED$电流的周期。提交仿真电路图和波形图。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 166851,
+          "options": "",
+          "question": "<p>仿真<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>亮度渐变控制电路（指导书9.5.3）。实现555多谐振荡器输出高电平时，<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>灯逐渐亮起来；555多谐振荡器输出低电平时，<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>灯逐渐暗下去。使用示波器观测电路<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{out1}\"></span>和<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{C1}\"></span>，提交选定<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R_{2}\"></span>数据后的仿真电路图和波形图。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "仿真$LED$亮度渐变控制电路（指导书9.5.3）。实现555多谐振荡器输出高电平时，$LED$灯逐渐亮起来；555多谐振荡器输出低电平时，$LED$灯逐渐暗下去。使用示波器观测电路$V_{out1}$和$V_{C1}$，提交选定$R_{2}$数据后的仿真电路图和波形图。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 166853,
+          "options": "",
+          "question": "<p>仿真光敏检测与迟滞比较（指导书9.5.4） 控制<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>灯白天熄灭夜晚呼吸，可采用光敏电阻感知光强来区分白天和夜晚。仿真时，使用一个三角波模拟光敏电阻，观察<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{S}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{TH}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{REST}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{out1}\"></span>和<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"RLED\"></span>上的电压（等效<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>电流）。提交仿真电路图和波形图。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "仿真光敏检测与迟滞比较（指导书9.5.4） 控制$LED$灯白天熄灭夜晚呼吸，可采用光敏电阻感知光强来区分白天和夜晚。仿真时，使用一个三角波模拟光敏电阻，观察$V_{S}$、$V_{TH}$、$V_{REST}$、$V_{out1}$和$RLED$上的电压（等效$LED$电流）。提交仿真电路图和波形图。",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 167125,
+          "options": "",
+          "question": "<p>整机仿真--去掉迟滞的单阈值比较器（指导书9.5.5） 控制<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>灯白天熄灭夜晚呼吸，可采用光敏电阻感知光强来区分白天和夜晚。仿真时，使用一个三角波模拟光敏电阻，观察<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{S}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{TH}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{REST}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{out1}\"></span>和<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"RLED\"></span>上的电压（等效<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span>电流）。提交仿真电路图和波形图。</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "整机仿真--去掉迟滞的单阈值比较器（指导书9.5.5） 控制$LED$灯白天熄灭夜晚呼吸，可采用光敏电阻感知光强来区分白天和夜晚。仿真时，使用一个三角波模拟光敏电阻，观察$V_{S}$、$V_{TH}$、$V_{REST}$、$V_{out1}$和$RLED$上的电压（等效$LED$电流）。提交仿真电路图和波形图。",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验步骤",
+      "type": 2
+    },
+    {
+      "content": "",
+      "questions": [
+        {
+          "content": "",
+          "id": 166856,
+          "options": "",
+          "question": "<p><span style=\"font-family: 宋体;\">如图，呼吸灯电路的呼吸周期由什么电路控制，如何控制周期？</span></p><p><img src=\"assets/report-001.png\" alt=\"\" data-href=\"\" style=\"width: 30%;\"/></p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "如图，呼吸灯电路的呼吸周期由什么电路控制，如何控制周期？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 166857,
+          "options": "",
+          "question": "<p><span style=\"font-family: 宋体;\">图中，呼吸灯呼吸的效果由什么电路控制，如何控制？</span></p><p><img src=\"assets/report-002.png\" alt=\"\" data-href=\"\" style=\"width: 30%;\"/></p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "图中，呼吸灯呼吸的效果由什么电路控制，如何控制？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 166858,
+          "options": "",
+          "question": "<p><span style=\"font-family: 宋体;\">图中，Q1是否可以去掉，为什么？它的作用是什么？</span></p><p><img src=\"assets/report-003.png\" alt=\"\" data-href=\"\" style=\"width: 30%;\"/></p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "图中，Q1是否可以去掉，为什么？它的作用是什么？",
+          "type": 8
+        },
+        {
+          "content": "",
+          "id": 166855,
+          "options": "",
+          "question": "<p><span style=\"color: rgba(0, 0, 0, 0.9); background-color: rgb(255, 255, 255);\">迟滞设计的原理是什么？为什么光控电路中引入迟滞，比采用单阈值比较器更好？</span>（从单阈值比较器的缺陷、迟滞的本质、翻转规则即分析本电路中在环境由亮变暗、再由暗变亮时，<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{S}\"></span>、 <span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{REST}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"V_{out1}\"></span>、<span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"LED\"></span> 是分别如何变化即可.）</p>",
+          "question_detail": "",
+          "score": "10",
+          "text": "迟滞设计的原理是什么？为什么光控电路中引入迟滞，比采用单阈值比较器更好？（从单阈值比较器的缺陷、迟滞的本质、翻转规则即分析本电路中在环境由亮变暗、再由暗变亮时，$V_{S}$、 $V_{REST}$、$V_{out1}$、$LED$ 是分别如何变化即可.）",
+          "type": 8
+        }
+      ],
+      "text": "",
+      "title": "实验思考",
+      "type": 3
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "experiment": "实验五 单管交流放大电路",
+  "resourceId": 330808,
+  "sections": [
+    {
+      "instructions": {
+        "html": "",
+        "images": [],
+        "text": ""
+      },
+      "questions": [
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149137,
+          "number": 1,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>请简述单管交流放大电路实验的实验目的。</p>",
+            "images": [],
+            "text": "请简述单管交流放大电路实验的实验目的。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149139,
+          "number": 2,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>请列写单管交流放大电路实验的实验设备及元器件。</p>",
+            "images": [],
+            "text": "请列写单管交流放大电路实验的实验设备及元器件。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149140,
+          "number": 3,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p>请简述单管交流放大电路实验的实验原理。</p>",
+            "images": [],
+            "text": "请简述单管交流放大电路实验的实验原理。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149138,
+          "number": 4,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>请上传单管交流放大电路实验的原始数据记录页。</p>",
+            "images": [],
+            "text": "请上传单管交流放大电路实验的原始数据记录页。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149141,
+          "number": 5,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>根据表5-3中ui和uo的数据，推导说明Ce变化对输出波形影响的原因。</p>",
+            "images": [],
+            "text": "根据表5-3中ui和uo的数据，推导说明Ce变化对输出波形影响的原因。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149142,
+          "number": 6,
+          "options": "",
+          "score": "15",
+          "statement": {
+            "html": "<p>根据表5-4，并推导分析负载变化对交流电压放大倍数的影响原因。</p>",
+            "images": [],
+            "text": "根据表5-4，并推导分析负载变化对交流电压放大倍数的影响原因。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149143,
+          "number": 7,
+          "options": "",
+          "score": "20",
+          "statement": {
+            "html": "<p>自建坐标系，表明刻度及尺寸，绘制表5-5中的ui和uo波形，并注明失真判断。</p>",
+            "images": [],
+            "text": "自建坐标系，表明刻度及尺寸，绘制表5-5中的ui和uo波形，并注明失真判断。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149144,
+          "number": 8,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>输入信号合适的情况下，共射基本放大电路出现饱和失真或截止失真的原因是什么？电路中应调整哪个元件？</p><p><img src=\"assets/image-001.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              {
+                "path": "assets/image-001.png",
+                "status": "downloaded"
+              }
+            ],
+            "text": "输入信号合适的情况下，共射基本放大电路出现饱和失真或截止失真的原因是什么？电路中应调整哪个元件？"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149145,
+          "number": 9,
+          "options": "",
+          "score": "10",
+          "statement": {
+            "html": "<p>由于V<sub>cc</sub>、R<sub>p</sub>、R<sub>B1</sub>、R<sub>B2</sub>和地构成的回路一直处于耗能状态，请查阅资料，在实际的单管放大电路中，如何解决此问题？（可绘图说明）</p><p><img src=\"assets/image-002.png\" alt=\"\" style=\"\"></p>",
+            "images": [
+              {
+                "path": "assets/image-002.png",
+                "status": "downloaded"
+              }
+            ],
+            "text": "由于Vcc、Rp、RB1、RB2和地构成的回路一直处于耗能状态，请查阅资料，在实际的单管放大电路中，如何解决此问题？（可绘图说明）"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149146,
+          "number": 10,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px; font-family: 宋体;\">在此次使用的放大电路中，如何提高电压放大倍数？</span></p>",
+            "images": [],
+            "text": "在此次使用的放大电路中，如何提高电压放大倍数？"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149147,
+          "number": 11,
+          "options": "",
+          "score": "5",
+          "statement": {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-family: 宋体;\">总结失真类型的判断方法，说明本实验中的放大电路的输出出现削顶失真时，为截止失真，还是饱和失真？这一结论适用于由</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);\">PNP</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-family: 宋体;\">型管构成的共射级放大电路吗？请说明理由。</span></p>",
+            "images": [],
+            "text": "总结失真类型的判断方法，说明本实验中的放大电路的输出出现削顶失真时，为截止失真，还是饱和失真？这一结论适用于由PNP型管构成的共射级放大电路吗？请说明理由。"
+          },
+          "type": 8
+        },
+        {
+          "details": {
+            "html": "",
+            "images": [],
+            "text": ""
+          },
+          "id": 149148,
+          "number": 12,
+          "options": "",
+          "score": "0",
+          "statement": {
+            "html": "<p>本次实验体会与建议。（本题不占分，可填“无”）。</p>",
+            "images": [],
+            "text": "本次实验体会与建议。（本题不占分，可填“无”）。"
+          },
+          "type": 8
+        }
+      ],
+      "title": "实验报告",
+      "type": 3
+    }
+  ]
+}

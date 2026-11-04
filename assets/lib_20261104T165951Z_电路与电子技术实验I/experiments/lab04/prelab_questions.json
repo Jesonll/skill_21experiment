@@ -1,0 +1,232 @@
+{
+  "available": true,
+  "experiment": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+  "questions": [
+    {
+      "answer": [
+        "D"
+      ],
+      "id": 105475,
+      "optionTexts": [
+        "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电容元件和电阻元件两端电压相等，相位相同，则称一端口电路发生谐 振。",
+        "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电感线圈和电阻元件两端电压相等，相位相同，则称一端口电路发生谐 振。",
+        "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电感线圈和电容元件两端电压相等，相位相同，则称一端口电路发生谐 振。",
+        "对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电路负载可呈现纯电阻性，端口电压与电流同相位，则称一端口电路发 生谐振。"
+      ],
+      "options": [
+        "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电容元件和电阻元件两端电压相等，相位相同，则称一端口电路发生谐 振。</span></p>",
+        "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电感线圈和电阻元件两端电压相等，相位相同，则称一端口电路发生谐 振。</span></p>",
+        "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电感线圈和电容元件两端电压相等，相位相同，则称一端口电路发生谐 振。</span></p>",
+        "<p><span style=\"color: rgb(51, 51, 51);\">对于任何含有电感线圈和电容元件的一端口电路，在一定条件下，电路负载可呈现纯电阻性，端口电压与电流同相位，则称一端口电路发 生谐振。</span></p>"
+      ],
+      "question": "<p><span style=\"color: rgb(51, 51, 51);\">一端口电路发生谐振是指什么？（）</span></p>",
+      "score": "10",
+      "text": "一端口电路发生谐振是指什么？（）",
+      "type": 2
+    },
+    {
+      "answer": [
+        "A",
+        "D",
+        "C"
+      ],
+      "id": 105470,
+      "optionTexts": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "options": [
+        "<p><img src=\"assets/retry-13.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-14.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-15.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-16.png\" alt=\"\" data-href=\"\" style=\"\"/></p>"
+      ],
+      "question": "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R−L−C\"></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);\">串联谐振电路发生谐振时，品质因数</span><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Q\"></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);\">可表示为（）</span></p>",
+      "score": "10",
+      "text": "$R−L−C$串联谐振电路发生谐振时，品质因数$Q$可表示为（）",
+      "type": 6
+    },
+    {
+      "answer": [
+        "B"
+      ],
+      "id": 105477,
+      "optionTexts": [
+        "通过的高频率范围。",
+        "",
+        "通过的低频率范围。",
+        "通过的中间频率范围。"
+      ],
+      "options": [
+        "<p><span style=\"color: rgb(51, 51, 51);\">通过的高频率范围。</span></p>",
+        "<p><img src=\"assets/retry-17.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><span style=\"color: rgb(51, 51, 51);\">通过的低频率范围。</span></p>",
+        "<p><span style=\"color: rgb(51, 51, 51);\">通过的中间频率范围。</span></p>"
+      ],
+      "question": "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路，从通用串联谐振曲线中可知，通频带</span><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Δf\"></span><span style=\"color: rgb(51, 51, 51);\">定义为（）。</span></p>",
+      "score": "10",
+      "text": "$R-L-C$串联谐振电路，从通用串联谐振曲线中可知，通频带$Δf$定义为（）。",
+      "type": 2
+    },
+    {
+      "answer": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "id": 105476,
+      "optionTexts": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "options": [
+        "<p><img src=\"assets/retry-18.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-19.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-20.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-21.png\" alt=\"\" data-href=\"\" style=\"\"/></p>"
+      ],
+      "question": "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路发生谐振时，下面哪些现象或关系是正确的？（）</span></p>",
+      "score": "10",
+      "text": "$R-L-C$串联谐振电路发生谐振时，下面哪些现象或关系是正确的？（）",
+      "type": 6
+    },
+    {
+      "answer": [
+        "B"
+      ],
+      "id": 163318,
+      "optionTexts": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "options": [
+        "<p><img src=\"assets/quiz-010.jpg\" alt=\"\" data-href=\"\" style=\"width: 123.00px;height: 21.02px;\"/></p>",
+        "<p><img src=\"assets/quiz-011.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/quiz-012.jpg\" alt=\"\" data-href=\"\" style=\"width: 78.00px;height: 24.00px;\"/></p>",
+        "<p><img src=\"assets/quiz-013.jpg\" alt=\"\" data-href=\"\" style=\"width: 72.00px;height: 22.66px;\"/></p>"
+      ],
+      "question": "<p>正弦交流电路中，电容器的容抗为（）</p>",
+      "score": "10",
+      "text": "正弦交流电路中，电容器的容抗为（）",
+      "type": 2
+    },
+    {
+      "answer": [
+        "C"
+      ],
+      "id": 105472,
+      "optionTexts": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "options": [
+        "<p><img src=\"assets/retry-22.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-23.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-24.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-25.png\" alt=\"\" data-href=\"\" style=\"\"/></p>"
+      ],
+      "question": "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路发生谐振时，谐振角频率为（）</span></p>",
+      "score": "10",
+      "text": "$R-L-C$串联谐振电路发生谐振时，谐振角频率为（）",
+      "type": 2
+    },
+    {
+      "answer": [
+        "B"
+      ],
+      "id": 98641,
+      "optionTexts": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "options": [
+        "<p><img src=\"assets/retry-26.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-27.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-28.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-29.png\" alt=\"\" data-href=\"\" style=\"\"/></p>"
+      ],
+      "question": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">下面哪一个通用串联谐振曲线的信息是正确的？（）</span></p>",
+      "score": "10",
+      "text": "下面哪一个通用串联谐振曲线的信息是正确的？（）",
+      "type": 2
+    },
+    {
+      "answer": [
+        "C"
+      ],
+      "id": 105473,
+      "optionTexts": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "options": [
+        "<p><img src=\"assets/retry-30.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-31.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-32.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-33.png\" alt=\"\" data-href=\"\" style=\"\"/></p>"
+      ],
+      "question": "<p><span style=\"color: rgb(51, 51, 51);\">正弦交流电路中，电感的感抗为（）</span></p>",
+      "score": "10",
+      "text": "正弦交流电路中，电感的感抗为（）",
+      "type": 2
+    },
+    {
+      "answer": [
+        "A"
+      ],
+      "id": 105478,
+      "optionTexts": [
+        "$Q值越大，通频带越窄，电路的选择性越好。$",
+        "$Q值越小，通频带越窄，电路的选择性越好。$",
+        "$Q值越大，通频带越宽，电路的选择性越好。$",
+        "$Q值越小，通频带越宽，电路的选择性越好。$"
+      ],
+      "options": [
+        "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Q值越大，通频带越窄，电路的选择性越好。\"></span></p>",
+        "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Q值越小，通频带越窄，电路的选择性越好。\"></span></p>",
+        "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Q值越大，通频带越宽，电路的选择性越好。\"></span></p>",
+        "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Q值越小，通频带越宽，电路的选择性越好。\"></span></p>"
+      ],
+      "question": "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路中，品质因数</span><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Q\"></span><span style=\"color: rgb(51, 51, 51);\">和通频带</span><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"Δf\"></span><span style=\"color: rgb(51, 51, 51);\">有什么样的关系?</span></p>",
+      "score": "10",
+      "text": "$R-L-C$串联谐振电路中，品质因数$Q$和通频带$Δf$有什么样的关系?",
+      "type": 2
+    },
+    {
+      "answer": [
+        "B"
+      ],
+      "id": 105471,
+      "optionTexts": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "options": [
+        "<p><img src=\"assets/retry-34.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-35.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-36.png\" alt=\"\" data-href=\"\" style=\"\"/></p>",
+        "<p><img src=\"assets/retry-37.png\" alt=\"\" data-href=\"\" style=\"\"/></p>"
+      ],
+      "question": "<p><span data-w-e-type=\"formula\" data-w-e-is-void data-w-e-is-inline data-value=\"R-L-C\"></span><span style=\"color: rgb(51, 51, 51);\">串联谐振电路发生谐振时，谐振频率为（）</span></p>",
+      "score": "10",
+      "text": "$R-L-C$串联谐振电路发生谐振时，谐振频率为（）",
+      "type": 2
+    }
+  ],
+  "resourceId": 330779
+}

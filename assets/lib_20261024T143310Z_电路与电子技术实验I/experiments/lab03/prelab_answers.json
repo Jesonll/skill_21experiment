@@ -1,0 +1,344 @@
+{
+  "experiment": "实验三 互感电路实验",
+  "questions": [
+    {
+      "question": {
+        "html": "<p><img src=\"assets/preclass-001.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">若调节示波器波形水平精度，选用（）旋钮；若调节示波器所在2通道的波形的垂直精度，应选用（）旋钮。</span></p>",
+        "images": [
+          "assets/preclass-001.png"
+        ],
+        "text": "若调节示波器波形水平精度，选用（）旋钮；若调节示波器所在2通道的波形的垂直精度，应选用（）旋钮。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>1，4</p>",
+          "images": [],
+          "text": "1，4"
+        },
+        {
+          "html": "<p>1，3</p>",
+          "images": [],
+          "text": "1，3"
+        },
+        {
+          "html": "<p>2，4</p>",
+          "images": [],
+          "text": "2，4"
+        },
+        {
+          "html": "<p>1，6</p>",
+          "images": [],
+          "text": "1，6"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>1，4</p>",
+            "images": [],
+            "text": "1，4"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">若采用直流法测定两个互感线圈的同名端，若当开关断开时，发光二极管发光，则电感L1的1端子与电感L2的哪个端子互为同名端。</span></p><p><img src=\"assets/preclass-002.png\" alt=\"\" style=\"\"></p>",
+        "images": [
+          "assets/preclass-002.png"
+        ],
+        "text": "若采用直流法测定两个互感线圈的同名端，若当开关断开时，发光二极管发光，则电感L1的1端子与电感L2的哪个端子互为同名端。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>1</p>",
+          "images": [],
+          "text": "1"
+        },
+        {
+          "html": "<p>2</p>",
+          "images": [],
+          "text": "2"
+        },
+        {
+          "html": "<p>3</p>",
+          "images": [],
+          "text": "3"
+        },
+        {
+          "html": "<p>4</p>",
+          "images": [],
+          "text": "4"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>4</p>",
+            "images": [],
+            "text": "4"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><img src=\"assets/preclass-003.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">若调节示波器波形的水平位置，选用（）旋钮；若调节示波器所在1通道的波形的垂直位置，应选用（）旋钮。</span></p>",
+        "images": [
+          "assets/preclass-003.png"
+        ],
+        "text": "若调节示波器波形的水平位置，选用（）旋钮；若调节示波器所在1通道的波形的垂直位置，应选用（）旋钮。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>2，6</p>",
+          "images": [],
+          "text": "2，6"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">1，3</span></p>",
+          "images": [],
+          "text": "1，3"
+        },
+        {
+          "html": "<p>2，5</p>",
+          "images": [],
+          "text": "2，5"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">1，5</span></p>",
+          "images": [],
+          "text": "1，5"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>2，5</p>",
+            "images": [],
+            "text": "2，5"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">互感系数是比值定义式，与两线圈的几何形状、大小、相对位置及周围磁介质分布等有关。</span></p>",
+        "images": [],
+        "text": "互感系数是比值定义式，与两线圈的几何形状、大小、相对位置及周围磁介质分布等有关。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px; font-family: 宋体;\">通过互感线圈的电流若同时流入同名端，则它们产生的感应电压彼此增强。</span></p>",
+        "images": [],
+        "text": "通过互感线圈的电流若同时流入同名端，则它们产生的感应电压彼此增强。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><img src=\"assets/preclass-004.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">示波器的探头，（）端用来测量信号，（）端用来接地。</span></p>",
+        "images": [
+          "assets/preclass-004.png"
+        ],
+        "text": "示波器的探头，（）端用来测量信号，（）端用来接地。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">2，1</span></p>",
+          "images": [],
+          "text": "2，1"
+        },
+        {
+          "html": "<p>1，2</p>",
+          "images": [],
+          "text": "1，2"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">2，2</span></p>",
+          "images": [],
+          "text": "2，2"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">1，2</span></p>",
+          "images": [],
+          "text": "1，2"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>1，2</p>",
+            "images": [],
+            "text": "1，2"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><img src=\"assets/preclass-005.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\"><strong>互感电动势法测量互感系数，</strong></span><img src=\"assets/preclass-006.png\" alt=\"\" style=\"\"><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\"><strong>。</strong></span></p>",
+        "images": [
+          "assets/preclass-005.png",
+          "assets/preclass-006.png"
+        ],
+        "text": "互感电动势法测量互感系数，。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><img src=\"assets/preclass-007.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">将三相电源中的一相进行调压，使得220V的电压调到0-36V，调压器需要缓慢调节到指定的电压值，测完数据断电前将调压器逆时针调到底归零。</span></p>",
+        "images": [
+          "assets/preclass-007.png"
+        ],
+        "text": "将三相电源中的一相进行调压，使得220V的电压调到0-36V，调压器需要缓慢调节到指定的电压值，测完数据断电前将调压器逆时针调到底归零。"
+      },
+      "type": "true_false",
+      "options": [],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": true,
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><img src=\"assets/preclass-008.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">若采用交流法测试两个互感线圈的同名端，根据KVL定理判断，</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">若</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">12=</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">1+</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">2，则</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: &quot;Times New Roman&quot;;\">1</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">端和</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: &quot;Times New Roman&quot;;\">2</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">端互为（），若</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">12=</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">1-</span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\"><em>U</em></span><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 16px; font-family: 宋体;\">2，则1端和2端互为（）。</span></p>",
+        "images": [
+          "assets/preclass-008.png"
+        ],
+        "text": "若采用交流法测试两个互感线圈的同名端，根据KVL定理判断，若U12=U1+U2，则1端和2端互为（），若U12=U1-U2，则1端和2端互为（）。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p>同名端，同名端</p>",
+          "images": [],
+          "text": "同名端，同名端"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">异名端，同名端</span></p>",
+          "images": [],
+          "text": "异名端，同名端"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">同名端，异名端</span></p>",
+          "images": [],
+          "text": "同名端，异名端"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">异名端，异名端</span></p>",
+          "images": [],
+          "text": "异名端，异名端"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">异名端，同名端</span></p>",
+            "images": [],
+            "text": "异名端，同名端"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      }
+    },
+    {
+      "question": {
+        "html": "<p><img src=\"assets/preclass-009.png\" alt=\"\" style=\"\"></p><p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">采用等效电感法测量互感系数M时，需要将两个电感串联，若电感L1的1端子与L2的4端子互为同名端，那么正串时，L1的2端子应与L2的（）端子串联；反串时，L1的2端子应与L2的（）端子串联。</span></p>",
+        "images": [
+          "assets/preclass-009.png"
+        ],
+        "text": "采用等效电感法测量互感系数M时，需要将两个电感串联，若电感L1的1端子与L2的4端子互为同名端，那么正串时，L1的2端子应与L2的（）端子串联；反串时，L1的2端子应与L2的（）端子串联。"
+      },
+      "type": "single_choice",
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">3，4</span></p>",
+          "images": [],
+          "text": "3，4"
+        },
+        {
+          "html": "<p>4，3<span style=\"color: rgb(70, 140, 0); background-color: rgb(255, 255, 255); font-size: 14px;\"> </span></p>",
+          "images": [],
+          "text": "4，3"
+        },
+        {
+          "html": "<p>4，4<span style=\"color: rgb(178, 44, 0); background-color: rgb(255, 255, 255); font-size: 14px;\"> </span></p>",
+          "images": [],
+          "text": "4，4"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">3，3</span></p>",
+          "images": [],
+          "text": "3，3"
+        }
+      ],
+      "answer": {
+        "reasoning": null,
+        "semanticAnswer": null,
+        "source": "site_provided_key_resolved_against_same_response_options",
+        "value": [
+          {
+            "html": "<p>4，3<span style=\"color: rgb(70, 140, 0); background-color: rgb(255, 255, 255); font-size: 14px;\"> </span></p>",
+            "images": [],
+            "text": "4，3"
+          }
+        ],
+        "verification": "site_key_not_independently_score_verified"
+      }
+    }
+  ]
+}

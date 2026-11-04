@@ -1,0 +1,1295 @@
+{
+  "schemaVersion": 3,
+  "libraryName": "lib_20261104T165951Z_电路与电子技术实验I",
+  "generatedAt": "2026-11-04T16:59:51.357Z",
+  "courseName": "电路与电子技术实验I",
+  "source": "current authenticated Easy云课堂 relay, read-only resource acquisition",
+  "experiments": [
+    {
+      "lab": 1,
+      "name": "实验一 直流电路实验",
+      "directory": "experiments/lab01",
+      "resources": [
+        {
+          "id": 330755,
+          "title": "预习考核",
+          "category": 4
+        },
+        {
+          "id": 330757,
+          "title": "手持数字万用表",
+          "category": 6
+        },
+        {
+          "id": 330758,
+          "title": " 恒流源SL1500",
+          "category": 6
+        },
+        {
+          "id": 330759,
+          "title": "三路可编程线性直流稳压电源DP832A",
+          "category": 6
+        },
+        {
+          "id": 330760,
+          "title": "电路定理（实操实验视频）",
+          "category": 6
+        },
+        {
+          "id": 330761,
+          "title": "电路实验装置",
+          "category": 6
+        },
+        {
+          "id": 335787,
+          "title": "直流电路实验实验指导书.pdf",
+          "category": 13
+        },
+        {
+          "id": 336916,
+          "title": "有源一端口等效参数测量.mp4",
+          "category": 6
+        },
+        {
+          "id": 341528,
+          "title": "提前下载并打印—直流电路实验（实操）数据记录页.docx",
+          "category": 13
+        },
+        {
+          "id": 330756,
+          "title": "直流电路实验",
+          "category": 11
+        }
+      ],
+      "reportQuestions": 7,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 1,
+          "id": 335787,
+          "title": "直流电路实验实验指导书.pdf",
+          "path": "experiments/lab01/documents/335787.pdf",
+          "bytes": 1957933,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 1,
+          "id": 341528,
+          "title": "提前下载并打印—直流电路实验（实操）数据记录页.docx",
+          "path": "experiments/lab01/documents/341528.docx",
+          "bytes": 186871,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        }
+      ],
+      "images": [
+        {
+          "path": "experiments/lab01/assets/report-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-004.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-005.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-006.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-007.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-008.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-009.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/report-010.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/quiz-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/quiz-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/quiz-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/quiz-004.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab01/assets/quiz-005.png",
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "lab": 2,
+      "name": "实验二 元器件参数测量和阻抗的串并联",
+      "directory": "experiments/lab02",
+      "resources": [
+        {
+          "id": 330769,
+          "title": "实验二 预习测验",
+          "category": 4
+        },
+        {
+          "id": 330765,
+          "title": "实验二 实验报告",
+          "category": 11
+        },
+        {
+          "id": 330768,
+          "title": "实验二 数据记录页",
+          "category": 13
+        },
+        {
+          "id": 330764,
+          "title": "实验二 实验指导书",
+          "category": 13
+        },
+        {
+          "id": 330770,
+          "title": "实验二 PPT",
+          "category": 13
+        },
+        {
+          "id": 330767,
+          "title": "元器件参数测量与阻抗的串并联 视频1",
+          "category": 6
+        },
+        {
+          "id": 330766,
+          "title": "元器件参数测量和阻抗的串并联 视频2",
+          "category": 6
+        }
+      ],
+      "reportQuestions": 9,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 2,
+          "id": 330768,
+          "title": "实验二 数据记录页",
+          "path": "experiments/lab02/documents/330768.pdf",
+          "bytes": 110352,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        },
+        {
+          "lab": 2,
+          "id": 330764,
+          "title": "实验二 实验指导书",
+          "path": "experiments/lab02/documents/330764.pdf",
+          "bytes": 546336,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 2,
+          "id": 330770,
+          "title": "实验二 PPT",
+          "path": "experiments/lab02/documents/330770.pptx",
+          "bytes": 9203284,
+          "status": "downloaded",
+          "kind": "supplement"
+        }
+      ],
+      "images": [
+        {
+          "path": "experiments/lab02/assets/retry-1.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab02/assets/retry-2.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab02/assets/retry-3.png",
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "lab": 3,
+      "name": "实验三 互感电路实验",
+      "directory": "experiments/lab03",
+      "resources": [
+        {
+          "id": 330773,
+          "title": "实验三 预习测验",
+          "category": 4
+        },
+        {
+          "id": 330771,
+          "title": "实验三 实验报告",
+          "category": 11
+        },
+        {
+          "id": 334921,
+          "title": "实验三 互感电路实验数据记录页（提前打印）",
+          "category": 13
+        },
+        {
+          "id": 334920,
+          "title": "实验三 互感电路实验指导书",
+          "category": 13
+        },
+        {
+          "id": 363710,
+          "title": "实验三PPT  互感电路实验.pptx",
+          "category": 13
+        },
+        {
+          "id": 330772,
+          "title": "互感电路操作视频",
+          "category": 6
+        },
+        {
+          "id": 330774,
+          "title": "数字示波器DSOX2014A使用方法",
+          "category": 6
+        }
+      ],
+      "reportQuestions": 8,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 3,
+          "id": 334921,
+          "title": "实验三 互感电路实验数据记录页（提前打印）",
+          "path": "experiments/lab03/documents/334921.pdf",
+          "bytes": 171722,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        },
+        {
+          "lab": 3,
+          "id": 334920,
+          "title": "实验三 互感电路实验指导书",
+          "path": "experiments/lab03/documents/334920.pdf",
+          "bytes": 374105,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 3,
+          "id": 363710,
+          "title": "实验三PPT  互感电路实验.pptx",
+          "path": "experiments/lab03/documents/363710.pptx",
+          "bytes": 9684252,
+          "status": "downloaded",
+          "kind": "supplement"
+        }
+      ],
+      "images": [
+        {
+          "path": "experiments/lab03/assets/retry-4.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab03/assets/retry-5.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab03/assets/retry-6.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab03/assets/retry-7.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab03/assets/retry-8.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab03/assets/retry-9.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab03/assets/retry-10.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab03/assets/retry-11.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab03/assets/retry-12.png",
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "lab": 4,
+      "name": "实验四 RLC元件的阻抗特性、谐振电路及RC选频网络特性",
+      "directory": "experiments/lab04",
+      "resources": [
+        {
+          "id": 330779,
+          "title": "实验四 预习测验",
+          "category": 4
+        },
+        {
+          "id": 341796,
+          "title": "实验四 原始记录页（提前下载打印）RLC谐振电路及选频网络",
+          "category": 13
+        },
+        {
+          "id": 332091,
+          "title": "实验四指导书 RLC谐振电路及选频网络实验指导书",
+          "category": 13
+        },
+        {
+          "id": 332088,
+          "title": "实验四 RLC谐振电路及选频网络实验指导书",
+          "category": 13
+        },
+        {
+          "id": 330777,
+          "title": "实验四 实验报告",
+          "category": 11
+        },
+        {
+          "id": 332092,
+          "title": "PPT RLC元件的阻抗特性、谐振电路及RC选频网络",
+          "category": 13
+        },
+        {
+          "id": 330780,
+          "title": "RC串并联选频网络实验",
+          "category": 6
+        },
+        {
+          "id": 330781,
+          "title": "RLC串并联电路的谐振实验",
+          "category": 6
+        },
+        {
+          "id": 330782,
+          "title": "交流毫伏表SM2030A",
+          "category": 6
+        },
+        {
+          "id": 330783,
+          "title": "函数信号发生器TFG6960A",
+          "category": 6
+        }
+      ],
+      "reportQuestions": 13,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 4,
+          "id": 341796,
+          "title": "实验四 原始记录页（提前下载打印）RLC谐振电路及选频网络",
+          "path": "experiments/lab04/documents/341796.pdf",
+          "bytes": 303621,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        },
+        {
+          "lab": 4,
+          "id": 332091,
+          "title": "实验四指导书 RLC谐振电路及选频网络实验指导书",
+          "path": "experiments/lab04/documents/332091.pdf",
+          "bytes": 1719128,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 4,
+          "id": 332088,
+          "title": "实验四 RLC谐振电路及选频网络实验指导书",
+          "path": "experiments/lab04/documents/332088.pdf",
+          "bytes": 1719128,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 4,
+          "id": 332092,
+          "title": "PPT RLC元件的阻抗特性、谐振电路及RC选频网络",
+          "path": "experiments/lab04/documents/332092.pdf",
+          "bytes": 5927412,
+          "status": "downloaded",
+          "kind": "supplement"
+        }
+      ],
+      "images": [
+        {
+          "path": "experiments/lab04/assets/report-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/report-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/report-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/report-004.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/report-005.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-13.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-14.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-15.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-16.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-17.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-18.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-19.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-20.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-21.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/quiz-010.jpg",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/quiz-011.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/quiz-012.jpg",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/quiz-013.jpg",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-22.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-23.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-24.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-25.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-26.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-27.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-28.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-29.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-30.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-31.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-32.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-33.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-34.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-35.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-36.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab04/assets/retry-37.png",
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "lab": 5,
+      "name": "实验五 单管交流放大电路",
+      "directory": "experiments/lab05",
+      "resources": [
+        {
+          "id": 330805,
+          "title": "实验5预习考核",
+          "category": 4
+        },
+        {
+          "id": 347358,
+          "title": "实验五 实验指导书",
+          "category": 13
+        },
+        {
+          "id": 333305,
+          "title": "实验五-数据记录页",
+          "category": 13
+        },
+        {
+          "id": 330804,
+          "title": "单管交流电压放大电路实验",
+          "category": 6
+        },
+        {
+          "id": 330799,
+          "title": "三路可编程线性直流稳压电源DP832A",
+          "category": 6
+        },
+        {
+          "id": 330800,
+          "title": "数字示波器MSO2012B",
+          "category": 6
+        },
+        {
+          "id": 330801,
+          "title": "交流毫伏表SM2030A",
+          "category": 6
+        },
+        {
+          "id": 330802,
+          "title": "吉时利2110型台式万用表",
+          "category": 6
+        },
+        {
+          "id": 330803,
+          "title": "函数信号发生器DG4062",
+          "category": 6
+        },
+        {
+          "id": 330808,
+          "title": "实验报告",
+          "category": 11
+        }
+      ],
+      "reportQuestions": 12,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 5,
+          "id": 347358,
+          "title": "实验五 实验指导书",
+          "path": "experiments/lab05/documents/347358.pdf",
+          "bytes": 467279,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 5,
+          "id": 333305,
+          "title": "实验五-数据记录页",
+          "path": "experiments/lab05/documents/333305.pdf",
+          "bytes": 209256,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        }
+      ],
+      "images": [
+        {
+          "path": "experiments/lab05/assets/retry-38.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab05/assets/retry-39.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab05/assets/quiz-001.png",
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "lab": 6,
+      "name": "实验六 集成运算放大器的应用实验",
+      "directory": "experiments/lab06",
+      "resources": [
+        {
+          "id": 330829,
+          "title": "预习考核",
+          "category": 4
+        },
+        {
+          "id": 333300,
+          "title": "实验6 电路与电子技术实验指导书",
+          "category": 13
+        },
+        {
+          "id": 333299,
+          "title": "实验六 集成运放的应用实验数据记录",
+          "category": 13
+        },
+        {
+          "id": 330831,
+          "title": "集成运算放大器的应用(线性)",
+          "category": 6
+        },
+        {
+          "id": 330832,
+          "title": "函数信号发生器DG4062",
+          "category": 6
+        },
+        {
+          "id": 330833,
+          "title": "吉时利2110型台式万用表",
+          "category": 6
+        },
+        {
+          "id": 330834,
+          "title": "数字示波器MSO2012B",
+          "category": 6
+        },
+        {
+          "id": 330835,
+          "title": "三路可编程线性直流稳压电源DP832A.mp4 - 副本",
+          "category": 6
+        },
+        {
+          "id": 330830,
+          "title": "集成运算放大器的应用实验",
+          "category": 11
+        }
+      ],
+      "reportQuestions": 12,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 6,
+          "id": 333300,
+          "title": "实验6 电路与电子技术实验指导书",
+          "path": "experiments/lab06/documents/333300.pdf",
+          "bytes": 445421,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 6,
+          "id": 333299,
+          "title": "实验六 集成运放的应用实验数据记录",
+          "path": "experiments/lab06/documents/333299.docx",
+          "bytes": 19572,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        }
+      ],
+      "images": [
+        {
+          "path": "experiments/lab06/assets/report-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-004.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-005.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-006.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-007.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-008.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-009.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-010.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-011.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-012.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-013.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-014.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-015.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-016.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-017.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-018.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-019.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-020.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-021.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-022.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-023.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-024.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-025.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-026.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-027.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-028.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-029.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-030.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-031.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/report-032.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/quiz-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/quiz-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/quiz-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab06/assets/quiz-004.png",
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "lab": 7,
+      "name": "实验七 有源滤波电路研究",
+      "directory": "experiments/lab07",
+      "resources": [
+        {
+          "id": 330838,
+          "title": "预习考核",
+          "category": 4
+        },
+        {
+          "id": 330840,
+          "title": "实验七-有源滤波电路-视频（实操）",
+          "category": 6
+        },
+        {
+          "id": 330843,
+          "title": "数字示波器MSO2012B",
+          "category": 6
+        },
+        {
+          "id": 330844,
+          "title": "台式万用表操作演示",
+          "category": 6
+        },
+        {
+          "id": 346469,
+          "title": "实验七-有源滤波电路-实验指导书（实操）.pdf",
+          "category": 13
+        },
+        {
+          "id": 346470,
+          "title": "实验七 有源滤波电路-实验数据记录（实操）.pdf",
+          "category": 13
+        },
+        {
+          "id": 330839,
+          "title": "有源滤波器的研究实验",
+          "category": 11
+        }
+      ],
+      "reportQuestions": 9,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 7,
+          "id": 346469,
+          "title": "实验七-有源滤波电路-实验指导书（实操）.pdf",
+          "path": "experiments/lab07/documents/346469.pdf",
+          "bytes": 1711418,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 7,
+          "id": 346470,
+          "title": "实验七 有源滤波电路-实验数据记录（实操）.pdf",
+          "path": "experiments/lab07/documents/346470.pdf",
+          "bytes": 199231,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        }
+      ],
+      "images": [
+        {
+          "path": "experiments/lab07/assets/report-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-004.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-005.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-006.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-007.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-008.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-009.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-010.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-011.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-012.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-013.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-014.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-015.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/report-016.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/quiz-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/quiz-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/quiz-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/quiz-004.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/quiz-005.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab07/assets/quiz-006.png",
+          "status": "downloaded"
+        }
+      ]
+    },
+    {
+      "lab": 8,
+      "name": "实验八  波形发生器实验",
+      "directory": "experiments/lab08",
+      "resources": [
+        {
+          "id": 331029,
+          "title": "预习考核",
+          "category": 4
+        },
+        {
+          "id": 331031,
+          "title": "方波发生器实验二.mp4",
+          "category": 6
+        },
+        {
+          "id": 331032,
+          "title": "方波发生器实验一.mp4",
+          "category": 6
+        },
+        {
+          "id": 347424,
+          "title": "实验八 波形发生电路实验指导书.pdf",
+          "category": 13
+        },
+        {
+          "id": 347425,
+          "title": "实验八 波形发生器实验数据记录.pdf",
+          "category": 13
+        },
+        {
+          "id": 331030,
+          "title": "波形发生器实验",
+          "category": 11
+        }
+      ],
+      "reportQuestions": 8,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 8,
+          "id": 347424,
+          "title": "实验八 波形发生电路实验指导书.pdf",
+          "path": "experiments/lab08/documents/347424.pdf",
+          "bytes": 381446,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 8,
+          "id": 347425,
+          "title": "实验八 波形发生器实验数据记录.pdf",
+          "path": "experiments/lab08/documents/347425.pdf",
+          "bytes": 229913,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        }
+      ],
+      "images": []
+    },
+    {
+      "lab": 9,
+      "name": "实验九 综合实验Ⅰ",
+      "directory": "experiments/lab09",
+      "resources": [
+        {
+          "id": 361111,
+          "title": "课前预习测验",
+          "category": 4
+        },
+        {
+          "id": 365078,
+          "title": "综合实验Ⅰ 实验过程数据记录页 .pdf",
+          "category": 13
+        },
+        {
+          "id": 359543,
+          "title": "综合实验Ⅰ--实验报告",
+          "category": 11
+        },
+        {
+          "id": 363790,
+          "title": "指导书-multisim使用说明.pdf",
+          "category": 13
+        },
+        {
+          "id": 363933,
+          "title": "电路电子综合实验Ⅰ指导书.pdf",
+          "category": 13
+        }
+      ],
+      "reportQuestions": 10,
+      "preclassQuestions": 10,
+      "preclassAvailable": true,
+      "documents": [
+        {
+          "lab": 9,
+          "id": 365078,
+          "title": "综合实验Ⅰ 实验过程数据记录页 .pdf",
+          "path": "experiments/lab09/documents/365078.pdf",
+          "bytes": 171520,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        },
+        {
+          "lab": 9,
+          "id": 363790,
+          "title": "指导书-multisim使用说明.pdf",
+          "path": "experiments/lab09/documents/363790.pdf",
+          "bytes": 1913401,
+          "status": "downloaded",
+          "kind": "supplement"
+        },
+        {
+          "lab": 9,
+          "id": 363933,
+          "title": "电路电子综合实验Ⅰ指导书.pdf",
+          "path": "experiments/lab09/documents/363933.pdf",
+          "bytes": 2007975,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        }
+      ],
+      "images": [
+        {
+          "path": "experiments/lab09/assets/report-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab09/assets/report-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab09/assets/report-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab09/assets/preclass-001.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab09/assets/preclass-002.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab09/assets/preclass-003.png",
+          "status": "downloaded"
+        },
+        {
+          "path": "experiments/lab09/assets/preclass-004.png",
+          "status": "downloaded"
+        }
+      ],
+      "preclassAcquisitionStage": "authorized answering entry"
+    },
+    {
+      "lab": 10,
+      "name": "实验十 综合实验2",
+      "directory": "experiments/lab10",
+      "resources": [
+        {
+          "id": 361751,
+          "title": "课前预习",
+          "category": 14
+        },
+        {
+          "id": 362661,
+          "title": "实验十  电路电子综合实验II 指导书.pdf",
+          "category": 13
+        },
+        {
+          "id": 362662,
+          "title": "提前下载并打印—综合实验II 数据记录页.pdf",
+          "category": 13
+        },
+        {
+          "id": 331036,
+          "title": "综合实验II",
+          "category": 11
+        },
+        {
+          "id": 362663,
+          "title": "实验十 光控呼吸灯综合实验II 课件.pdf",
+          "category": 13
+        }
+      ],
+      "reportQuestions": 7,
+      "preclassQuestions": 0,
+      "documents": [
+        {
+          "lab": 10,
+          "id": 362661,
+          "title": "实验十  电路电子综合实验II 指导书.pdf",
+          "path": "experiments/lab10/documents/362661.pdf",
+          "bytes": 702155,
+          "status": "downloaded",
+          "kind": "instruction_book"
+        },
+        {
+          "lab": 10,
+          "id": 362662,
+          "title": "提前下载并打印—综合实验II 数据记录页.pdf",
+          "path": "experiments/lab10/documents/362662.pdf",
+          "bytes": 271472,
+          "status": "downloaded",
+          "kind": "record_sheet"
+        },
+        {
+          "lab": 10,
+          "id": 362663,
+          "title": "实验十 光控呼吸灯综合实验II 课件.pdf",
+          "path": "experiments/lab10/documents/362663.pdf",
+          "bytes": 3758298,
+          "status": "downloaded",
+          "kind": "supplement"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "limitations": [
+    "Acquisition does not initialize/restart quiz papers or submit answers. Page loads may record visit progress.",
+    "Answer keys obtained from site are not independent correctness evidence. No new score verification.",
+    "Experiment 9 had no readable paper before answering authorization; acquisition did not create it. Experiment 10 currently has no preclass resource.",
+    "Historical snapshot score evidence not relabeled as current verification. Only references found in the current rich HTML are included.",
+    "Experiment 9 subsequently acquired during explicitly authorized answering entry; its 10 answers derived from the fresh manual and matched to current option contents. Saved but not final-submitted, no score claimed."
+  ],
+  "totals": {
+    "experiments": 10,
+    "reportQuestions": 95,
+    "preclassQuestions": 90,
+    "documents": 26,
+    "instructionBooks": 11,
+    "images": 129,
+    "missingImages": 0,
+    "independentlyScoreVerifiedAnswers": 0
+  },
+  "updatedAt": "2026-11-04T17:12:09.091Z"
+}

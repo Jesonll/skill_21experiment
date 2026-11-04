@@ -1,0 +1,326 @@
+{
+  "experiment": "实验二 元器件参数测量和阻抗的串并联",
+  "resourceId": 330769,
+  "questions": [
+    {
+      "number": 1,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳是阻抗的倒数</span></p>",
+          "images": [],
+          "text": "导纳是阻抗的倒数"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳与阻抗的单位相同</span></p>",
+          "images": [],
+          "text": "导纳与阻抗的单位相同"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳总是实数</span></p>",
+          "images": [],
+          "text": "导纳总是实数"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">导纳总是虚数</span></p>",
+          "images": [],
+          "text": "导纳总是虚数"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">下列关于导纳的描述，哪个是正确的？</span></p>",
+        "images": [],
+        "text": "下列关于导纳的描述，哪个是正确的？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 2,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电感值</span></p>",
+          "images": [],
+          "text": "电感值"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电感的电阻</span></p>",
+          "images": [],
+          "text": "电感的电阻"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">感抗</span></p>",
+          "images": [],
+          "text": "感抗"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电导</span></p>",
+          "images": [],
+          "text": "电导"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电感线圈的虚部通常表示的是：（）。</span></p>",
+        "images": [],
+        "text": "电感线圈的虚部通常表示的是：（）。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 3,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">增大</span></p>",
+          "images": [],
+          "text": "增大"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">减小</span></p>",
+          "images": [],
+          "text": "减小"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">不变</span></p>",
+          "images": [],
+          "text": "不变"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">先增大后减小</span></p>",
+          "images": [],
+          "text": "先增大后减小"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电容器的阻抗在频率增大时会（）。</span></p>",
+        "images": [],
+        "text": "电容器的阻抗在频率增大时会（）。"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 4,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">功率（W）档</span></p>",
+          "images": [],
+          "text": "功率（W）档"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电流（A）档</span></p>",
+          "images": [],
+          "text": "电流（A）档"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">相位角（Φ）档</span></p>",
+          "images": [],
+          "text": "相位角（Φ）档"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电压（V）档</span></p>",
+          "images": [],
+          "text": "电压（V）档"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">使用电量仪测量相位角时，应该选择哪个档位？</span></p>",
+        "images": [],
+        "text": "使用电量仪测量相位角时，应该选择哪个档位？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 5,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">电压表应串联接入电路</span></p>",
+          "images": [],
+          "text": "电压表应串联接入电路"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">电流表的测试端口标注为V</span></p>",
+          "images": [],
+          "text": "电流表的测试端口标注为V"
+        },
+        {
+          "html": "<p>电流表和电压表的接线端口可以相同<span style=\"color: rgb(178, 44, 0); background-color: rgb(255, 255, 255); font-size: 14px;\">(</span></p>",
+          "images": [],
+          "text": "电流表和电压表的接线端口可以相同("
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">测量电压时应并联接入电压表，测量电流时应串联接入电流表</span></p>",
+          "images": [],
+          "text": "测量电压时应并联接入电压表，测量电流时应串联接入电流表"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">在测量复阻抗时，使用电压表和电流表的方法来判断电路的性质时，以下哪项是正确的？</span></p>",
+        "images": [],
+        "text": "在测量复阻抗时，使用电压表和电流表的方法来判断电路的性质时，以下哪项是正确的？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 6,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">并联到电感线圈两端</span></p>",
+          "images": [],
+          "text": "并联到电感线圈两端"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">串联到电感线圈中</span></p>",
+          "images": [],
+          "text": "串联到电感线圈中"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">与电压表并联</span></p>",
+          "images": [],
+          "text": "与电压表并联"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">连接在电源端</span></p>",
+          "images": [],
+          "text": "连接在电源端"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">在实验中，如果需要测量电感线圈的感抗，电流表应如何连接？</span></p>",
+        "images": [],
+        "text": "在实验中，如果需要测量电感线圈的感抗，电流表应如何连接？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 7,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">通过测量相位角来计算</span></p>",
+          "images": [],
+          "text": "通过测量相位角来计算"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">通过伏安法测量电流和电压的有效值计算来得到</span></p>",
+          "images": [],
+          "text": "通过伏安法测量电流和电压的有效值计算来得到"
+        },
+        {
+          "html": "<p>通过功率测量来计算</p>",
+          "images": [],
+          "text": "通过功率测量来计算"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">通过电压表、电流表和相位角来计算</span></p>",
+          "images": [],
+          "text": "通过电压表、电流表和相位角来计算"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">在测试电阻器和电感线圈串联电路时，如何确定总阻抗的虚部？</span></p>",
+        "images": [],
+        "text": "在测试电阻器和电感线圈串联电路时，如何确定总阻抗的虚部？"
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "number": 8,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">交流电阻</span></p>",
+          "images": [],
+          "text": "交流电阻"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">直流电阻</span></p>",
+          "images": [],
+          "text": "直流电阻"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">复阻抗</span></p>",
+          "images": [],
+          "text": "复阻抗"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电感值</span></p>",
+          "images": [],
+          "text": "电感值"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">在实验中使用万用表测量电感线圈时，万用表的欧姆档只能显示下列哪种电阻值？</span></p>",
+        "images": [],
+        "text": "在实验中使用万用表测量电感线圈时，万用表的欧姆档只能显示下列哪种电阻值？"
+      },
+      "type": "single_choice"
+    },
+    {
+      "number": 9,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电流有效值</span></p>",
+          "images": [],
+          "text": "电流有效值"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">电压有效值</span></p>",
+          "images": [],
+          "text": "电压有效值"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">相位角</span></p>",
+          "images": [],
+          "text": "相位角"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">功率</span></p>",
+          "images": [],
+          "text": "功率"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 13px;\">使用相位法测量电感的阻抗时，以下哪些参数需要从电量仪中获得？</span></p>",
+        "images": [],
+        "text": "使用相位法测量电感的阻抗时，以下哪些参数需要从电量仪中获得？"
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "number": 10,
+      "options": [
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">感性</span></p>",
+          "images": [],
+          "text": "感性"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">电阻性</span></p>",
+          "images": [],
+          "text": "电阻性"
+        },
+        {
+          "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">容性</span></p>",
+          "images": [],
+          "text": "容性"
+        },
+        {
+          "html": "<p>理想无阻抗<span style=\"color: rgb(178, 44, 0); background-color: rgb(255, 255, 255); font-size: 14px;\"> </span></p>",
+          "images": [],
+          "text": "理想无阻抗"
+        }
+      ],
+      "score": "10",
+      "statement": {
+        "html": "<p><span style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); font-size: 14px;\">在被测元件两端并接一只适当容量的试验电容器，如果电流表的读数在测试过程中增加，则被测电路是（）。</span></p>",
+        "images": [],
+        "text": "在被测元件两端并接一只适当容量的试验电容器，如果电流表的读数在测试过程中增加，则被测电路是（）。"
+      },
+      "type": "single_choice"
+    }
+  ]
+}
